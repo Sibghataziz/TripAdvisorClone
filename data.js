@@ -114,6 +114,62 @@ data = {
             
             At ITC Sonar, your comfort and satisfaction come first, and they look forward to welcoming you to Kolkata (Calcutta).`,
             hotel_link : "link"
+        },
+        {
+            name: "Holiday Inn Express Kolkata",
+            image:  { image1: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/24/9c/7e/4a/hotel-facade.jpg?w=1200&h=-1&s=1",
+                      image2: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/eb/f6/ae/holiday-inn-express-kolkata.jpg?w=1200&h=-1&s=1",
+                      image3: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/24/11/ae/ea/holiday-inn-express-kolkata.jpg?w=1200&h=-1&s=1",
+                      image4: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/24/9c/7e/ca/alfresco.jpg?w=1200&h=-1&s=1",
+                      image5: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/24/9c/7e/ad/meeting-room.jpg?w=1200&h=-1&s=1"},
+            rating: {   rating: 4.6,
+                        review: 5210,
+                        location: 4.7,
+                        cleanliness:4.6,
+                        service:4.5,
+                        value:4.2},
+            about:`See why so many travellers make ITC Sonar their hotel of choice when visiting Kolkata (Calcutta). Providing an ideal mix of value, comfort and convenience, it offers a romantic setting with an array of amenities designed for travellers like you.
+
+            While staying at Itc Hotel Kolkata, visitors can check out Birla Temple (2.2 mi) and Sri Aurobindo Bhawan (2.2 mi), some of Kolkata (Calcutta)'s top attractions.
+            
+            Guest rooms offer a flat screen TV, a refrigerator, and a minibar, and Itc Sonar Hotel makes getting online easy as free internet access is available.
+            
+            You can also take advantage of some of the amenities offered by the hotel, including 24 hour front desk, room service, and a concierge. In addition, guests can enjoy a pool and breakfast during their visit. As an added convenience, there is free parking available to guests.
+            
+            Travellers looking to enjoy some shrimp can head to Barbeque Nation, Mainland China, or Kewpie's. Otherwise, you may want to check out a Mediterranean restaurant such as Whats Up! Cafe, Mio Amore, or Cafe Mezzuna.
+            
+            Kolkata (Calcutta) is also known for some great history museums, including Indian Museum (Jadu Ghar), Swami Vivekananda's Ancestral House, and Kolkata Tram Museum Smaranika, which are not too far from Itc Sonar Hotel Kolkata.
+            
+            At ITC Sonar, your comfort and satisfaction come first, and they look forward to welcoming you to Kolkata (Calcutta).`,
+            hotel_link : "link"
+        },
+        {
+            name: "ITC Royal Bengal",
+            image:  { image1: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/a2/4e/0e/hotel-facade.jpg?w=900&h=-1&s=1",
+                      image2: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/a2/4c/42/hotel-reception.jpg?w=1000&h=-1&s=1",
+                      image3: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/a2/4d/95/serviced-apartment.jpg?w=1000&h=-1&s=1",
+                      image4: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/a2/4d/23/serviced-apartment-bathroom.jpg?w=1000&h=-1&s=1",
+                      image5: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/a2/4a/7b/itc-one-bathroom.jpg?w=1000&h=-1&s=1"},
+            rating: {   rating: 4.4,
+                        review: 5280,
+                        location: 4.6,
+                        cleanliness:4.7,
+                        service:4.6,
+                        value:4.4},
+            about:`See why so many travellers make ITC Sonar their hotel of choice when visiting Kolkata (Calcutta). Providing an ideal mix of value, comfort and convenience, it offers a romantic setting with an array of amenities designed for travellers like you.
+
+            While staying at Itc Hotel Kolkata, visitors can check out Birla Temple (2.2 mi) and Sri Aurobindo Bhawan (2.2 mi), some of Kolkata (Calcutta)'s top attractions.
+            
+            Guest rooms offer a flat screen TV, a refrigerator, and a minibar, and Itc Sonar Hotel makes getting online easy as free internet access is available.
+            
+            You can also take advantage of some of the amenities offered by the hotel, including 24 hour front desk, room service, and a concierge. In addition, guests can enjoy a pool and breakfast during their visit. As an added convenience, there is free parking available to guests.
+            
+            Travellers looking to enjoy some shrimp can head to Barbeque Nation, Mainland China, or Kewpie's. Otherwise, you may want to check out a Mediterranean restaurant such as Whats Up! Cafe, Mio Amore, or Cafe Mezzuna.
+            
+            Kolkata (Calcutta) is also known for some great history museums, including Indian Museum (Jadu Ghar), Swami Vivekananda's Ancestral House, and Kolkata Tram Museum Smaranika, which are not too far from Itc Sonar Hotel Kolkata.
+            
+            At ITC Sonar, your comfort and satisfaction come first, and they look forward to welcoming you to Kolkata (Calcutta).`,
+            hotel_link : "link"
         }
     ],
         
@@ -136,7 +192,7 @@ data = {
                             cleanliness:4.5,
                             service:4.5,
                             value:4.5},
-                about:"The Leela Palace New Delhi at Chanakyapuri is located in the exclusive Diplomatic Enclave and has room sizes starting from 520 Sq ft. The hotel is close to the seat of government and houses four specialty restaurants and three bars, a multilevel spa with a fully equipped fitness center and the city's only rooftop temperature-controlled swimming pool. The hotel offers five complimentary food & beverage presentations round the clock, round trip airport transfers in our luxury BMW fleet and complimentary use of meeting rooms up to 2 hours for its Royal Club guests.",
+                about:`The Leela Palace New Delhi at Chanakyapuri is located in the exclusive Diplomatic Enclave and has room sizes starting from 520 Sq ft. The hotel is close to the seat of government and houses four specialty restaurants and three bars, a multilevel spa with a fully equipped fitness center and the city's only rooftop temperature-controlled swimming pool. The hotel offers five complimentary food & beverage presentations round the clock, round trip airport transfers in our luxury BMW fleet and complimentary use of meeting rooms up to 2 hours for its Royal Club guests.`,
                 hotel_link : "link"
             },
             {
@@ -185,6 +241,38 @@ data = {
                             service:4.5,
                             value:4.6},
                 about:"The Leela Palace New Delhi at Chanakyapuri is located in the exclusive Diplomatic Enclave and has room sizes starting from 520 Sq ft. The hotel is close to the seat of government and houses four specialty restaurants and three bars, a multilevel spa with a fully equipped fitness center and the city's only rooftop temperature-controlled swimming pool. The hotel offers five complimentary food & beverage presentations round the clock, round trip airport transfers in our luxury BMW fleet and complimentary use of meeting rooms up to 2 hours for its Royal Club guests.",
+                hotel_link : "link"
+            },
+            {
+                name: "Andaz Delhi",
+                image:  { image1: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/f3/e7/25/andaz-residences-lounge.jpg?w=1200&h=-1&s=1",
+                          image2: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/f3/e6/f7/andaz-residences-1-2.jpg?w=800&h=-1&s=1",
+                          image3: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/f3/e6/ef/andaz-residences-1-2.jpg?w=800&h=-1&s=1",
+                          image4: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/ad/c1/8f/andaz-delhi-a-concept.jpg?w=1200&h=-1&s=1",
+                          image5: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/ad/c2/58/andaz-delhi-a-concept.jpg?w=1200&h=-1&s=1"},
+                rating: {   rating: 4.2,
+                            review: 5901,
+                            location: 4.4,
+                            cleanliness:4.3,
+                            service:4.2,
+                            value:4.1},
+                about:`The Leela Palace New Delhi at Chanakyapuri is located in the exclusive Diplomatic Enclave and has room sizes starting from 520 Sq ft. The hotel is close to the seat of government and houses four specialty restaurants and three bars, a multilevel spa with a fully equipped fitness center and the city's only rooftop temperature-controlled swimming pool. The hotel offers five complimentary food & beverage presentations round the clock, round trip airport transfers in our luxury BMW fleet and complimentary use of meeting rooms up to 2 hours for its Royal Club guests.`,
+                hotel_link : "link"
+            },
+            {
+                name: "Hotel Novotel New Delhi Aerocity",
+                image:  { image1: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/78/a5/b9/exterior-view.jpg?w=1100&h=-1&s=1",
+                          image2: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/78/a5/e1/family.jpg?w=1100&h=-1&s=1",
+                          image3: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/78/a5/de/recreational-facility.jpg?w=1100&h=-1&s=1",
+                          image4: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/78/a5/da/bar-lounge.jpg?w=1100&h=-1&s=1",
+                          image5: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/78/a5/d7/restaurant.jpg?w=1100&h=-1&s=1"},
+                rating: {   rating: 4.6,
+                            review: 5908,
+                            location: 4.5,
+                            cleanliness:4.4,
+                            service:4.7,
+                            value:4.5},
+                about:`The Leela Palace New Delhi at Chanakyapuri is located in the exclusive Diplomatic Enclave and has room sizes starting from 520 Sq ft. The hotel is close to the seat of government and houses four specialty restaurants and three bars, a multilevel spa with a fully equipped fitness center and the city's only rooftop temperature-controlled swimming pool. The hotel offers five complimentary food & beverage presentations round the clock, round trip airport transfers in our luxury BMW fleet and complimentary use of meeting rooms up to 2 hours for its Royal Club guests.`,
                 hotel_link : "link"
             }
         ],
@@ -255,6 +343,38 @@ data = {
                             cleanliness:4.7,
                             service:4.5,
                             value:4.6},
+                about:"This new age hotel is strategically located near the Mumbai International Airport & a few minutes from Marol Naka Metro Station. Close to key business & commercial offices on Andheri Kurla Road, SEEPZ, & the Bombay Exhibition Centre, it offers direct access to the Western Express Highway & Powai. The Maharashtra Industrial Development Corporation & Bandra Kurla Complex are also situated nearby.",
+                hotel_link : "link"
+            },
+            {
+                name: "The St. Regis Mumbai",
+                image:  { image1: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/24/99/c2/5b/astor-terrace-wedding.jpg?w=1200&h=-1&s=1",
+                          image2: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/24/99/c2/53/astoria.jpg?w=1200&h=-1&s=1",
+                          image3: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/24/99/c2/4b/the-salon.jpg?w=1200&h=-1&s=1",
+                          image4: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/24/99/c2/45/boardroom.jpg?w=1200&h=-1&s=1",
+                          image5: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/24/99/c2/07/spa.jpg?w=1200&h=-1&s=1"},
+                rating: {   rating: 4.5,
+                            review: 5375,
+                            location: 4.6,
+                            cleanliness:4.5,
+                            service:4.5,
+                            value:4.4},
+                about:"This new age hotel is strategically located near the Mumbai International Airport & a few minutes from Marol Naka Metro Station. Close to key business & commercial offices on Andheri Kurla Road, SEEPZ, & the Bombay Exhibition Centre, it offers direct access to the Western Express Highway & Powai. The Maharashtra Industrial Development Corporation & Bandra Kurla Complex are also situated nearby.",
+                hotel_link : "link"
+            },
+            {
+                name: "Four Seasons Hotel Mumbai",
+                image:  { image1: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/20/75/7e/aer-bar-and-lounge-2.jpg?w=1200&h=-1&s=1",
+                          image2: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/21/ce/62/four-seasons-hotel-mumbai.jpg?w=1200&h=-1&s=1",
+                          image3: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/21/d3/1a/four-seasons-hotel-mumbai.jpg?w=1200&h=-1&s=1",
+                          image4: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/21/ce/98/four-seasons-hotel-mumbai.jpg?w=1200&h=-1&s=1",
+                          image5: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/21/ce/af/sam-qi-the-multi-cuisine.jpg?w=1200&h=-1&s=1"},
+                rating: {   rating: 4.4,
+                            review: 5103,
+                            location: 4.5,
+                            cleanliness:4.6,
+                            service:4.4,
+                            value:4.3},
                 about:"This new age hotel is strategically located near the Mumbai International Airport & a few minutes from Marol Naka Metro Station. Close to key business & commercial offices on Andheri Kurla Road, SEEPZ, & the Bombay Exhibition Centre, it offers direct access to the Western Express Highway & Powai. The Maharashtra Industrial Development Corporation & Bandra Kurla Complex are also situated nearby.",
                 hotel_link : "link"
             }
@@ -328,7 +448,40 @@ data = {
                             value:4.6},
                 about:"Grand Chennai by GRT Hotels is a 133-room contemporary, chic, and upscale FIVE star hotel located in the heart of the city. Centrally located in T. Nagar, it is easily accessible from the Chennai airport and the central railway station. Nestled amidst the bustling streets and the most happening places in Chennai, the property lies close to the shopping hubs like Pondy Bazaar, Chennai City Center, Ampa Skywalk and is just a stroll away from the prime business districts From intriguing flavors of the Indian cuisine to the exotic zing of global street food, the fine-dining restaurants at Grand Chennai by GRT Hotels brings together these distinctive styles. Savour the finest wine and delve into our delectable delicacies that will leave you speechless, one bite at a time. An oasis of elegance, equipped with state-of-the-art technology, world-class amenities, and proficient staff, the nine-banquet halls at Grand Chennai by GRT Hotels play the perfect host to a number of events. Choose from these venues that can accommodate up to 800 people and are ideal for business meetings, engagement dinners, and dream weddings. There is a story behind every celebration. Whatever it is that calls for one, choosing the right place can make a world of difference and at Grand Chennai by GRT Hotels.",
                 hotel_link : "link"
+            },
+            {
+                name: "The Residency Towers Chennai",
+                image:  { image1: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/27/53/3c/the-residency-towers.jpg?w=1200&h=-1&s=1",
+                          image2: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/27/68/7d/the-residency-towers.jpg?w=1200&h=-1&s=1",
+                          image3: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/27/68/52/the-residency-towers.jpg?w=1200&h=-1&s=1",
+                          image4: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/27/68/26/the-residency-towers.jpg?w=1200&h=-1&s=1",
+                          image5: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/27/67/ee/the-residency-towers.jpg?w=1200&h=-1&s=1"},
+                rating: {   rating: 4.6,
+                            review: 5150,
+                            location: 4.2,
+                            cleanliness:4.3,
+                            service:4.5,
+                            value:4.4},
+                about:"Grand Chennai by GRT Hotels is a 133-room contemporary, chic, and upscale FIVE star hotel located in the heart of the city. Centrally located in T. Nagar, it is easily accessible from the Chennai airport and the central railway station. Nestled amidst the bustling streets and the most happening places in Chennai, the property lies close to the shopping hubs like Pondy Bazaar, Chennai City Center, Ampa Skywalk and is just a stroll away from the prime business districts From intriguing flavors of the Indian cuisine to the exotic zing of global street food, the fine-dining restaurants at Grand Chennai by GRT Hotels brings together these distinctive styles. Savour the finest wine and delve into our delectable delicacies that will leave you speechless, one bite at a time. An oasis of elegance, equipped with state-of-the-art technology, world-class amenities, and proficient staff, the nine-banquet halls at Grand Chennai by GRT Hotels play the perfect host to a number of events. Choose from these venues that can accommodate up to 800 people and are ideal for business meetings, engagement dinners, and dream weddings. There is a story behind every celebration. Whatever it is that calls for one, choosing the right place can make a world of difference and at Grand Chennai by GRT Hotels.",
+                hotel_link : "link"
+            },
+            {
+                name: "Taj Connemara, Chennai",
+                image:  { image1: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/c5/d0/8e/facade.jpg?w=1200&h=-1&s=1",
+                          image2: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/c5/d0/e6/colonial-suite.jpg?w=1200&h=-1&s=1",
+                          image3: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/c5/d0/e4/the-connemara-suite-bedoom.jpg?w=1200&h=-1&s=1",
+                          image4: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/c5/d0/e3/the-connemara-suite.jpg?w=1200&h=-1&s=1",
+                          image5: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/c5/d0/df/hsheritage-suite.jpg?w=1200&h=-1&s=1"},
+                rating: {   rating: 4.7,
+                            review: 5156,
+                            location: 4.6,
+                            cleanliness:4.5,
+                            service:4.6,
+                            value:4.5},
+                about:"Grand Chennai by GRT Hotels is a 133-room contemporary, chic, and upscale FIVE star hotel located in the heart of the city. Centrally located in T. Nagar, it is easily accessible from the Chennai airport and the central railway station. Nestled amidst the bustling streets and the most happening places in Chennai, the property lies close to the shopping hubs like Pondy Bazaar, Chennai City Center, Ampa Skywalk and is just a stroll away from the prime business districts From intriguing flavors of the Indian cuisine to the exotic zing of global street food, the fine-dining restaurants at Grand Chennai by GRT Hotels brings together these distinctive styles. Savour the finest wine and delve into our delectable delicacies that will leave you speechless, one bite at a time. An oasis of elegance, equipped with state-of-the-art technology, world-class amenities, and proficient staff, the nine-banquet halls at Grand Chennai by GRT Hotels play the perfect host to a number of events. Choose from these venues that can accommodate up to 800 people and are ideal for business meetings, engagement dinners, and dream weddings. There is a story behind every celebration. Whatever it is that calls for one, choosing the right place can make a world of difference and at Grand Chennai by GRT Hotels.",
+                hotel_link : "link"
             }
+
         ],
         Eat:    {},
         ToDo:   {},
