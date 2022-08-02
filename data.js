@@ -1,7 +1,7 @@
-// import data;
 
-data = {
-    "Kokata": {
+
+const data = {
+    "kolkata": {
         Hotel:  [{
             name: "The Oberio",
             image:  [],
@@ -28,28 +28,3377 @@ data = {
         }],
         Eat:    {},
         ToDo:   {},
-        Travel: {}
+        Travel: {
+            delhi:{
+                non_stop:       [{
+                    // morning
+                    departure:  "7:35",
+                    arrival:    "9:05",
+                    company:    "Spice Jet"
+                },
+                {
+                    departure:  "7:25",
+                    arrival:    "8:85",
+                    company:    "Indi Go"
+                },
+                {
+                    departure:  "7:30",
+                    arrival:    "9:00",
+                    company:    "Air India"
+                },
+                {
+                    departure:  "7:45",
+                    arrival:    "9:15",
+                    company:    "Air Asia"
+                },{
+                    departure:  "7:55",
+                    arrival:    "9:35",
+                    company:    "Go Air"
+                },
+                {
+                    departure:  "7:00",
+                    arrival:    "8:35",
+                    company:    "Vistara"
+                },
+                // Evening
+                {
+                    departure:  "17:35",
+                    arrival:    "19:05",
+                    company:    "Spice Jet"
+                },
+                {
+                    departure:  "17:25",
+                    arrival:    "19:55",
+                    company:    "Indi Go"
+                },
+                {
+                    departure:  "17:30",
+                    arrival:    "19:00",
+                    company:    "Air India"
+                },
+                {
+                    departure:  "17:45",
+                    arrival:    "19:15",
+                    company:    "Air Asia"
+                },
+                {
+                    departure:  "17:55",
+                    arrival:    "19:35",
+                    company:    "Go Air"
+                },
+                {
+                    departure:  "17:00",
+                    arrival:    "18:35",
+                    company:    "Vistara"
+                },
+                // Night
+                {
+                    departure:  "23:35",
+                    arrival:    "1:05",
+                    company:    "Spice Jet"
+                },
+                {
+                    departure:  "23:25",
+                    arrival:    "1:55",
+                    company:    "Indi Go"
+                },
+                {
+                    departure:  "23:30",
+                    arrival:    "1:00",
+                    company:    "Air India"
+                },
+                {
+                    departure:  "23:45",
+                    arrival:    "1:15",
+                    company:    "Air Asia"
+                },
+                {
+                    departure:  "23:55",
+                    arrival:    "1:35",
+                    company:    "Go Air"
+                },
+                {
+                    departure:  "23:00",
+                    arrival:    "1:35",
+                    company:    "Vistara"
+                }],
+                one_stop:       [{
+                    // morning
+                    departure:  "7:35",
+                    arrival:    "11:05",
+                    company:    "Spice Jet"
+                },
+                {
+                    departure:  "7:25",
+                    arrival:    "10:55",
+                    company:    "Indi Go"
+                },
+                {
+                    departure:  "7:30",
+                    arrival:    "11:00",
+                    company:    "Air India"
+                },
+                {
+                    departure:  "7:45",
+                    arrival:    "11:15",
+                    company:    "Air Asia"
+                },{
+                    departure:  "7:55",
+                    arrival:    "11:35",
+                    company:    "Go Air"
+                },
+                {
+                    departure:  "7:00",
+                    arrival:    "10:35",
+                    company:    "Vistara"
+                },
+                // Evening
+                {
+                    departure:  "17:35",
+                    arrival:    "21:05",
+                    company:    "Spice Jet"
+                },
+                {
+                    departure:  "17:25",
+                    arrival:    "21:55",
+                    company:    "Indi Go"
+                },
+                {
+                    departure:  "17:30",
+                    arrival:    "21:00",
+                    company:    "Air India"
+                },
+                {
+                    departure:  "17:45",
+                    arrival:    "21:15",
+                    company:    "Air Asia"
+                },
+                {
+                    departure:  "17:55",
+                    arrival:    "21:35",
+                    company:    "Go Air"
+                },
+                {
+                    departure:  "17:00",
+                    arrival:    "21:35",
+                    company:    "Vistara"
+                },
+                // Night
+                {
+                    departure:  "23:35",
+                    arrival:    "3:05",
+                    company:    "Spice Jet"
+                },
+                {
+                    departure:  "23:25",
+                    arrival:    "3:55",
+                    company:    "Indi Go"
+                },
+                {
+                    departure:  "23:30",
+                    arrival:    "3:00",
+                    company:    "Air India"
+                },
+                {
+                    departure:  "23:45",
+                    arrival:    "3:15",
+                    company:    "Air Asia"
+                },
+                {
+                    departure:  "23:55",
+                    arrival:    "3:35",
+                    company:    "Go Air"
+                },
+                {
+                    departure:  "23:00",
+                    arrival:    "3:35",
+                    company:    "Vistara"
+                }],
+                one_plus_stop:  [{
+                    // morning
+                    departure:  "7:35",
+                    arrival:    "12:05",
+                    company:    "Spice Jet"
+                },
+                {
+                    departure:  "7:25",
+                    arrival:    "12:55",
+                    company:    "Indi Go"
+                },
+                {
+                    departure:  "7:30",
+                    arrival:    "13:00",
+                    company:    "Air India"
+                },
+                {
+                    departure:  "7:45",
+                    arrival:    "14:15",
+                    company:    "Air Asia"
+                },{
+                    departure:  "7:55",
+                    arrival:    "12:35",
+                    company:    "Go Air"
+                },
+                {
+                    departure:  "7:00",
+                    arrival:    "13:35",
+                    company:    "Vistara"
+                },
+                // Evening
+                {
+                    departure:  "17:35",
+                    arrival:    "00:05",
+                    company:    "Spice Jet"
+                },
+                {
+                    departure:  "17:25",
+                    arrival:    "23:55",
+                    company:    "Indi Go"
+                },
+                {
+                    departure:  "17:30",
+                    arrival:    "23:30",
+                    company:    "Air India"
+                },
+                {
+                    departure:  "17:45",
+                    arrival:    "00:15",
+                    company:    "Air Asia"
+                },
+                {
+                    departure:  "17:55",
+                    arrival:    "23:35",
+                    company:    "Go Air"
+                },
+                {
+                    departure:  "17:00",
+                    arrival:    "00:35",
+                    company:    "Vistara"
+                },
+                // Night
+                {
+                    departure:  "23:35",
+                    arrival:    "6:05",
+                    company:    "Spice Jet"
+                },
+                {
+                    departure:  "23:25",
+                    arrival:    "5:55",
+                    company:    "Indi Go"
+                },
+                {
+                    departure:  "23:30",
+                    arrival:    "7:00",
+                    company:    "Air India"
+                },
+                {
+                    departure:  "23:45",
+                    arrival:    "6:15",
+                    company:    "Air Asia"
+                },
+                {
+                    departure:  "23:55",
+                    arrival:    "7:35",
+                    company:    "Go Air"
+                },
+                {
+                    departure:  "23:00",
+                    arrival:    "6:35",
+                    company:    "Vistara"
+                }]
+            },
+            chennai:{
+                
+                non_stop:       [{
+                    // morning
+                    departure:  "7:35",
+                    arrival:    "9:05",
+                    company:    "Spice Jet"
+                },
+                {
+                    departure:  "7:25",
+                    arrival:    "8:85",
+                    company:    "Indi Go"
+                },
+                {
+                    departure:  "7:30",
+                    arrival:    "9:00",
+                    company:    "Air India"
+                },
+                {
+                    departure:  "7:45",
+                    arrival:    "9:15",
+                    company:    "Air Asia"
+                },{
+                    departure:  "7:55",
+                    arrival:    "9:35",
+                    company:    "Go Air"
+                },
+                {
+                    departure:  "7:00",
+                    arrival:    "8:35",
+                    company:    "Vistara"
+                },
+                // Evening
+                {
+                    departure:  "17:35",
+                    arrival:    "19:05",
+                    company:    "Spice Jet"
+                },
+                {
+                    departure:  "17:25",
+                    arrival:    "19:55",
+                    company:    "Indi Go"
+                },
+                {
+                    departure:  "17:30",
+                    arrival:    "19:00",
+                    company:    "Air India"
+                },
+                {
+                    departure:  "17:45",
+                    arrival:    "19:15",
+                    company:    "Air Asia"
+                },
+                {
+                    departure:  "17:55",
+                    arrival:    "19:35",
+                    company:    "Go Air"
+                },
+                {
+                    departure:  "17:00",
+                    arrival:    "18:35",
+                    company:    "Vistara"
+                },
+                // Night
+                {
+                    departure:  "23:35",
+                    arrival:    "1:05",
+                    company:    "Spice Jet"
+                },
+                {
+                    departure:  "23:25",
+                    arrival:    "1:55",
+                    company:    "Indi Go"
+                },
+                {
+                    departure:  "23:30",
+                    arrival:    "1:00",
+                    company:    "Air India"
+                },
+                {
+                    departure:  "23:45",
+                    arrival:    "1:15",
+                    company:    "Air Asia"
+                },
+                {
+                    departure:  "23:55",
+                    arrival:    "1:35",
+                    company:    "Go Air"
+                },
+                {
+                    departure:  "23:00",
+                    arrival:    "1:35",
+                    company:    "Vistara"
+                }],
+                one_stop:       [{
+                    // morning
+                    departure:  "7:35",
+                    arrival:    "11:05",
+                    company:    "Spice Jet"
+                },
+                {
+                    departure:  "7:25",
+                    arrival:    "10:55",
+                    company:    "Indi Go"
+                },
+                {
+                    departure:  "7:30",
+                    arrival:    "11:00",
+                    company:    "Air India"
+                },
+                {
+                    departure:  "7:45",
+                    arrival:    "11:15",
+                    company:    "Air Asia"
+                },{
+                    departure:  "7:55",
+                    arrival:    "11:35",
+                    company:    "Go Air"
+                },
+                {
+                    departure:  "7:00",
+                    arrival:    "10:35",
+                    company:    "Vistara"
+                },
+                // Evening
+                {
+                    departure:  "17:35",
+                    arrival:    "21:05",
+                    company:    "Spice Jet"
+                },
+                {
+                    departure:  "17:25",
+                    arrival:    "21:55",
+                    company:    "Indi Go"
+                },
+                {
+                    departure:  "17:30",
+                    arrival:    "21:00",
+                    company:    "Air India"
+                },
+                {
+                    departure:  "17:45",
+                    arrival:    "21:15",
+                    company:    "Air Asia"
+                },
+                {
+                    departure:  "17:55",
+                    arrival:    "21:35",
+                    company:    "Go Air"
+                },
+                {
+                    departure:  "17:00",
+                    arrival:    "21:35",
+                    company:    "Vistara"
+                },
+                // Night
+                {
+                    departure:  "23:35",
+                    arrival:    "3:05",
+                    company:    "Spice Jet"
+                },
+                {
+                    departure:  "23:25",
+                    arrival:    "3:55",
+                    company:    "Indi Go"
+                },
+                {
+                    departure:  "23:30",
+                    arrival:    "3:00",
+                    company:    "Air India"
+                },
+                {
+                    departure:  "23:45",
+                    arrival:    "3:15",
+                    company:    "Air Asia"
+                },
+                {
+                    departure:  "23:55",
+                    arrival:    "3:35",
+                    company:    "Go Air"
+                },
+                {
+                    departure:  "23:00",
+                    arrival:    "3:35",
+                    company:    "Vistara"
+                }],
+                one_plus_stop:  [{
+                    // morning
+                    departure:  "7:35",
+                    arrival:    "12:05",
+                    company:    "Spice Jet"
+                },
+                {
+                    departure:  "7:25",
+                    arrival:    "12:55",
+                    company:    "Indi Go"
+                },
+                {
+                    departure:  "7:30",
+                    arrival:    "13:00",
+                    company:    "Air India"
+                },
+                {
+                    departure:  "7:45",
+                    arrival:    "14:15",
+                    company:    "Air Asia"
+                },{
+                    departure:  "7:55",
+                    arrival:    "12:35",
+                    company:    "Go Air"
+                },
+                {
+                    departure:  "7:00",
+                    arrival:    "13:35",
+                    company:    "Vistara"
+                },
+                // Evening
+                {
+                    departure:  "17:35",
+                    arrival:    "00:05",
+                    company:    "Spice Jet"
+                },
+                {
+                    departure:  "17:25",
+                    arrival:    "23:55",
+                    company:    "Indi Go"
+                },
+                {
+                    departure:  "17:30",
+                    arrival:    "23:30",
+                    company:    "Air India"
+                },
+                {
+                    departure:  "17:45",
+                    arrival:    "00:15",
+                    company:    "Air Asia"
+                },
+                {
+                    departure:  "17:55",
+                    arrival:    "23:35",
+                    company:    "Go Air"
+                },
+                {
+                    departure:  "17:00",
+                    arrival:    "00:35",
+                    company:    "Vistara"
+                },
+                // Night
+                {
+                    departure:  "23:35",
+                    arrival:    "6:05",
+                    company:    "Spice Jet"
+                },
+                {
+                    departure:  "23:25",
+                    arrival:    "5:55",
+                    company:    "Indi Go"
+                },
+                {
+                    departure:  "23:30",
+                    arrival:    "7:00",
+                    company:    "Air India"
+                },
+                {
+                    departure:  "23:45",
+                    arrival:    "6:15",
+                    company:    "Air Asia"
+                },
+                {
+                    departure:  "23:55",
+                    arrival:    "7:35",
+                    company:    "Go Air"
+                },
+                {
+                    departure:  "23:00",
+                    arrival:    "6:35",
+                    company:    "Vistara"
+                }]
+            },
+            mumbai:{
+                
+                non_stop:       [{
+                    // morning
+                    departure:  "7:35",
+                    arrival:    "9:05",
+                    company:    "Spice Jet"
+                },
+                {
+                    departure:  "7:25",
+                    arrival:    "8:85",
+                    company:    "Indi Go"
+                },
+                {
+                    departure:  "7:30",
+                    arrival:    "9:00",
+                    company:    "Air India"
+                },
+                {
+                    departure:  "7:45",
+                    arrival:    "9:15",
+                    company:    "Air Asia"
+                },{
+                    departure:  "7:55",
+                    arrival:    "9:35",
+                    company:    "Go Air"
+                },
+                {
+                    departure:  "7:00",
+                    arrival:    "8:35",
+                    company:    "Vistara"
+                },
+                // Evening
+                {
+                    departure:  "17:35",
+                    arrival:    "19:05",
+                    company:    "Spice Jet"
+                },
+                {
+                    departure:  "17:25",
+                    arrival:    "19:55",
+                    company:    "Indi Go"
+                },
+                {
+                    departure:  "17:30",
+                    arrival:    "19:00",
+                    company:    "Air India"
+                },
+                {
+                    departure:  "17:45",
+                    arrival:    "19:15",
+                    company:    "Air Asia"
+                },
+                {
+                    departure:  "17:55",
+                    arrival:    "19:35",
+                    company:    "Go Air"
+                },
+                {
+                    departure:  "17:00",
+                    arrival:    "18:35",
+                    company:    "Vistara"
+                },
+                // Night
+                {
+                    departure:  "23:35",
+                    arrival:    "1:05",
+                    company:    "Spice Jet"
+                },
+                {
+                    departure:  "23:25",
+                    arrival:    "1:55",
+                    company:    "Indi Go"
+                },
+                {
+                    departure:  "23:30",
+                    arrival:    "1:00",
+                    company:    "Air India"
+                },
+                {
+                    departure:  "23:45",
+                    arrival:    "1:15",
+                    company:    "Air Asia"
+                },
+                {
+                    departure:  "23:55",
+                    arrival:    "1:35",
+                    company:    "Go Air"
+                },
+                {
+                    departure:  "23:00",
+                    arrival:    "1:35",
+                    company:    "Vistara"
+                }],
+                one_stop:       [{
+                    // morning
+                    departure:  "7:35",
+                    arrival:    "11:05",
+                    company:    "Spice Jet"
+                },
+                {
+                    departure:  "7:25",
+                    arrival:    "10:55",
+                    company:    "Indi Go"
+                },
+                {
+                    departure:  "7:30",
+                    arrival:    "11:00",
+                    company:    "Air India"
+                },
+                {
+                    departure:  "7:45",
+                    arrival:    "11:15",
+                    company:    "Air Asia"
+                },{
+                    departure:  "7:55",
+                    arrival:    "11:35",
+                    company:    "Go Air"
+                },
+                {
+                    departure:  "7:00",
+                    arrival:    "10:35",
+                    company:    "Vistara"
+                },
+                // Evening
+                {
+                    departure:  "17:35",
+                    arrival:    "21:05",
+                    company:    "Spice Jet"
+                },
+                {
+                    departure:  "17:25",
+                    arrival:    "21:55",
+                    company:    "Indi Go"
+                },
+                {
+                    departure:  "17:30",
+                    arrival:    "21:00",
+                    company:    "Air India"
+                },
+                {
+                    departure:  "17:45",
+                    arrival:    "21:15",
+                    company:    "Air Asia"
+                },
+                {
+                    departure:  "17:55",
+                    arrival:    "21:35",
+                    company:    "Go Air"
+                },
+                {
+                    departure:  "17:00",
+                    arrival:    "21:35",
+                    company:    "Vistara"
+                },
+                // Night
+                {
+                    departure:  "23:35",
+                    arrival:    "3:05",
+                    company:    "Spice Jet"
+                },
+                {
+                    departure:  "23:25",
+                    arrival:    "3:55",
+                    company:    "Indi Go"
+                },
+                {
+                    departure:  "23:30",
+                    arrival:    "3:00",
+                    company:    "Air India"
+                },
+                {
+                    departure:  "23:45",
+                    arrival:    "3:15",
+                    company:    "Air Asia"
+                },
+                {
+                    departure:  "23:55",
+                    arrival:    "3:35",
+                    company:    "Go Air"
+                },
+                {
+                    departure:  "23:00",
+                    arrival:    "3:35",
+                    company:    "Vistara"
+                }],
+                one_plus_stop:  [{
+                    // morning
+                    departure:  "7:35",
+                    arrival:    "12:05",
+                    company:    "Spice Jet"
+                },
+                {
+                    departure:  "7:25",
+                    arrival:    "12:55",
+                    company:    "Indi Go"
+                },
+                {
+                    departure:  "7:30",
+                    arrival:    "13:00",
+                    company:    "Air India"
+                },
+                {
+                    departure:  "7:45",
+                    arrival:    "14:15",
+                    company:    "Air Asia"
+                },{
+                    departure:  "7:55",
+                    arrival:    "12:35",
+                    company:    "Go Air"
+                },
+                {
+                    departure:  "7:00",
+                    arrival:    "13:35",
+                    company:    "Vistara"
+                },
+                // Evening
+                {
+                    departure:  "17:35",
+                    arrival:    "00:05",
+                    company:    "Spice Jet"
+                },
+                {
+                    departure:  "17:25",
+                    arrival:    "23:55",
+                    company:    "Indi Go"
+                },
+                {
+                    departure:  "17:30",
+                    arrival:    "23:30",
+                    company:    "Air India"
+                },
+                {
+                    departure:  "17:45",
+                    arrival:    "00:15",
+                    company:    "Air Asia"
+                },
+                {
+                    departure:  "17:55",
+                    arrival:    "23:35",
+                    company:    "Go Air"
+                },
+                {
+                    departure:  "17:00",
+                    arrival:    "00:35",
+                    company:    "Vistara"
+                },
+                // Night
+                {
+                    departure:  "23:35",
+                    arrival:    "6:05",
+                    company:    "Spice Jet"
+                },
+                {
+                    departure:  "23:25",
+                    arrival:    "5:55",
+                    company:    "Indi Go"
+                },
+                {
+                    departure:  "23:30",
+                    arrival:    "7:00",
+                    company:    "Air India"
+                },
+                {
+                    departure:  "23:45",
+                    arrival:    "6:15",
+                    company:    "Air Asia"
+                },
+                {
+                    departure:  "23:55",
+                    arrival:    "7:35",
+                    company:    "Go Air"
+                },
+                {
+                    departure:  "23:00",
+                    arrival:    "6:35",
+                    company:    "Vistara"
+                }]
+            },
+        }
     },
-    "Delhi" : {
+    "delhi" : {
         Hotel:  {},
         Eat:    {},
         ToDo:   {},
-        Travel: {}
+        Travel: {
+            kolkata:{
+                non_stop:       [{
+                    // morning
+                    departure:  "7:35",
+                    arrival:    "9:05",
+                    company:    "Spice Jet"
+                },
+                {
+                    departure:  "7:25",
+                    arrival:    "8:85",
+                    company:    "Indi Go"
+                },
+                {
+                    departure:  "7:30",
+                    arrival:    "9:00",
+                    company:    "Air India"
+                },
+                {
+                    departure:  "7:45",
+                    arrival:    "9:15",
+                    company:    "Air Asia"
+                },{
+                    departure:  "7:55",
+                    arrival:    "9:35",
+                    company:    "Go Air"
+                },
+                {
+                    departure:  "7:00",
+                    arrival:    "8:35",
+                    company:    "Vistara"
+                },
+                // Evening
+                {
+                    departure:  "17:35",
+                    arrival:    "19:05",
+                    company:    "Spice Jet"
+                },
+                {
+                    departure:  "17:25",
+                    arrival:    "19:55",
+                    company:    "Indi Go"
+                },
+                {
+                    departure:  "17:30",
+                    arrival:    "19:00",
+                    company:    "Air India"
+                },
+                {
+                    departure:  "17:45",
+                    arrival:    "19:15",
+                    company:    "Air Asia"
+                },
+                {
+                    departure:  "17:55",
+                    arrival:    "19:35",
+                    company:    "Go Air"
+                },
+                {
+                    departure:  "17:00",
+                    arrival:    "18:35",
+                    company:    "Vistara"
+                },
+                // Night
+                {
+                    departure:  "23:35",
+                    arrival:    "1:05",
+                    company:    "Spice Jet"
+                },
+                {
+                    departure:  "23:25",
+                    arrival:    "1:55",
+                    company:    "Indi Go"
+                },
+                {
+                    departure:  "23:30",
+                    arrival:    "1:00",
+                    company:    "Air India"
+                },
+                {
+                    departure:  "23:45",
+                    arrival:    "1:15",
+                    company:    "Air Asia"
+                },
+                {
+                    departure:  "23:55",
+                    arrival:    "1:35",
+                    company:    "Go Air"
+                },
+                {
+                    departure:  "23:00",
+                    arrival:    "1:35",
+                    company:    "Vistara"
+                }],
+                one_stop:       [{
+                    // morning
+                    departure:  "7:35",
+                    arrival:    "11:05",
+                    company:    "Spice Jet"
+                },
+                {
+                    departure:  "7:25",
+                    arrival:    "10:55",
+                    company:    "Indi Go"
+                },
+                {
+                    departure:  "7:30",
+                    arrival:    "11:00",
+                    company:    "Air India"
+                },
+                {
+                    departure:  "7:45",
+                    arrival:    "11:15",
+                    company:    "Air Asia"
+                },{
+                    departure:  "7:55",
+                    arrival:    "11:35",
+                    company:    "Go Air"
+                },
+                {
+                    departure:  "7:00",
+                    arrival:    "10:35",
+                    company:    "Vistara"
+                },
+                // Evening
+                {
+                    departure:  "17:35",
+                    arrival:    "21:05",
+                    company:    "Spice Jet"
+                },
+                {
+                    departure:  "17:25",
+                    arrival:    "21:55",
+                    company:    "Indi Go"
+                },
+                {
+                    departure:  "17:30",
+                    arrival:    "21:00",
+                    company:    "Air India"
+                },
+                {
+                    departure:  "17:45",
+                    arrival:    "21:15",
+                    company:    "Air Asia"
+                },
+                {
+                    departure:  "17:55",
+                    arrival:    "21:35",
+                    company:    "Go Air"
+                },
+                {
+                    departure:  "17:00",
+                    arrival:    "21:35",
+                    company:    "Vistara"
+                },
+                // Night
+                {
+                    departure:  "23:35",
+                    arrival:    "3:05",
+                    company:    "Spice Jet"
+                },
+                {
+                    departure:  "23:25",
+                    arrival:    "3:55",
+                    company:    "Indi Go"
+                },
+                {
+                    departure:  "23:30",
+                    arrival:    "3:00",
+                    company:    "Air India"
+                },
+                {
+                    departure:  "23:45",
+                    arrival:    "3:15",
+                    company:    "Air Asia"
+                },
+                {
+                    departure:  "23:55",
+                    arrival:    "3:35",
+                    company:    "Go Air"
+                },
+                {
+                    departure:  "23:00",
+                    arrival:    "3:35",
+                    company:    "Vistara"
+                }],
+                one_plus_stop:  [{
+                    // morning
+                    departure:  "7:35",
+                    arrival:    "12:05",
+                    company:    "Spice Jet"
+                },
+                {
+                    departure:  "7:25",
+                    arrival:    "12:55",
+                    company:    "Indi Go"
+                },
+                {
+                    departure:  "7:30",
+                    arrival:    "13:00",
+                    company:    "Air India"
+                },
+                {
+                    departure:  "7:45",
+                    arrival:    "14:15",
+                    company:    "Air Asia"
+                },{
+                    departure:  "7:55",
+                    arrival:    "12:35",
+                    company:    "Go Air"
+                },
+                {
+                    departure:  "7:00",
+                    arrival:    "13:35",
+                    company:    "Vistara"
+                },
+                // Evening
+                {
+                    departure:  "17:35",
+                    arrival:    "00:05",
+                    company:    "Spice Jet"
+                },
+                {
+                    departure:  "17:25",
+                    arrival:    "23:55",
+                    company:    "Indi Go"
+                },
+                {
+                    departure:  "17:30",
+                    arrival:    "23:30",
+                    company:    "Air India"
+                },
+                {
+                    departure:  "17:45",
+                    arrival:    "00:15",
+                    company:    "Air Asia"
+                },
+                {
+                    departure:  "17:55",
+                    arrival:    "23:35",
+                    company:    "Go Air"
+                },
+                {
+                    departure:  "17:00",
+                    arrival:    "00:35",
+                    company:    "Vistara"
+                },
+                // Night
+                {
+                    departure:  "23:35",
+                    arrival:    "6:05",
+                    company:    "Spice Jet"
+                },
+                {
+                    departure:  "23:25",
+                    arrival:    "5:55",
+                    company:    "Indi Go"
+                },
+                {
+                    departure:  "23:30",
+                    arrival:    "7:00",
+                    company:    "Air India"
+                },
+                {
+                    departure:  "23:45",
+                    arrival:    "6:15",
+                    company:    "Air Asia"
+                },
+                {
+                    departure:  "23:55",
+                    arrival:    "7:35",
+                    company:    "Go Air"
+                },
+                {
+                    departure:  "23:00",
+                    arrival:    "6:35",
+                    company:    "Vistara"
+                }]
+            },
+            chennai:{
+                
+                non_stop:       [{
+                    // morning
+                    departure:  "7:35",
+                    arrival:    "9:05",
+                    company:    "Spice Jet"
+                },
+                {
+                    departure:  "7:25",
+                    arrival:    "8:85",
+                    company:    "Indi Go"
+                },
+                {
+                    departure:  "7:30",
+                    arrival:    "9:00",
+                    company:    "Air India"
+                },
+                {
+                    departure:  "7:45",
+                    arrival:    "9:15",
+                    company:    "Air Asia"
+                },{
+                    departure:  "7:55",
+                    arrival:    "9:35",
+                    company:    "Go Air"
+                },
+                {
+                    departure:  "7:00",
+                    arrival:    "8:35",
+                    company:    "Vistara"
+                },
+                // Evening
+                {
+                    departure:  "17:35",
+                    arrival:    "19:05",
+                    company:    "Spice Jet"
+                },
+                {
+                    departure:  "17:25",
+                    arrival:    "19:55",
+                    company:    "Indi Go"
+                },
+                {
+                    departure:  "17:30",
+                    arrival:    "19:00",
+                    company:    "Air India"
+                },
+                {
+                    departure:  "17:45",
+                    arrival:    "19:15",
+                    company:    "Air Asia"
+                },
+                {
+                    departure:  "17:55",
+                    arrival:    "19:35",
+                    company:    "Go Air"
+                },
+                {
+                    departure:  "17:00",
+                    arrival:    "18:35",
+                    company:    "Vistara"
+                },
+                // Night
+                {
+                    departure:  "23:35",
+                    arrival:    "1:05",
+                    company:    "Spice Jet"
+                },
+                {
+                    departure:  "23:25",
+                    arrival:    "1:55",
+                    company:    "Indi Go"
+                },
+                {
+                    departure:  "23:30",
+                    arrival:    "1:00",
+                    company:    "Air India"
+                },
+                {
+                    departure:  "23:45",
+                    arrival:    "1:15",
+                    company:    "Air Asia"
+                },
+                {
+                    departure:  "23:55",
+                    arrival:    "1:35",
+                    company:    "Go Air"
+                },
+                {
+                    departure:  "23:00",
+                    arrival:    "1:35",
+                    company:    "Vistara"
+                }],
+                one_stop:       [{
+                    // morning
+                    departure:  "7:35",
+                    arrival:    "11:05",
+                    company:    "Spice Jet"
+                },
+                {
+                    departure:  "7:25",
+                    arrival:    "10:55",
+                    company:    "Indi Go"
+                },
+                {
+                    departure:  "7:30",
+                    arrival:    "11:00",
+                    company:    "Air India"
+                },
+                {
+                    departure:  "7:45",
+                    arrival:    "11:15",
+                    company:    "Air Asia"
+                },{
+                    departure:  "7:55",
+                    arrival:    "11:35",
+                    company:    "Go Air"
+                },
+                {
+                    departure:  "7:00",
+                    arrival:    "10:35",
+                    company:    "Vistara"
+                },
+                // Evening
+                {
+                    departure:  "17:35",
+                    arrival:    "21:05",
+                    company:    "Spice Jet"
+                },
+                {
+                    departure:  "17:25",
+                    arrival:    "21:55",
+                    company:    "Indi Go"
+                },
+                {
+                    departure:  "17:30",
+                    arrival:    "21:00",
+                    company:    "Air India"
+                },
+                {
+                    departure:  "17:45",
+                    arrival:    "21:15",
+                    company:    "Air Asia"
+                },
+                {
+                    departure:  "17:55",
+                    arrival:    "21:35",
+                    company:    "Go Air"
+                },
+                {
+                    departure:  "17:00",
+                    arrival:    "21:35",
+                    company:    "Vistara"
+                },
+                // Night
+                {
+                    departure:  "23:35",
+                    arrival:    "3:05",
+                    company:    "Spice Jet"
+                },
+                {
+                    departure:  "23:25",
+                    arrival:    "3:55",
+                    company:    "Indi Go"
+                },
+                {
+                    departure:  "23:30",
+                    arrival:    "3:00",
+                    company:    "Air India"
+                },
+                {
+                    departure:  "23:45",
+                    arrival:    "3:15",
+                    company:    "Air Asia"
+                },
+                {
+                    departure:  "23:55",
+                    arrival:    "3:35",
+                    company:    "Go Air"
+                },
+                {
+                    departure:  "23:00",
+                    arrival:    "3:35",
+                    company:    "Vistara"
+                }],
+                one_plus_stop:  [{
+                    // morning
+                    departure:  "7:35",
+                    arrival:    "12:05",
+                    company:    "Spice Jet"
+                },
+                {
+                    departure:  "7:25",
+                    arrival:    "12:55",
+                    company:    "Indi Go"
+                },
+                {
+                    departure:  "7:30",
+                    arrival:    "13:00",
+                    company:    "Air India"
+                },
+                {
+                    departure:  "7:45",
+                    arrival:    "14:15",
+                    company:    "Air Asia"
+                },{
+                    departure:  "7:55",
+                    arrival:    "12:35",
+                    company:    "Go Air"
+                },
+                {
+                    departure:  "7:00",
+                    arrival:    "13:35",
+                    company:    "Vistara"
+                },
+                // Evening
+                {
+                    departure:  "17:35",
+                    arrival:    "00:05",
+                    company:    "Spice Jet"
+                },
+                {
+                    departure:  "17:25",
+                    arrival:    "23:55",
+                    company:    "Indi Go"
+                },
+                {
+                    departure:  "17:30",
+                    arrival:    "23:30",
+                    company:    "Air India"
+                },
+                {
+                    departure:  "17:45",
+                    arrival:    "00:15",
+                    company:    "Air Asia"
+                },
+                {
+                    departure:  "17:55",
+                    arrival:    "23:35",
+                    company:    "Go Air"
+                },
+                {
+                    departure:  "17:00",
+                    arrival:    "00:35",
+                    company:    "Vistara"
+                },
+                // Night
+                {
+                    departure:  "23:35",
+                    arrival:    "6:05",
+                    company:    "Spice Jet"
+                },
+                {
+                    departure:  "23:25",
+                    arrival:    "5:55",
+                    company:    "Indi Go"
+                },
+                {
+                    departure:  "23:30",
+                    arrival:    "7:00",
+                    company:    "Air India"
+                },
+                {
+                    departure:  "23:45",
+                    arrival:    "6:15",
+                    company:    "Air Asia"
+                },
+                {
+                    departure:  "23:55",
+                    arrival:    "7:35",
+                    company:    "Go Air"
+                },
+                {
+                    departure:  "23:00",
+                    arrival:    "6:35",
+                    company:    "Vistara"
+                }]
+            },
+            mumbai:{
+                
+                non_stop:       [{
+                    // morning
+                    departure:  "7:35",
+                    arrival:    "9:05",
+                    company:    "Spice Jet"
+                },
+                {
+                    departure:  "7:25",
+                    arrival:    "8:85",
+                    company:    "Indi Go"
+                },
+                {
+                    departure:  "7:30",
+                    arrival:    "9:00",
+                    company:    "Air India"
+                },
+                {
+                    departure:  "7:45",
+                    arrival:    "9:15",
+                    company:    "Air Asia"
+                },{
+                    departure:  "7:55",
+                    arrival:    "9:35",
+                    company:    "Go Air"
+                },
+                {
+                    departure:  "7:00",
+                    arrival:    "8:35",
+                    company:    "Vistara"
+                },
+                // Evening
+                {
+                    departure:  "17:35",
+                    arrival:    "19:05",
+                    company:    "Spice Jet"
+                },
+                {
+                    departure:  "17:25",
+                    arrival:    "19:55",
+                    company:    "Indi Go"
+                },
+                {
+                    departure:  "17:30",
+                    arrival:    "19:00",
+                    company:    "Air India"
+                },
+                {
+                    departure:  "17:45",
+                    arrival:    "19:15",
+                    company:    "Air Asia"
+                },
+                {
+                    departure:  "17:55",
+                    arrival:    "19:35",
+                    company:    "Go Air"
+                },
+                {
+                    departure:  "17:00",
+                    arrival:    "18:35",
+                    company:    "Vistara"
+                },
+                // Night
+                {
+                    departure:  "23:35",
+                    arrival:    "1:05",
+                    company:    "Spice Jet"
+                },
+                {
+                    departure:  "23:25",
+                    arrival:    "1:55",
+                    company:    "Indi Go"
+                },
+                {
+                    departure:  "23:30",
+                    arrival:    "1:00",
+                    company:    "Air India"
+                },
+                {
+                    departure:  "23:45",
+                    arrival:    "1:15",
+                    company:    "Air Asia"
+                },
+                {
+                    departure:  "23:55",
+                    arrival:    "1:35",
+                    company:    "Go Air"
+                },
+                {
+                    departure:  "23:00",
+                    arrival:    "1:35",
+                    company:    "Vistara"
+                }],
+                one_stop:       [{
+                    // morning
+                    departure:  "7:35",
+                    arrival:    "11:05",
+                    company:    "Spice Jet"
+                },
+                {
+                    departure:  "7:25",
+                    arrival:    "10:55",
+                    company:    "Indi Go"
+                },
+                {
+                    departure:  "7:30",
+                    arrival:    "11:00",
+                    company:    "Air India"
+                },
+                {
+                    departure:  "7:45",
+                    arrival:    "11:15",
+                    company:    "Air Asia"
+                },{
+                    departure:  "7:55",
+                    arrival:    "11:35",
+                    company:    "Go Air"
+                },
+                {
+                    departure:  "7:00",
+                    arrival:    "10:35",
+                    company:    "Vistara"
+                },
+                // Evening
+                {
+                    departure:  "17:35",
+                    arrival:    "21:05",
+                    company:    "Spice Jet"
+                },
+                {
+                    departure:  "17:25",
+                    arrival:    "21:55",
+                    company:    "Indi Go"
+                },
+                {
+                    departure:  "17:30",
+                    arrival:    "21:00",
+                    company:    "Air India"
+                },
+                {
+                    departure:  "17:45",
+                    arrival:    "21:15",
+                    company:    "Air Asia"
+                },
+                {
+                    departure:  "17:55",
+                    arrival:    "21:35",
+                    company:    "Go Air"
+                },
+                {
+                    departure:  "17:00",
+                    arrival:    "21:35",
+                    company:    "Vistara"
+                },
+                // Night
+                {
+                    departure:  "23:35",
+                    arrival:    "3:05",
+                    company:    "Spice Jet"
+                },
+                {
+                    departure:  "23:25",
+                    arrival:    "3:55",
+                    company:    "Indi Go"
+                },
+                {
+                    departure:  "23:30",
+                    arrival:    "3:00",
+                    company:    "Air India"
+                },
+                {
+                    departure:  "23:45",
+                    arrival:    "3:15",
+                    company:    "Air Asia"
+                },
+                {
+                    departure:  "23:55",
+                    arrival:    "3:35",
+                    company:    "Go Air"
+                },
+                {
+                    departure:  "23:00",
+                    arrival:    "3:35",
+                    company:    "Vistara"
+                }],
+                one_plus_stop:  [{
+                    // morning
+                    departure:  "7:35",
+                    arrival:    "12:05",
+                    company:    "Spice Jet"
+                },
+                {
+                    departure:  "7:25",
+                    arrival:    "12:55",
+                    company:    "Indi Go"
+                },
+                {
+                    departure:  "7:30",
+                    arrival:    "13:00",
+                    company:    "Air India"
+                },
+                {
+                    departure:  "7:45",
+                    arrival:    "14:15",
+                    company:    "Air Asia"
+                },{
+                    departure:  "7:55",
+                    arrival:    "12:35",
+                    company:    "Go Air"
+                },
+                {
+                    departure:  "7:00",
+                    arrival:    "13:35",
+                    company:    "Vistara"
+                },
+                // Evening
+                {
+                    departure:  "17:35",
+                    arrival:    "00:05",
+                    company:    "Spice Jet"
+                },
+                {
+                    departure:  "17:25",
+                    arrival:    "23:55",
+                    company:    "Indi Go"
+                },
+                {
+                    departure:  "17:30",
+                    arrival:    "23:30",
+                    company:    "Air India"
+                },
+                {
+                    departure:  "17:45",
+                    arrival:    "00:15",
+                    company:    "Air Asia"
+                },
+                {
+                    departure:  "17:55",
+                    arrival:    "23:35",
+                    company:    "Go Air"
+                },
+                {
+                    departure:  "17:00",
+                    arrival:    "00:35",
+                    company:    "Vistara"
+                },
+                // Night
+                {
+                    departure:  "23:35",
+                    arrival:    "6:05",
+                    company:    "Spice Jet"
+                },
+                {
+                    departure:  "23:25",
+                    arrival:    "5:55",
+                    company:    "Indi Go"
+                },
+                {
+                    departure:  "23:30",
+                    arrival:    "7:00",
+                    company:    "Air India"
+                },
+                {
+                    departure:  "23:45",
+                    arrival:    "6:15",
+                    company:    "Air Asia"
+                },
+                {
+                    departure:  "23:55",
+                    arrival:    "7:35",
+                    company:    "Go Air"
+                },
+                {
+                    departure:  "23:00",
+                    arrival:    "6:35",
+                    company:    "Vistara"
+                }]
+            },
+        }
     },
-    "Mumbai": {
+    "mumbai": {
         Hotel:  {},
         Eat:    {},
         ToDo:   {},
-        Travel: {}
+        Travel: {
+            delhi:{
+                non_stop:       [{
+                    // morning
+                    departure:  "7:35",
+                    arrival:    "9:05",
+                    company:    "Spice Jet"
+                },
+                {
+                    departure:  "7:25",
+                    arrival:    "8:85",
+                    company:    "Indi Go"
+                },
+                {
+                    departure:  "7:30",
+                    arrival:    "9:00",
+                    company:    "Air India"
+                },
+                {
+                    departure:  "7:45",
+                    arrival:    "9:15",
+                    company:    "Air Asia"
+                },{
+                    departure:  "7:55",
+                    arrival:    "9:35",
+                    company:    "Go Air"
+                },
+                {
+                    departure:  "7:00",
+                    arrival:    "8:35",
+                    company:    "Vistara"
+                },
+                // Evening
+                {
+                    departure:  "17:35",
+                    arrival:    "19:05",
+                    company:    "Spice Jet"
+                },
+                {
+                    departure:  "17:25",
+                    arrival:    "19:55",
+                    company:    "Indi Go"
+                },
+                {
+                    departure:  "17:30",
+                    arrival:    "19:00",
+                    company:    "Air India"
+                },
+                {
+                    departure:  "17:45",
+                    arrival:    "19:15",
+                    company:    "Air Asia"
+                },
+                {
+                    departure:  "17:55",
+                    arrival:    "19:35",
+                    company:    "Go Air"
+                },
+                {
+                    departure:  "17:00",
+                    arrival:    "18:35",
+                    company:    "Vistara"
+                },
+                // Night
+                {
+                    departure:  "23:35",
+                    arrival:    "1:05",
+                    company:    "Spice Jet"
+                },
+                {
+                    departure:  "23:25",
+                    arrival:    "1:55",
+                    company:    "Indi Go"
+                },
+                {
+                    departure:  "23:30",
+                    arrival:    "1:00",
+                    company:    "Air India"
+                },
+                {
+                    departure:  "23:45",
+                    arrival:    "1:15",
+                    company:    "Air Asia"
+                },
+                {
+                    departure:  "23:55",
+                    arrival:    "1:35",
+                    company:    "Go Air"
+                },
+                {
+                    departure:  "23:00",
+                    arrival:    "1:35",
+                    company:    "Vistara"
+                }],
+                one_stop:       [{
+                    // morning
+                    departure:  "7:35",
+                    arrival:    "11:05",
+                    company:    "Spice Jet"
+                },
+                {
+                    departure:  "7:25",
+                    arrival:    "10:55",
+                    company:    "Indi Go"
+                },
+                {
+                    departure:  "7:30",
+                    arrival:    "11:00",
+                    company:    "Air India"
+                },
+                {
+                    departure:  "7:45",
+                    arrival:    "11:15",
+                    company:    "Air Asia"
+                },{
+                    departure:  "7:55",
+                    arrival:    "11:35",
+                    company:    "Go Air"
+                },
+                {
+                    departure:  "7:00",
+                    arrival:    "10:35",
+                    company:    "Vistara"
+                },
+                // Evening
+                {
+                    departure:  "17:35",
+                    arrival:    "21:05",
+                    company:    "Spice Jet"
+                },
+                {
+                    departure:  "17:25",
+                    arrival:    "21:55",
+                    company:    "Indi Go"
+                },
+                {
+                    departure:  "17:30",
+                    arrival:    "21:00",
+                    company:    "Air India"
+                },
+                {
+                    departure:  "17:45",
+                    arrival:    "21:15",
+                    company:    "Air Asia"
+                },
+                {
+                    departure:  "17:55",
+                    arrival:    "21:35",
+                    company:    "Go Air"
+                },
+                {
+                    departure:  "17:00",
+                    arrival:    "21:35",
+                    company:    "Vistara"
+                },
+                // Night
+                {
+                    departure:  "23:35",
+                    arrival:    "3:05",
+                    company:    "Spice Jet"
+                },
+                {
+                    departure:  "23:25",
+                    arrival:    "3:55",
+                    company:    "Indi Go"
+                },
+                {
+                    departure:  "23:30",
+                    arrival:    "3:00",
+                    company:    "Air India"
+                },
+                {
+                    departure:  "23:45",
+                    arrival:    "3:15",
+                    company:    "Air Asia"
+                },
+                {
+                    departure:  "23:55",
+                    arrival:    "3:35",
+                    company:    "Go Air"
+                },
+                {
+                    departure:  "23:00",
+                    arrival:    "3:35",
+                    company:    "Vistara"
+                }],
+                one_plus_stop:  [{
+                    // morning
+                    departure:  "7:35",
+                    arrival:    "12:05",
+                    company:    "Spice Jet"
+                },
+                {
+                    departure:  "7:25",
+                    arrival:    "12:55",
+                    company:    "Indi Go"
+                },
+                {
+                    departure:  "7:30",
+                    arrival:    "13:00",
+                    company:    "Air India"
+                },
+                {
+                    departure:  "7:45",
+                    arrival:    "14:15",
+                    company:    "Air Asia"
+                },{
+                    departure:  "7:55",
+                    arrival:    "12:35",
+                    company:    "Go Air"
+                },
+                {
+                    departure:  "7:00",
+                    arrival:    "13:35",
+                    company:    "Vistara"
+                },
+                // Evening
+                {
+                    departure:  "17:35",
+                    arrival:    "00:05",
+                    company:    "Spice Jet"
+                },
+                {
+                    departure:  "17:25",
+                    arrival:    "23:55",
+                    company:    "Indi Go"
+                },
+                {
+                    departure:  "17:30",
+                    arrival:    "23:30",
+                    company:    "Air India"
+                },
+                {
+                    departure:  "17:45",
+                    arrival:    "00:15",
+                    company:    "Air Asia"
+                },
+                {
+                    departure:  "17:55",
+                    arrival:    "23:35",
+                    company:    "Go Air"
+                },
+                {
+                    departure:  "17:00",
+                    arrival:    "00:35",
+                    company:    "Vistara"
+                },
+                // Night
+                {
+                    departure:  "23:35",
+                    arrival:    "6:05",
+                    company:    "Spice Jet"
+                },
+                {
+                    departure:  "23:25",
+                    arrival:    "5:55",
+                    company:    "Indi Go"
+                },
+                {
+                    departure:  "23:30",
+                    arrival:    "7:00",
+                    company:    "Air India"
+                },
+                {
+                    departure:  "23:45",
+                    arrival:    "6:15",
+                    company:    "Air Asia"
+                },
+                {
+                    departure:  "23:55",
+                    arrival:    "7:35",
+                    company:    "Go Air"
+                },
+                {
+                    departure:  "23:00",
+                    arrival:    "6:35",
+                    company:    "Vistara"
+                }]
+            },
+            chennai:{
+                
+                non_stop:       [{
+                    // morning
+                    departure:  "7:35",
+                    arrival:    "9:05",
+                    company:    "Spice Jet"
+                },
+                {
+                    departure:  "7:25",
+                    arrival:    "8:85",
+                    company:    "Indi Go"
+                },
+                {
+                    departure:  "7:30",
+                    arrival:    "9:00",
+                    company:    "Air India"
+                },
+                {
+                    departure:  "7:45",
+                    arrival:    "9:15",
+                    company:    "Air Asia"
+                },{
+                    departure:  "7:55",
+                    arrival:    "9:35",
+                    company:    "Go Air"
+                },
+                {
+                    departure:  "7:00",
+                    arrival:    "8:35",
+                    company:    "Vistara"
+                },
+                // Evening
+                {
+                    departure:  "17:35",
+                    arrival:    "19:05",
+                    company:    "Spice Jet"
+                },
+                {
+                    departure:  "17:25",
+                    arrival:    "19:55",
+                    company:    "Indi Go"
+                },
+                {
+                    departure:  "17:30",
+                    arrival:    "19:00",
+                    company:    "Air India"
+                },
+                {
+                    departure:  "17:45",
+                    arrival:    "19:15",
+                    company:    "Air Asia"
+                },
+                {
+                    departure:  "17:55",
+                    arrival:    "19:35",
+                    company:    "Go Air"
+                },
+                {
+                    departure:  "17:00",
+                    arrival:    "18:35",
+                    company:    "Vistara"
+                },
+                // Night
+                {
+                    departure:  "23:35",
+                    arrival:    "1:05",
+                    company:    "Spice Jet"
+                },
+                {
+                    departure:  "23:25",
+                    arrival:    "1:55",
+                    company:    "Indi Go"
+                },
+                {
+                    departure:  "23:30",
+                    arrival:    "1:00",
+                    company:    "Air India"
+                },
+                {
+                    departure:  "23:45",
+                    arrival:    "1:15",
+                    company:    "Air Asia"
+                },
+                {
+                    departure:  "23:55",
+                    arrival:    "1:35",
+                    company:    "Go Air"
+                },
+                {
+                    departure:  "23:00",
+                    arrival:    "1:35",
+                    company:    "Vistara"
+                }],
+                one_stop:       [{
+                    // morning
+                    departure:  "7:35",
+                    arrival:    "11:05",
+                    company:    "Spice Jet"
+                },
+                {
+                    departure:  "7:25",
+                    arrival:    "10:55",
+                    company:    "Indi Go"
+                },
+                {
+                    departure:  "7:30",
+                    arrival:    "11:00",
+                    company:    "Air India"
+                },
+                {
+                    departure:  "7:45",
+                    arrival:    "11:15",
+                    company:    "Air Asia"
+                },{
+                    departure:  "7:55",
+                    arrival:    "11:35",
+                    company:    "Go Air"
+                },
+                {
+                    departure:  "7:00",
+                    arrival:    "10:35",
+                    company:    "Vistara"
+                },
+                // Evening
+                {
+                    departure:  "17:35",
+                    arrival:    "21:05",
+                    company:    "Spice Jet"
+                },
+                {
+                    departure:  "17:25",
+                    arrival:    "21:55",
+                    company:    "Indi Go"
+                },
+                {
+                    departure:  "17:30",
+                    arrival:    "21:00",
+                    company:    "Air India"
+                },
+                {
+                    departure:  "17:45",
+                    arrival:    "21:15",
+                    company:    "Air Asia"
+                },
+                {
+                    departure:  "17:55",
+                    arrival:    "21:35",
+                    company:    "Go Air"
+                },
+                {
+                    departure:  "17:00",
+                    arrival:    "21:35",
+                    company:    "Vistara"
+                },
+                // Night
+                {
+                    departure:  "23:35",
+                    arrival:    "3:05",
+                    company:    "Spice Jet"
+                },
+                {
+                    departure:  "23:25",
+                    arrival:    "3:55",
+                    company:    "Indi Go"
+                },
+                {
+                    departure:  "23:30",
+                    arrival:    "3:00",
+                    company:    "Air India"
+                },
+                {
+                    departure:  "23:45",
+                    arrival:    "3:15",
+                    company:    "Air Asia"
+                },
+                {
+                    departure:  "23:55",
+                    arrival:    "3:35",
+                    company:    "Go Air"
+                },
+                {
+                    departure:  "23:00",
+                    arrival:    "3:35",
+                    company:    "Vistara"
+                }],
+                one_plus_stop:  [{
+                    // morning
+                    departure:  "7:35",
+                    arrival:    "12:05",
+                    company:    "Spice Jet"
+                },
+                {
+                    departure:  "7:25",
+                    arrival:    "12:55",
+                    company:    "Indi Go"
+                },
+                {
+                    departure:  "7:30",
+                    arrival:    "13:00",
+                    company:    "Air India"
+                },
+                {
+                    departure:  "7:45",
+                    arrival:    "14:15",
+                    company:    "Air Asia"
+                },{
+                    departure:  "7:55",
+                    arrival:    "12:35",
+                    company:    "Go Air"
+                },
+                {
+                    departure:  "7:00",
+                    arrival:    "13:35",
+                    company:    "Vistara"
+                },
+                // Evening
+                {
+                    departure:  "17:35",
+                    arrival:    "00:05",
+                    company:    "Spice Jet"
+                },
+                {
+                    departure:  "17:25",
+                    arrival:    "23:55",
+                    company:    "Indi Go"
+                },
+                {
+                    departure:  "17:30",
+                    arrival:    "23:30",
+                    company:    "Air India"
+                },
+                {
+                    departure:  "17:45",
+                    arrival:    "00:15",
+                    company:    "Air Asia"
+                },
+                {
+                    departure:  "17:55",
+                    arrival:    "23:35",
+                    company:    "Go Air"
+                },
+                {
+                    departure:  "17:00",
+                    arrival:    "00:35",
+                    company:    "Vistara"
+                },
+                // Night
+                {
+                    departure:  "23:35",
+                    arrival:    "6:05",
+                    company:    "Spice Jet"
+                },
+                {
+                    departure:  "23:25",
+                    arrival:    "5:55",
+                    company:    "Indi Go"
+                },
+                {
+                    departure:  "23:30",
+                    arrival:    "7:00",
+                    company:    "Air India"
+                },
+                {
+                    departure:  "23:45",
+                    arrival:    "6:15",
+                    company:    "Air Asia"
+                },
+                {
+                    departure:  "23:55",
+                    arrival:    "7:35",
+                    company:    "Go Air"
+                },
+                {
+                    departure:  "23:00",
+                    arrival:    "6:35",
+                    company:    "Vistara"
+                }]
+            },
+            kolkata:{
+                
+                non_stop:       [{
+                    // morning
+                    departure:  "7:35",
+                    arrival:    "9:05",
+                    company:    "Spice Jet"
+                },
+                {
+                    departure:  "7:25",
+                    arrival:    "8:85",
+                    company:    "Indi Go"
+                },
+                {
+                    departure:  "7:30",
+                    arrival:    "9:00",
+                    company:    "Air India"
+                },
+                {
+                    departure:  "7:45",
+                    arrival:    "9:15",
+                    company:    "Air Asia"
+                },{
+                    departure:  "7:55",
+                    arrival:    "9:35",
+                    company:    "Go Air"
+                },
+                {
+                    departure:  "7:00",
+                    arrival:    "8:35",
+                    company:    "Vistara"
+                },
+                // Evening
+                {
+                    departure:  "17:35",
+                    arrival:    "19:05",
+                    company:    "Spice Jet"
+                },
+                {
+                    departure:  "17:25",
+                    arrival:    "19:55",
+                    company:    "Indi Go"
+                },
+                {
+                    departure:  "17:30",
+                    arrival:    "19:00",
+                    company:    "Air India"
+                },
+                {
+                    departure:  "17:45",
+                    arrival:    "19:15",
+                    company:    "Air Asia"
+                },
+                {
+                    departure:  "17:55",
+                    arrival:    "19:35",
+                    company:    "Go Air"
+                },
+                {
+                    departure:  "17:00",
+                    arrival:    "18:35",
+                    company:    "Vistara"
+                },
+                // Night
+                {
+                    departure:  "23:35",
+                    arrival:    "1:05",
+                    company:    "Spice Jet"
+                },
+                {
+                    departure:  "23:25",
+                    arrival:    "1:55",
+                    company:    "Indi Go"
+                },
+                {
+                    departure:  "23:30",
+                    arrival:    "1:00",
+                    company:    "Air India"
+                },
+                {
+                    departure:  "23:45",
+                    arrival:    "1:15",
+                    company:    "Air Asia"
+                },
+                {
+                    departure:  "23:55",
+                    arrival:    "1:35",
+                    company:    "Go Air"
+                },
+                {
+                    departure:  "23:00",
+                    arrival:    "1:35",
+                    company:    "Vistara"
+                }],
+                one_stop:       [{
+                    // morning
+                    departure:  "7:35",
+                    arrival:    "11:05",
+                    company:    "Spice Jet"
+                },
+                {
+                    departure:  "7:25",
+                    arrival:    "10:55",
+                    company:    "Indi Go"
+                },
+                {
+                    departure:  "7:30",
+                    arrival:    "11:00",
+                    company:    "Air India"
+                },
+                {
+                    departure:  "7:45",
+                    arrival:    "11:15",
+                    company:    "Air Asia"
+                },{
+                    departure:  "7:55",
+                    arrival:    "11:35",
+                    company:    "Go Air"
+                },
+                {
+                    departure:  "7:00",
+                    arrival:    "10:35",
+                    company:    "Vistara"
+                },
+                // Evening
+                {
+                    departure:  "17:35",
+                    arrival:    "21:05",
+                    company:    "Spice Jet"
+                },
+                {
+                    departure:  "17:25",
+                    arrival:    "21:55",
+                    company:    "Indi Go"
+                },
+                {
+                    departure:  "17:30",
+                    arrival:    "21:00",
+                    company:    "Air India"
+                },
+                {
+                    departure:  "17:45",
+                    arrival:    "21:15",
+                    company:    "Air Asia"
+                },
+                {
+                    departure:  "17:55",
+                    arrival:    "21:35",
+                    company:    "Go Air"
+                },
+                {
+                    departure:  "17:00",
+                    arrival:    "21:35",
+                    company:    "Vistara"
+                },
+                // Night
+                {
+                    departure:  "23:35",
+                    arrival:    "3:05",
+                    company:    "Spice Jet"
+                },
+                {
+                    departure:  "23:25",
+                    arrival:    "3:55",
+                    company:    "Indi Go"
+                },
+                {
+                    departure:  "23:30",
+                    arrival:    "3:00",
+                    company:    "Air India"
+                },
+                {
+                    departure:  "23:45",
+                    arrival:    "3:15",
+                    company:    "Air Asia"
+                },
+                {
+                    departure:  "23:55",
+                    arrival:    "3:35",
+                    company:    "Go Air"
+                },
+                {
+                    departure:  "23:00",
+                    arrival:    "3:35",
+                    company:    "Vistara"
+                }],
+                one_plus_stop:  [{
+                    // morning
+                    departure:  "7:35",
+                    arrival:    "12:05",
+                    company:    "Spice Jet"
+                },
+                {
+                    departure:  "7:25",
+                    arrival:    "12:55",
+                    company:    "Indi Go"
+                },
+                {
+                    departure:  "7:30",
+                    arrival:    "13:00",
+                    company:    "Air India"
+                },
+                {
+                    departure:  "7:45",
+                    arrival:    "14:15",
+                    company:    "Air Asia"
+                },{
+                    departure:  "7:55",
+                    arrival:    "12:35",
+                    company:    "Go Air"
+                },
+                {
+                    departure:  "7:00",
+                    arrival:    "13:35",
+                    company:    "Vistara"
+                },
+                // Evening
+                {
+                    departure:  "17:35",
+                    arrival:    "00:05",
+                    company:    "Spice Jet"
+                },
+                {
+                    departure:  "17:25",
+                    arrival:    "23:55",
+                    company:    "Indi Go"
+                },
+                {
+                    departure:  "17:30",
+                    arrival:    "23:30",
+                    company:    "Air India"
+                },
+                {
+                    departure:  "17:45",
+                    arrival:    "00:15",
+                    company:    "Air Asia"
+                },
+                {
+                    departure:  "17:55",
+                    arrival:    "23:35",
+                    company:    "Go Air"
+                },
+                {
+                    departure:  "17:00",
+                    arrival:    "00:35",
+                    company:    "Vistara"
+                },
+                // Night
+                {
+                    departure:  "23:35",
+                    arrival:    "6:05",
+                    company:    "Spice Jet"
+                },
+                {
+                    departure:  "23:25",
+                    arrival:    "5:55",
+                    company:    "Indi Go"
+                },
+                {
+                    departure:  "23:30",
+                    arrival:    "7:00",
+                    company:    "Air India"
+                },
+                {
+                    departure:  "23:45",
+                    arrival:    "6:15",
+                    company:    "Air Asia"
+                },
+                {
+                    departure:  "23:55",
+                    arrival:    "7:35",
+                    company:    "Go Air"
+                },
+                {
+                    departure:  "23:00",
+                    arrival:    "6:35",
+                    company:    "Vistara"
+                }]
+            },
+        }
     },
-    "Chennai": {
+    "chennai": {
         Hotel:  {},
         Eat:    {},
         ToDo:   {},
-        Travel: {}
+        Travel: {
+            delhi:{
+                non_stop:       [{
+                    // morning
+                    departure:  "7:35",
+                    arrival:    "9:05",
+                    company:    "Spice Jet"
+                },
+                {
+                    departure:  "7:25",
+                    arrival:    "8:85",
+                    company:    "Indi Go"
+                },
+                {
+                    departure:  "7:30",
+                    arrival:    "9:00",
+                    company:    "Air India"
+                },
+                {
+                    departure:  "7:45",
+                    arrival:    "9:15",
+                    company:    "Air Asia"
+                },{
+                    departure:  "7:55",
+                    arrival:    "9:35",
+                    company:    "Go Air"
+                },
+                {
+                    departure:  "7:00",
+                    arrival:    "8:35",
+                    company:    "Vistara"
+                },
+                // Evening
+                {
+                    departure:  "17:35",
+                    arrival:    "19:05",
+                    company:    "Spice Jet"
+                },
+                {
+                    departure:  "17:25",
+                    arrival:    "19:55",
+                    company:    "Indi Go"
+                },
+                {
+                    departure:  "17:30",
+                    arrival:    "19:00",
+                    company:    "Air India"
+                },
+                {
+                    departure:  "17:45",
+                    arrival:    "19:15",
+                    company:    "Air Asia"
+                },
+                {
+                    departure:  "17:55",
+                    arrival:    "19:35",
+                    company:    "Go Air"
+                },
+                {
+                    departure:  "17:00",
+                    arrival:    "18:35",
+                    company:    "Vistara"
+                },
+                // Night
+                {
+                    departure:  "23:35",
+                    arrival:    "1:05",
+                    company:    "Spice Jet"
+                },
+                {
+                    departure:  "23:25",
+                    arrival:    "1:55",
+                    company:    "Indi Go"
+                },
+                {
+                    departure:  "23:30",
+                    arrival:    "1:00",
+                    company:    "Air India"
+                },
+                {
+                    departure:  "23:45",
+                    arrival:    "1:15",
+                    company:    "Air Asia"
+                },
+                {
+                    departure:  "23:55",
+                    arrival:    "1:35",
+                    company:    "Go Air"
+                },
+                {
+                    departure:  "23:00",
+                    arrival:    "1:35",
+                    company:    "Vistara"
+                }],
+                one_stop:       [{
+                    // morning
+                    departure:  "7:35",
+                    arrival:    "11:05",
+                    company:    "Spice Jet"
+                },
+                {
+                    departure:  "7:25",
+                    arrival:    "10:55",
+                    company:    "Indi Go"
+                },
+                {
+                    departure:  "7:30",
+                    arrival:    "11:00",
+                    company:    "Air India"
+                },
+                {
+                    departure:  "7:45",
+                    arrival:    "11:15",
+                    company:    "Air Asia"
+                },{
+                    departure:  "7:55",
+                    arrival:    "11:35",
+                    company:    "Go Air"
+                },
+                {
+                    departure:  "7:00",
+                    arrival:    "10:35",
+                    company:    "Vistara"
+                },
+                // Evening
+                {
+                    departure:  "17:35",
+                    arrival:    "21:05",
+                    company:    "Spice Jet"
+                },
+                {
+                    departure:  "17:25",
+                    arrival:    "21:55",
+                    company:    "Indi Go"
+                },
+                {
+                    departure:  "17:30",
+                    arrival:    "21:00",
+                    company:    "Air India"
+                },
+                {
+                    departure:  "17:45",
+                    arrival:    "21:15",
+                    company:    "Air Asia"
+                },
+                {
+                    departure:  "17:55",
+                    arrival:    "21:35",
+                    company:    "Go Air"
+                },
+                {
+                    departure:  "17:00",
+                    arrival:    "21:35",
+                    company:    "Vistara"
+                },
+                // Night
+                {
+                    departure:  "23:35",
+                    arrival:    "3:05",
+                    company:    "Spice Jet"
+                },
+                {
+                    departure:  "23:25",
+                    arrival:    "3:55",
+                    company:    "Indi Go"
+                },
+                {
+                    departure:  "23:30",
+                    arrival:    "3:00",
+                    company:    "Air India"
+                },
+                {
+                    departure:  "23:45",
+                    arrival:    "3:15",
+                    company:    "Air Asia"
+                },
+                {
+                    departure:  "23:55",
+                    arrival:    "3:35",
+                    company:    "Go Air"
+                },
+                {
+                    departure:  "23:00",
+                    arrival:    "3:35",
+                    company:    "Vistara"
+                }],
+                one_plus_stop:  [{
+                    // morning
+                    departure:  "7:35",
+                    arrival:    "12:05",
+                    company:    "Spice Jet"
+                },
+                {
+                    departure:  "7:25",
+                    arrival:    "12:55",
+                    company:    "Indi Go"
+                },
+                {
+                    departure:  "7:30",
+                    arrival:    "13:00",
+                    company:    "Air India"
+                },
+                {
+                    departure:  "7:45",
+                    arrival:    "14:15",
+                    company:    "Air Asia"
+                },{
+                    departure:  "7:55",
+                    arrival:    "12:35",
+                    company:    "Go Air"
+                },
+                {
+                    departure:  "7:00",
+                    arrival:    "13:35",
+                    company:    "Vistara"
+                },
+                // Evening
+                {
+                    departure:  "17:35",
+                    arrival:    "00:05",
+                    company:    "Spice Jet"
+                },
+                {
+                    departure:  "17:25",
+                    arrival:    "23:55",
+                    company:    "Indi Go"
+                },
+                {
+                    departure:  "17:30",
+                    arrival:    "23:30",
+                    company:    "Air India"
+                },
+                {
+                    departure:  "17:45",
+                    arrival:    "00:15",
+                    company:    "Air Asia"
+                },
+                {
+                    departure:  "17:55",
+                    arrival:    "23:35",
+                    company:    "Go Air"
+                },
+                {
+                    departure:  "17:00",
+                    arrival:    "00:35",
+                    company:    "Vistara"
+                },
+                // Night
+                {
+                    departure:  "23:35",
+                    arrival:    "6:05",
+                    company:    "Spice Jet"
+                },
+                {
+                    departure:  "23:25",
+                    arrival:    "5:55",
+                    company:    "Indi Go"
+                },
+                {
+                    departure:  "23:30",
+                    arrival:    "7:00",
+                    company:    "Air India"
+                },
+                {
+                    departure:  "23:45",
+                    arrival:    "6:15",
+                    company:    "Air Asia"
+                },
+                {
+                    departure:  "23:55",
+                    arrival:    "7:35",
+                    company:    "Go Air"
+                },
+                {
+                    departure:  "23:00",
+                    arrival:    "6:35",
+                    company:    "Vistara"
+                }]
+            },
+            kolkata:{
+                
+                non_stop:       [{
+                    // morning
+                    departure:  "7:35",
+                    arrival:    "9:05",
+                    company:    "Spice Jet"
+                },
+                {
+                    departure:  "7:25",
+                    arrival:    "8:85",
+                    company:    "Indi Go"
+                },
+                {
+                    departure:  "7:30",
+                    arrival:    "9:00",
+                    company:    "Air India"
+                },
+                {
+                    departure:  "7:45",
+                    arrival:    "9:15",
+                    company:    "Air Asia"
+                },{
+                    departure:  "7:55",
+                    arrival:    "9:35",
+                    company:    "Go Air"
+                },
+                {
+                    departure:  "7:00",
+                    arrival:    "8:35",
+                    company:    "Vistara"
+                },
+                // Evening
+                {
+                    departure:  "17:35",
+                    arrival:    "19:05",
+                    company:    "Spice Jet"
+                },
+                {
+                    departure:  "17:25",
+                    arrival:    "19:55",
+                    company:    "Indi Go"
+                },
+                {
+                    departure:  "17:30",
+                    arrival:    "19:00",
+                    company:    "Air India"
+                },
+                {
+                    departure:  "17:45",
+                    arrival:    "19:15",
+                    company:    "Air Asia"
+                },
+                {
+                    departure:  "17:55",
+                    arrival:    "19:35",
+                    company:    "Go Air"
+                },
+                {
+                    departure:  "17:00",
+                    arrival:    "18:35",
+                    company:    "Vistara"
+                },
+                // Night
+                {
+                    departure:  "23:35",
+                    arrival:    "1:05",
+                    company:    "Spice Jet"
+                },
+                {
+                    departure:  "23:25",
+                    arrival:    "1:55",
+                    company:    "Indi Go"
+                },
+                {
+                    departure:  "23:30",
+                    arrival:    "1:00",
+                    company:    "Air India"
+                },
+                {
+                    departure:  "23:45",
+                    arrival:    "1:15",
+                    company:    "Air Asia"
+                },
+                {
+                    departure:  "23:55",
+                    arrival:    "1:35",
+                    company:    "Go Air"
+                },
+                {
+                    departure:  "23:00",
+                    arrival:    "1:35",
+                    company:    "Vistara"
+                }],
+                one_stop:       [{
+                    // morning
+                    departure:  "7:35",
+                    arrival:    "11:05",
+                    company:    "Spice Jet"
+                },
+                {
+                    departure:  "7:25",
+                    arrival:    "10:55",
+                    company:    "Indi Go"
+                },
+                {
+                    departure:  "7:30",
+                    arrival:    "11:00",
+                    company:    "Air India"
+                },
+                {
+                    departure:  "7:45",
+                    arrival:    "11:15",
+                    company:    "Air Asia"
+                },{
+                    departure:  "7:55",
+                    arrival:    "11:35",
+                    company:    "Go Air"
+                },
+                {
+                    departure:  "7:00",
+                    arrival:    "10:35",
+                    company:    "Vistara"
+                },
+                // Evening
+                {
+                    departure:  "17:35",
+                    arrival:    "21:05",
+                    company:    "Spice Jet"
+                },
+                {
+                    departure:  "17:25",
+                    arrival:    "21:55",
+                    company:    "Indi Go"
+                },
+                {
+                    departure:  "17:30",
+                    arrival:    "21:00",
+                    company:    "Air India"
+                },
+                {
+                    departure:  "17:45",
+                    arrival:    "21:15",
+                    company:    "Air Asia"
+                },
+                {
+                    departure:  "17:55",
+                    arrival:    "21:35",
+                    company:    "Go Air"
+                },
+                {
+                    departure:  "17:00",
+                    arrival:    "21:35",
+                    company:    "Vistara"
+                },
+                // Night
+                {
+                    departure:  "23:35",
+                    arrival:    "3:05",
+                    company:    "Spice Jet"
+                },
+                {
+                    departure:  "23:25",
+                    arrival:    "3:55",
+                    company:    "Indi Go"
+                },
+                {
+                    departure:  "23:30",
+                    arrival:    "3:00",
+                    company:    "Air India"
+                },
+                {
+                    departure:  "23:45",
+                    arrival:    "3:15",
+                    company:    "Air Asia"
+                },
+                {
+                    departure:  "23:55",
+                    arrival:    "3:35",
+                    company:    "Go Air"
+                },
+                {
+                    departure:  "23:00",
+                    arrival:    "3:35",
+                    company:    "Vistara"
+                }],
+                one_plus_stop:  [{
+                    // morning
+                    departure:  "7:35",
+                    arrival:    "12:05",
+                    company:    "Spice Jet"
+                },
+                {
+                    departure:  "7:25",
+                    arrival:    "12:55",
+                    company:    "Indi Go"
+                },
+                {
+                    departure:  "7:30",
+                    arrival:    "13:00",
+                    company:    "Air India"
+                },
+                {
+                    departure:  "7:45",
+                    arrival:    "14:15",
+                    company:    "Air Asia"
+                },{
+                    departure:  "7:55",
+                    arrival:    "12:35",
+                    company:    "Go Air"
+                },
+                {
+                    departure:  "7:00",
+                    arrival:    "13:35",
+                    company:    "Vistara"
+                },
+                // Evening
+                {
+                    departure:  "17:35",
+                    arrival:    "00:05",
+                    company:    "Spice Jet"
+                },
+                {
+                    departure:  "17:25",
+                    arrival:    "23:55",
+                    company:    "Indi Go"
+                },
+                {
+                    departure:  "17:30",
+                    arrival:    "23:30",
+                    company:    "Air India"
+                },
+                {
+                    departure:  "17:45",
+                    arrival:    "00:15",
+                    company:    "Air Asia"
+                },
+                {
+                    departure:  "17:55",
+                    arrival:    "23:35",
+                    company:    "Go Air"
+                },
+                {
+                    departure:  "17:00",
+                    arrival:    "00:35",
+                    company:    "Vistara"
+                },
+                // Night
+                {
+                    departure:  "23:35",
+                    arrival:    "6:05",
+                    company:    "Spice Jet"
+                },
+                {
+                    departure:  "23:25",
+                    arrival:    "5:55",
+                    company:    "Indi Go"
+                },
+                {
+                    departure:  "23:30",
+                    arrival:    "7:00",
+                    company:    "Air India"
+                },
+                {
+                    departure:  "23:45",
+                    arrival:    "6:15",
+                    company:    "Air Asia"
+                },
+                {
+                    departure:  "23:55",
+                    arrival:    "7:35",
+                    company:    "Go Air"
+                },
+                {
+                    departure:  "23:00",
+                    arrival:    "6:35",
+                    company:    "Vistara"
+                }]
+            },
+            mumbai:{
+                
+                non_stop:       [{
+                    // morning
+                    departure:  "7:35",
+                    arrival:    "9:05",
+                    company:    "Spice Jet"
+                },
+                {
+                    departure:  "7:25",
+                    arrival:    "8:85",
+                    company:    "Indi Go"
+                },
+                {
+                    departure:  "7:30",
+                    arrival:    "9:00",
+                    company:    "Air India"
+                },
+                {
+                    departure:  "7:45",
+                    arrival:    "9:15",
+                    company:    "Air Asia"
+                },{
+                    departure:  "7:55",
+                    arrival:    "9:35",
+                    company:    "Go Air"
+                },
+                {
+                    departure:  "7:00",
+                    arrival:    "8:35",
+                    company:    "Vistara"
+                },
+                // Evening
+                {
+                    departure:  "17:35",
+                    arrival:    "19:05",
+                    company:    "Spice Jet"
+                },
+                {
+                    departure:  "17:25",
+                    arrival:    "19:55",
+                    company:    "Indi Go"
+                },
+                {
+                    departure:  "17:30",
+                    arrival:    "19:00",
+                    company:    "Air India"
+                },
+                {
+                    departure:  "17:45",
+                    arrival:    "19:15",
+                    company:    "Air Asia"
+                },
+                {
+                    departure:  "17:55",
+                    arrival:    "19:35",
+                    company:    "Go Air"
+                },
+                {
+                    departure:  "17:00",
+                    arrival:    "18:35",
+                    company:    "Vistara"
+                },
+                // Night
+                {
+                    departure:  "23:35",
+                    arrival:    "1:05",
+                    company:    "Spice Jet"
+                },
+                {
+                    departure:  "23:25",
+                    arrival:    "1:55",
+                    company:    "Indi Go"
+                },
+                {
+                    departure:  "23:30",
+                    arrival:    "1:00",
+                    company:    "Air India"
+                },
+                {
+                    departure:  "23:45",
+                    arrival:    "1:15",
+                    company:    "Air Asia"
+                },
+                {
+                    departure:  "23:55",
+                    arrival:    "1:35",
+                    company:    "Go Air"
+                },
+                {
+                    departure:  "23:00",
+                    arrival:    "1:35",
+                    company:    "Vistara"
+                }],
+                one_stop:       [{
+                    // morning
+                    departure:  "7:35",
+                    arrival:    "11:05",
+                    company:    "Spice Jet"
+                },
+                {
+                    departure:  "7:25",
+                    arrival:    "10:55",
+                    company:    "Indi Go"
+                },
+                {
+                    departure:  "7:30",
+                    arrival:    "11:00",
+                    company:    "Air India"
+                },
+                {
+                    departure:  "7:45",
+                    arrival:    "11:15",
+                    company:    "Air Asia"
+                },{
+                    departure:  "7:55",
+                    arrival:    "11:35",
+                    company:    "Go Air"
+                },
+                {
+                    departure:  "7:00",
+                    arrival:    "10:35",
+                    company:    "Vistara"
+                },
+                // Evening
+                {
+                    departure:  "17:35",
+                    arrival:    "21:05",
+                    company:    "Spice Jet"
+                },
+                {
+                    departure:  "17:25",
+                    arrival:    "21:55",
+                    company:    "Indi Go"
+                },
+                {
+                    departure:  "17:30",
+                    arrival:    "21:00",
+                    company:    "Air India"
+                },
+                {
+                    departure:  "17:45",
+                    arrival:    "21:15",
+                    company:    "Air Asia"
+                },
+                {
+                    departure:  "17:55",
+                    arrival:    "21:35",
+                    company:    "Go Air"
+                },
+                {
+                    departure:  "17:00",
+                    arrival:    "21:35",
+                    company:    "Vistara"
+                },
+                // Night
+                {
+                    departure:  "23:35",
+                    arrival:    "3:05",
+                    company:    "Spice Jet"
+                },
+                {
+                    departure:  "23:25",
+                    arrival:    "3:55",
+                    company:    "Indi Go"
+                },
+                {
+                    departure:  "23:30",
+                    arrival:    "3:00",
+                    company:    "Air India"
+                },
+                {
+                    departure:  "23:45",
+                    arrival:    "3:15",
+                    company:    "Air Asia"
+                },
+                {
+                    departure:  "23:55",
+                    arrival:    "3:35",
+                    company:    "Go Air"
+                },
+                {
+                    departure:  "23:00",
+                    arrival:    "3:35",
+                    company:    "Vistara"
+                }],
+                one_plus_stop:  [{
+                    // morning
+                    departure:  "7:35",
+                    arrival:    "12:05",
+                    company:    "Spice Jet"
+                },
+                {
+                    departure:  "7:25",
+                    arrival:    "12:55",
+                    company:    "Indi Go"
+                },
+                {
+                    departure:  "7:30",
+                    arrival:    "13:00",
+                    company:    "Air India"
+                },
+                {
+                    departure:  "7:45",
+                    arrival:    "14:15",
+                    company:    "Air Asia"
+                },{
+                    departure:  "7:55",
+                    arrival:    "12:35",
+                    company:    "Go Air"
+                },
+                {
+                    departure:  "7:00",
+                    arrival:    "13:35",
+                    company:    "Vistara"
+                },
+                // Evening
+                {
+                    departure:  "17:35",
+                    arrival:    "00:05",
+                    company:    "Spice Jet"
+                },
+                {
+                    departure:  "17:25",
+                    arrival:    "23:55",
+                    company:    "Indi Go"
+                },
+                {
+                    departure:  "17:30",
+                    arrival:    "23:30",
+                    company:    "Air India"
+                },
+                {
+                    departure:  "17:45",
+                    arrival:    "00:15",
+                    company:    "Air Asia"
+                },
+                {
+                    departure:  "17:55",
+                    arrival:    "23:35",
+                    company:    "Go Air"
+                },
+                {
+                    departure:  "17:00",
+                    arrival:    "00:35",
+                    company:    "Vistara"
+                },
+                // Night
+                {
+                    departure:  "23:35",
+                    arrival:    "6:05",
+                    company:    "Spice Jet"
+                },
+                {
+                    departure:  "23:25",
+                    arrival:    "5:55",
+                    company:    "Indi Go"
+                },
+                {
+                    departure:  "23:30",
+                    arrival:    "7:00",
+                    company:    "Air India"
+                },
+                {
+                    departure:  "23:45",
+                    arrival:    "6:15",
+                    company:    "Air Asia"
+                },
+                {
+                    departure:  "23:55",
+                    arrival:    "7:35",
+                    company:    "Go Air"
+                },
+                {
+                    departure:  "23:00",
+                    arrival:    "6:35",
+                    company:    "Vistara"
+                }]
+            },
+        }
     },
 }
 
+export default data
 
 
 // "kolkata" = {k:11,O:15,l:13,a:1,t:21} = 11+15+13+11+1+21+1 = 78
