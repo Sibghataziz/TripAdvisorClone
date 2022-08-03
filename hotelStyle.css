@@ -1,0 +1,175 @@
+body{
+    margin: 0%;
+    background-color: whitesmoke;
+}
+
+#form{
+    margin-top: 0%; 
+    height: 250px;
+    /* border: 1px solid red; */
+    width: 100%;
+}
+     #form > img{
+            width: 100%;
+            height: 250px;
+            position: absolute;
+     }
+     form{
+        position: relative;
+        /* text-align: center; */
+     }
+     form > h1 {
+        text-align: center;
+        color: white;
+        font-size: 40px;
+        margin-top: 40px;
+     }
+     form > p {
+        text-align: center;
+        color: white;
+        font-size: 22px;
+        margin-top: 115px;
+     }
+    #inputBox{
+        display: flex;
+        /* border: 1px solid crimson; */
+        /* align-items: center; */
+        padding: 0px 20%;
+        background-color: transparent;
+        align-content: space-around;
+        margin-top: -15px;
+     }
+
+     #inputBox > div{
+        width: 320px;
+        height: 40px;
+        /* border: 2px solid black; */
+        background-color: white;
+        border-left: 10px solid teal;
+        margin: 5px;
+        padding-left: 10px;
+     }
+     #inputBox > :nth-child(2){
+        border-left: 10px solid crimson;
+     }
+     #inputBox > :nth-child(3){
+        border-left: 10px solid gray;
+     }
+     input{
+        border: 0;
+     }
+     .numInput{
+        width: 28px;
+        border: 1px solid gray;
+     }
+
+     #container1{
+        display: flex;
+        width: 85%;
+        margin: auto;
+        background-color: whitesmoke;
+
+     }
+     #leftdiv{
+        /* border: 1px solid red; */
+        width: 22%;
+        margin: 20px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+
+     }
+     #mapBox{
+        width: 100%;
+        height: 150px;
+     }
+     #mapBox > img{
+        width: 100%;
+        height: 150px;
+        
+     }
+
+     #rightdiv{
+        /* border: 1px solid black; */
+        /* height: 500px; */
+        width: 70%;
+        margin: 20px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        padding: 20px;
+    }
+    #checkBox{
+       padding: 10px;
+        
+    }
+    #text > h2{
+
+    }
+    #Catagries{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 20px;
+        width: 75%;
+
+    }
+    #Catagries > div{
+        /* border: 1px solid black; */
+    }
+    #Catagries > div img{
+     
+        width: 100%;
+    }
+    #results{
+        margin: 15px 0px;
+    }
+
+    
+    .hotelDeal{
+        border: 1px solid black;
+        display: flex;
+        
+    }
+    .image{
+        width: 25%;
+        border: 1px solid black;
+        height: 250px;
+    }
+    .image img{
+        width: 100%;
+        border: 1px solid black;
+        height: 250px;
+    }
+    .details {
+        border: 1px solid black;
+        width: 75%;
+    }
+    
+    .otherInfo{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        border: 1px solid black;
+        margin: 5px;
+    }
+    .otherInfo > div{
+        border-left: 1px solid gray;
+        height: 220px;
+        text-align: center;
+    }
+    .otherInfo > div img{
+        width: 100px;
+        margin-bottom: -10px;
+        
+    }
+    .otherInfo > div p{
+        text-align: left;
+        padding-left: 10px;
+        margin: 5px;
+    }
+    .otherInfo > div h2{
+        margin: 10px;
+    }
+    .otherInfo > div h2{
+        margin: 10px;
+    }
+
+
+   
+
