@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="travel.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Cheap Flights</title>
 </head>
 <body>
@@ -13,70 +15,99 @@
 
     <!-- body -->
     <div id="body">
-        <div id="form_container">
-            <form action="">
-                <h3></h3>
-                <select id="typeOfTravel">
-                    <option value="RoundTrip">Round Trip</option>
-                    <option value="OneWay">One-Way</option>
-                    <!-- <option value="multiCity">Multi-City</option> -->
-                </select>
-                <div>
-                    <label for="from">From</label><br>
-                    <input type="text" id="from">
+        <div id="formSearch">
+            <h1>Find cheap flights and airline tickets</h1>
+            <div id="typeOfTravel"><span id="oneWay" value="oneWay">One Way</span>
+                <span id="roundTrip" value="roundTrip">Round Trip</span>
+            </div>
+            <form>
+                <div class="inputBox">
+                    <div>
+                        <i class="fa fa-2x fa-map-marker icon favIcon" aria-hidden="true"></i>
+                    </div>
+
+                    <div>
+                        <input type="text" id="from" placeholder="From where?">
+                    </div>
                 </div>
 
-                <div>
-                    <label for="to">To</label><br>
-                    <input type="text" id="to">
+                <div class="inputBox">
+                    <div>
+                        <i class="fa fa-2x fa-map-marker icon favIcon" aria-hidden="true"></i>
+                    </div>
+                    
+                    <div>
+                        <input type="text" id="to" placeholder="To where?">
+                    </div>
                 </div>
 
-                <div>
-                    <label for="depart">Depart</label><br>
-                    <input type="date" id="depart">
-                </div>
-                <div id="return">
-
-                </div>
-                <div>
-                    <label for="noOftravellers">Travellers</label><br>
-                    <input type="number" id="noOftravellers">
-                </div>
-                <div>
-                    <input type="checkbox" id="nonStop"><br>
-                    <label for="nonStop">Prefer nonstop</label>
+                <div class="inputBox">                    
+                    <div>
+                        <input type="date" id="depart">
+                    </div>
                 </div>
 
-                <div>
-                    <input type="checkbox" id="includeNearbyAirport"><br>
-                    <label for="includeNearbyAirport">Include nearby airports</label>
+                <div id="returnBox"></div>
+
+                <div class="inputBox">                    
+                    <div>
+                        <input type="number" id="noOftravellers" value=1>
+                    </div>
                 </div>
 
-                <div>
-                    <input type="checkbox" id="ladyBug"><br>
-                    <label for="ladyBug">Ladybug</label>
+                <div class="inputBox">                    
+                    <div>
+                        <input type="submit" id="search" value="Find Flight">
+                    </div>
                 </div>
-                <div>
-                    <button>Select all</button>
-                </div>
-                <button>Find Flights</button>
             </form>
-        </div>
-        <div id="topAttractions">
+            <div id="extraOptions">
+                <div id="usableCheckBox">
+                    <div>
+                        <input type="checkbox" id="nonStop">
+                        <label>Prefer NonStop</label>
+                    </div>
 
-        </div>
+                    <div>
+                        <input type="checkbox" id="includeNearbyAirport">
+                        <label>Include nearby airports</label>
+                    </div>
+                </div>
 
-        <div id="popularAirlines">
-            
-        </div>
+                <div class="para">
+                    <p>Compare prices (in new window)</p>
+                </div>
 
-        <div id="hotels">
+                <div class="unusableCheckBox">
+                    <div>
+                        <input type="checkbox" id="includeNearbyAirport">
+                        <label>Include nearby airports</label>
+                    </div>
 
+                    <div>
+                        <input type="checkbox" id="includeNearbyAirport">
+                        <label>Include nearby airports</label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" id="includeNearbyAirport">
+                        <label>Include nearby airports</label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" id="includeNearbyAirport">
+                        <label>Include nearby airports</label>
+                    </div>
+                </div>
+            </div>
         </div>
+        
     </div>
 
     <!-- footer -->
     <div id="footer">
     </div>
+    
 </body>
 </html>
+<script src="./travelForm.js"></script>

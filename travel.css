@@ -1,0 +1,292 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.highLight{
+    border: 10px solid crimson;
+}
+
+#by{
+    width: 90%;
+    margin: auto;
+    /* background-color: gray; */
+}
+
+.fligthDetails{
+    background-color: white;
+    display: flex;
+    margin: 10px 15px;
+}
+
+.roundDetails{
+    background-color: white;
+    margin: 10px 15px;
+    display: flex;
+}
+
+.roundFligthDetails{
+    /* width: 80%; */
+    display: flex;
+    margin:auto
+    
+}
+
+/* .roundFligthDetails > button{
+    background-color: goldenrod;
+    border: none;
+    border-radius: 10px;
+    width: 50%; 
+    margin-left: 50px; 
+    height: 80%; 
+    padding: 10px 0px; 
+} */
+
+.flightImage{
+    width: 5%;
+    /* height: 5%; */
+    padding: 25px;
+}
+
+.time{
+    width: 50%;
+    /* background-color: teal; */
+    margin: 25px;
+    padding-right: 30px;
+}
+
+.duration{
+    /* background-color:aqua; */
+    width: 15%;
+    margin: 25px 35px;
+}
+
+.duration ~ h2{
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+.duration ~ button{
+    width: 90px;
+    /* margin-right: 10px; */
+}
+
+.pricebox{
+    width: 15%;
+    margin: 5px 15px;
+}
+
+.pricebox > h2{
+    text-align: right;
+    margin-bottom: 25px;
+}
+
+.pricebox > button{
+    background-color: goldenrod;
+    border: none;
+    border-radius: 10px;
+    width: 160%;
+    margin-left: -50px;
+    height: 30%;
+}
+
+.roundPricebox{
+    width: 15%;
+    margin-right: 10px;
+    margin-top: 20px;
+    /* background-color: teal; */
+}
+
+.roundPricebox > button{
+    background-color: goldenrod;
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    height: 20%;
+    margin-top: 68px;
+}
+
+
+#formResult>form{
+    display: flex;
+    margin: auto;
+    width: 100%;
+    background-color: aqua;
+    outline: none;
+    transform-origin: top left;
+}
+
+#formResult>form>div{
+    border: 1px solid black;
+    margin-right: 20px;
+    width: 100%;
+}
+
+
+
+/* .box{
+    background-color:gainsboro;
+    display: flex;
+    height: 100px;
+    border: 2px solid teal;
+    position: relative;
+}
+
+input{
+    width: 100%;
+    height: 80%;
+    font-weight: bolder;
+    padding-bottom: 0%;
+    border: 0px solid crimson ;
+}
+
+input:focus{
+    border: 0px;
+    outline: none;
+}
+
+#semiBox{
+    display: flex;
+}
+
+
+#typeOfTravel{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.placeholder{
+    position: absolute;
+    top: 5px;
+    left: 20px;
+}
+
+.favIcon{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+} */
+
+#formSearch{
+    background-image: url("https://static.tacdn.com/img2/branding/homepage/home-tab5-hero-cfh-1367x520.jpg");
+    height: 370px;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 110px;
+    /* background-color: brown; */
+}
+
+#formSearch>h1{
+    color: white;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+
+#formSearch>form{
+    /* background-color: aqua; */
+    display: flex;
+    border-radius: 25px;
+    width: 80%;
+    margin: auto;
+    margin-left: 220px;
+}
+
+#formSearch>form>.inputBox{
+    width: 100%;
+    height: 20px;
+    position: relative;
+}
+
+#formSearch>form>.inputBox>div{
+    /* background-color: teal; */
+}
+
+#formSearch>form>.inputBox>div>input{
+    width: 100%;
+    height: 50px;
+    font-weight: bolder;
+    padding-left: 15%;
+    border: 0px;
+    border-right: 1px solid gray;
+
+}
+
+#formSearch>form>.inputBox>div>input:focus{
+    border: 0px;
+    outline: none;
+    
+}
+
+#formSearch>form>.inputBox:first-child>div>input{
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+#formSearch>form>.inputBox:last-child>div>input{
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+#formSearch>form>.inputBox:last-child>div>input[type="submit"]{
+    background-color:darkgreen;
+    width: 50%;
+    color: white;
+    font-size: larger;
+    padding-left: 0px;
+}
+
+.favIcon{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+} 
+
+#typeOfTravel{
+    /* background-color: teal; */
+    width: 15%;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 210px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+#extraOptions{
+    background-color: white;
+    width: 70%;
+    margin: auto;
+    padding: 0px 30px;
+}
+
+#extraOptions>#usableCheckBox{
+    /* background-color:aqua; */
+    /* width: 80%; */
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content:space-between;
+    padding-right: 120px;
+}
+
+#extraOptions>.para>p{
+    font-weight: lighter;
+    font-size: small;
+}
+
+#extraOptions>.unusableCheckBox{
+    /* background-color: aqua; */
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+}
+
+#results{
+    background-color: gray;
+}
+
+#results>#content{
+    width: 50%;
+}

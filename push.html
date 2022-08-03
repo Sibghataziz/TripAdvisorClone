@@ -1,4 +1,17 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+<script>
+    
 
 const data = {
     "kolkata": {
@@ -3398,7 +3411,11 @@ const data = {
     },
 }
 
-export default data
+
+
+localStorage.setItem("data",JSON.stringify(data))
+
+// export default data
 
 
 // "kolkata" = {k:11,O:15,l:13,a:1,t:21} = 11+15+13+11+1+21+1 = 78
@@ -3406,5 +3423,7 @@ export default data
 //                                                                 17
 //                                                                 213*40
 
+console.log(localStorage.getItem('data'))
 
 
+</script>

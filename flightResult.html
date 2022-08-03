@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="travel.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title></title>
 </head>
 <body>
@@ -12,50 +14,49 @@
     </div>
 
     <!-- body -->
-    <div id="body">
-        <div id="form_container">
+    <div id="by">
+        <div id="formResult">
+            <h3></h3>
+            <select id="typeOfTravel">
+                <option value="OneWay">One-Way</option>
+                <option value="RoundTrip">Round Trip</option>
+                <!-- <option value="multiCity">Multi-City</option> -->
+            </select>
             <form action="">
-                <h3></h3>
-                <select id="typeOfTravel">
-                    <option value="RoundTrip">Round Trip</option>
-                    <option value="OneWay">One-Way</option>
-                    <!-- <option value="multiCity">Multi-City</option> -->
-                </select>
-                <div>
-                    <label for="from">From</label><br>
+                <div class="box">
                     <input type="text" id="from">
+                    <!-- <i class="fa fa-xl fa-map-marker icon favIcon" aria-hidden="true"></i> -->
+                    <span class="placeholder">From</span>
                 </div>
 
-                <div>
-                    <label for="to">To</label><br>
+                <div class="box">
                     <input type="text" id="to">
+                    <!-- <i class="fa fa-map-marker icon favIcon" aria-hidden="true"></i> -->
+                    <span class="placeholder">To</span>
                 </div>
 
-                <div>
-                    <label for="depart">Depart</label><br>
-                    <input type="date" id="depart">
+                <div id="semiBox">
+                    <div class="box">
+                        <input type="date" id="depart">
+                        <span class="placeholder">Depart</span>
+                    </div>
+                    <div id="return" class="box">
+    
+                    </div>  
                 </div>
-                <div id="return">
-
-                </div>
-                <div>
-                    <label for="noOftravellers">Travellers</label><br>
+                <div class="box">
                     <input type="number" id="noOftravellers">
+                    <span class="placeholder">Travellers</span>
                 </div>
-                <button>Search</button>
+                
+                <div>
+                    <input type="submit" value="Search">
+                </div>
             </form>
         </div>
 
-        <div id="box">
-            <div id="filterBox">
-
-            </div>
-
+        <div id="results">
             <div id="content">
-
-            </div>
-
-            <div id="InfoTo">
 
             </div>
 
@@ -67,3 +68,4 @@
     </div>
 </body>
 </html>
+<script src="./travelResult.js"></script>
