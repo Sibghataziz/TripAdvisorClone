@@ -3398,7 +3398,6 @@ const data = {
     },
 }
 
-export default data
 
 
 // "kolkata" = {k:11,O:15,l:13,a:1,t:21} = 11+15+13+11+1+21+1 = 78
