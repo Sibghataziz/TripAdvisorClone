@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="travel.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Cheap Flights</title>
+</head>
+<body>
+    <!-- navbar -->
+    <div id="navbar">
+        <div id="parentnav">
+            <div class="childnav">
+                <div class="search">
+                    <img id="logo" src="https://static.tacdn.com/img2/brand_refresh/Tripadvisor_lockup_horizontal_secondary_registered.svg" alt="logo">
+                    
+                </div>
+                <div>
+                    <input id="input" type="text" placeholder="Search" name="search" id="">
+                </div>
+                <div></div>
+            </div>
+            <div class="icons">
+                
+                <div id="alert">
+                    <img class="iconlogo" src="https://cdn-icons-png.flaticon.com/128/1250/1250615.png" alt="alert">
+                    <h4>Review</h4>
+                </div>
+                <div id="alert">
+                    <img class="iconlogo" src="https://cdn-icons-png.flaticon.com/128/1077/1077035.png" alt="alert">
+                    <h4>trips</h4>
+                </div>
+                <div id="alert">
+                    <img class="iconlogo" src="https://cdn-icons-png.flaticon.com/128/1827/1827422.png" alt="alert">
+                    <h4>Alerts</h4>
+                </div>
+                <div>
+                    <button id="signin">Sign in</button>
+                </div>
+               
+            </div>
+        </div>
+        <div id="small">
+            <small>Hotels</small>
+            <small>Things to do</small>
+            <small>Restaurants</small>
+            <small>Fligths</small>
+            <small>Holiday homes</small>
+            <small>Package Holidays</small>
+        </div>
+    </div>
+
+    <!-- body -->
+    <div id="body">
+        <div id="formSearch">
+            <h1>Find cheap flights and airline tickets</h1>
+            <div id="typeOfTravel"><span id="oneWay" value="oneWay">One Way</span>
+                <span id="roundTrip" value="roundTrip">Round Trip</span>
+            </div>
+            <form>
+                <div class="inputBox">
+                    <div>
+                        <i class="fa fa-2x fa-map-marker icon favIcon" aria-hidden="true"></i>
+                    </div>
+
+                    <div>
+                        <input type="text" id="from" placeholder="From where?">
+                    </div>
+                </div>
+
+                <div class="inputBox">
+                    <div>
+                        <i class="fa fa-2x fa-map-marker icon favIcon" aria-hidden="true"></i>
+                    </div>
+                    
+                    <div>
+                        <input type="text" id="to" placeholder="To where?">
+                    </div>
+                </div>
+
+                <div class="inputBox">                    
+                    <div>
+                        <input type="date" id="depart">
+                    </div>
+                </div>
+
+                <div id="returnBox"></div>
+
+                <div class="inputBox">                    
+                    <div>
+                        <input type="number" id="noOftravellers" value=1>
+                    </div>
+                </div>
+
+                <div class="inputBox">                    
+                    <div>
+                        <input type="submit" id="search" value="Find Flight">
+                    </div>
+                </div>
+            </form>
+            <div id="extraOptions">
+                <div id="usableCheckBox">
+                    <div>
+                        <input type="checkbox" id="nonStop">
+                        <label>Prefer NonStop</label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" id="includeNearbyAirport">
+                        <label>Include nearby airports</label>
+                    </div>
+                </div>
+
+                <div class="para">
+                    <p>Compare prices (in new window)</p>
+                </div>
+
+                <div class="unusableCheckBox">
+                    <div>
+                        <input type="checkbox" id="includeNearbyAirport">
+                        <label>Include nearby airports</label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" id="includeNearbyAirport">
+                        <label>Include nearby airports</label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" id="includeNearbyAirport">
+                        <label>Include nearby airports</label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" id="includeNearbyAirport">
+                        <label>Include nearby airports</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div id="static">
+            <Div id="div1">
+                <div>
+                    <img src="https://static.tacdn.com/img2/branding/homepage/messaging/icon_reviews_2x.png" 
+                    alt="logo1">
+                    <h3>See the latest reviews</h3>
+                    <p>Read airline reviews from our global traveller community</p>
+    
+                </div>
+                <div><img src="https://static.tacdn.com/img2/branding/homepage/messaging/icon_search_prices_tl_2x.png" 
+                    alt="logo2">
+                    <h3>The lowest flight prices</h3>
+                    <p>Find the best flight deals from hundreds of sites with just one search</p></div>
+                <div>
+                    <img src="https://static.tacdn.com/img2/branding/homepage/messaging/icon_flyscore_tl_2x.png"
+                     alt="logo3">
+                     <h3>FlyScore</h3>
+                     <p>Use FlyScore to compare flights, then book the one that is right for you</p>
+                </div>
+            </Div>
+            <Div id="div2">
+                <h2>Airline reviews</h2>
+            </Div>
+            <Div id="div3">
+                <div>
+                    <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/cd/51/da/indigo.jpg?w=500&h=-1&s=1"
+                     alt="image1">
+                     <p>IndiGo</p>
+                     <label>★★★★☆ </label><span> 8182 reviews</span>
+                </div>
+                <div>
+                    <img src="https://media-cdn.tripadvisor.com/media/photo-o/0e/cd/51/df/jet-airways.jpg"
+                     alt="image2">
+                     <p>Jet Airways [no longer operating]</p>
+                     <label>★★★★☆ </label><span> 20182 reviews</span>
+                </div>
+                <div>
+                    <img src="https://media-cdn.tripadvisor.com/media/photo-o/16/88/be/2c/spicejet.jpg"
+                     alt="image3">
+                     <p>spicejet</p>
+                     <label>★★★☆☆ </label><span>18182 reviews</span>
+                </div>
+                <div>
+                    <img src="https://media-cdn.tripadvisor.com/media/photo-o/0e/cd/51/5c/air-india-express.jpg"
+                     alt="image4">
+                     <p>Air India Express</p>
+                     <label>★★★★☆ </label><span>10182 reviews</span>
+                </div>
+            </Div> 
+            <Div id="div4">
+                <div>
+                <h4>Best Flight Deals</h4>
+                <p>No need to shop multiple sites any more. We've already done that by searching hundreds of cheap flights for you– scouring premium airlines, low-cost carriers and the biggest online travel agencies for the best deals. We'll even check alternate dates and nearby airports to help you save money, time, even sanity on airline tickets.</p>
+                <h4>Flight Search Filters</h4>
+                <p>Our filters make it a snap to easily find the cheap flight that's right for you. Find direct flights that are nonstop, avoid early departure times— or try our Best Value filter, which sorts based on price, duration, and additional factors.</p>
+                <h4>In-Flight Experience</h4>
+                <p>Want Wi-Fi? More legroom? Or even a seat that allows you to sleep perfectly flat? Tripadvisor Flights now makes it easier to find the amenities that can make or break your flight. Find which flights include Wi-Fi, live TV, power outlets, free baggage, and more.</p>
+                <h4>Aeroplane Photos</h4>
+                <p>Thousands of photos from real travellers let you peek inside the plane before you buy your ticket. Our airline reviews provide unbiased opinions to help you select the right airline and flight for your trip.</p>
+                </div>
+            </Div>
+        </div>
+        
+    </div>
+
+    <!-- footer -->
+    <div id="footer">
+    </div>
+    
+</body>
+</html>
+<script src="./travelForm.js"></script>

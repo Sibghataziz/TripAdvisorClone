@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="travel.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
+    <title></title>
+  </head>
+  <body>
+    <!-- navbar -->
+  <div id="fullnavBar">
+    <div id="navbar">
+      <div id="parentnav">
+        <div class="childnav">
+          <div class="search">
+            <img
+              id="logo"
+              src="https://static.tacdn.com/img2/brand_refresh/Tripadvisor_lockup_horizontal_secondary_registered.svg"
+              alt="logo"
+            />
+          </div>
+          <div>
+            <input
+              id="input"
+              type="text"
+              placeholder="Search"
+              name="search"
+              id=""
+            />
+          </div>
+          <div></div>
+        </div>
+        <div class="icons">
+          <div id="alert">
+            <img
+              class="iconlogo"
+              src="https://cdn-icons-png.flaticon.com/128/1250/1250615.png"
+              alt="alert"
+            />
+            <h4>Review</h4>
+          </div>
+          <div id="alert">
+            <img
+              class="iconlogo"
+              src="https://cdn-icons-png.flaticon.com/128/1077/1077035.png"
+              alt="alert"
+            />
+            <h4>trips</h4>
+          </div>
+          <div id="alert">
+            <img
+              class="iconlogo"
+              src="https://cdn-icons-png.flaticon.com/128/1827/1827422.png"
+              alt="alert"
+            />
+            <h4>Alerts</h4>
+          </div>
+          <div>
+            <button id="signin">Sign in</button>
+          </div>
+        </div>
+      </div>
+      <div id="small">
+        <small>Hotels</small>
+        <small>Things to do</small>
+        <small>Restaurants</small>
+        <small>Fligths</small>
+        <small>Holiday homes</small>
+        <small>Package Holidays</small>
+      </div>
+    </div>
+
+    <!-- body -->
+    <div id="by">
+      <div>
+        <div id="typeOfTravelResult">
+          <span id="oneWay" value="oneWay">One Way</span>
+          <span id="roundTrip" value="roundTrip">Round Trip</span>
+        </div>
+        <div id="formOnResult">
+          <div class="InputBox">
+            <div>
+              <p><i class="fa-solid fa-location-dot"></i></p>
+            </div>
+
+            <div>
+              <label for="">From</label>
+              <br />
+              <input type="text" placeholder="from" id="from" />
+            </div>
+          </div>
+          <div class="InputBox">
+            <div>
+              <p><i class="fa-solid fa-location-dot"></i></p>
+            </div>
+
+            <div>
+              <label for="">To</label>
+              <br />
+              <input type="text" placeholder="to" id="to" />
+            </div>
+          </div>
+          <div class="InputBox">
+            <div>
+              <p><i class="fa-solid fa-calendar-days"></i></p>
+            </div>
+
+            <div>
+              <label for="">Depart</label>
+              <br />
+              <input type="date" id="depart" />
+            </div>
+          </div>
+
+          <div id="return"></div>
+
+          <div class="travellers">
+            <div>
+              <p><i class="fa-solid fa-user-group"></i></p>
+            </div>
+
+            <div>
+              <label>Traveller</label>
+              <br />
+              <input type="number" id="noOftravellers" />
+            </div>
+          </div>
+          <div id="search">
+            <button>Search</button>
+          </div>
+        </div>
+      </div>
+
+      </div>
+     
+    </div>
+
+
+    
+    <div id="mainDataDiv">
+      <div id="leftDataDiv">
+      
+        <h2>Stops</h2>
+        <div>
+           <div>
+           <input type="checkbox"><label>Nonstop</label>
+         </div>
+           <p>₹8,314</p>
+        </div>
+        <div>
+         <div>
+         <input type="checkbox"><label>1 Stop</label>
+       </div>
+         <p>₹8,931</p>
+      </div>
+      <div>
+       <div>
+       <input type="checkbox"><label>2+ Stops</label>
+     </div>
+       <p>₹13,229</p>
+    </div>
+
+    <hr>
+
+    <!-- need work -->
+
+    <h2>Airlines</h2>
+        <div>
+           <div>
+           <input type="checkbox"><label>Air India</label>
+           </div>
+           <p>₹17,008</p>
+        </div>
+        <div>
+         <div>
+         <input type="checkbox"><label>GoAir</label>
+       </div>
+         <p>₹9,286</p>
+      </div>
+      <div>
+       <div>
+       <input type="checkbox"><label>IndiGo</label>
+     </div>
+       <p>₹8,607</p>
+    </div>
+    <div>
+     <div>
+     <input type="checkbox"><label>SpiceJet</label>
+     </div>
+     <p>₹8,314</p>
+  </div>
+
+    <hr>
+    
+
+    <!-- needwork -->
+
+    <h2>Airports </h2>
+    <p style="font-weight: bold; font-size:smaller">Departing from</p>
+    <div>
+       <div>
+       <input type="checkbox"><label>PAT Patna</label>
+       </div>
+       <p>₹17,008</p>
+    </div>
+    <p style="font-weight: bold; font-size:smaller">Arriving at</p>
+    <div>
+       <div>
+       <input type="checkbox"><label>BOM Mumbai</label>
+       </div>
+       <p>₹8,314</p>
+    </div>
+
+
+     <hr>
+
+     <h2>Layover airports</h2>
+        <div>
+           <div>
+           <input type="checkbox"><label>AMD Ahmedabad</label>
+           </div>
+           <p>₹11,898</p>
+        </div>
+        <div>
+         <div>
+         <input type="checkbox"><label>BLR Bengaluru</label>
+       </div>
+         <p>₹11,540</p>
+      </div>
+      <div>
+       <div>
+       <input type="checkbox"><label>CCU Kolkata</label>
+     </div>
+       <p>₹12,960</p>
+    </div>
+    <div>
+     <div>
+     <input type="checkbox"><label>DEL New Delhi</label>
+     </div>
+     <p>₹8,944</p>
+  </div>
+
+  <!-- needowk -->
+
+  <h2>Layover airports</h2>
+        <div>
+           <div>
+           <input type="checkbox"><label>Agoda</label>
+           </div>
+           <p>₹9,854</p>
+        </div>
+        <div>
+         <div>
+         <input type="checkbox"><label>Bravofly</label>
+       </div>
+         <p>₹10,540</p>
+      </div>
+      <div>
+       <div>
+       <input type="checkbox"><label>BudgetAir</label>
+     </div>
+       <p>₹9,626</p>
+    </div>
+    <div>
+     <div>
+     <input type="checkbox"><label>BudgetTicket
+     </label>
+     </div>
+     <p>₹9,527</p>
+  </div>
+  <hr>
+  <h2>Flight Quality</h2>
+        <div>
+           <div>
+           <input type="checkbox"><label>Exclude Overnight Flights</label>
+           </div>
+           <p></p>
+        </div>
+
+
+
+
+       
+      </div>
+      <div id="midleDataDiv">
+       
+      </div>
+      <div id="rightDataDiv">
+        
+        <div id="rightSideChildDiv">
+
+         <p>
+           Listing of Flights on Tripadvisor may not be exhaustive. Total prices included taxes and fees for one traveller. Additional baggage fees and other optional fees may apply. Consult partners to find out more.
+         </p>
+         
+         <div style="background-color: white; margin-top: 25px; margin-bottom: 25px; padding: 5px; box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;">
+           <h4>See More Prices on:</h4>
+           <div id="butonDiv">
+             <img src="https://d29u10q7qlh006.cloudfront.net/t/i/160/6z3uKD5bqN0jnjUcwDUCDh2k-Nk.png" alt="logo">
+             <button>Compare <span style="font-weight: bold;">></span></button>
+           </div>
+
+         </div>
+
+         <h3>Great Mumbai hotel deals</h3>
+         
+         <div id="tajDiv">
+           <img src="https://media-cdn.tripadvisor.com/media/photo-l/0b/4e/55/e6/chhatrapati-shivaji-terminus.jpg" alt="image">
+           <div>
+           <p>With prices as low as:</p>
+           <h2>₹4,763</h2>
+           <button>See Deals</button>
+         </div>
+         </div>
+
+
+
+        </div>
+
+      </div>
+
+    </div>
+     
+
+      
+
+
+
+
+
+    <!-- footer -->
+    <div id="footer"></div>
+  </body>
+</html>
+<script src="./travelResult.js"></script>
