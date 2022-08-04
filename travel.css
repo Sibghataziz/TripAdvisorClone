@@ -206,7 +206,7 @@ input:focus{
 }
 
 #formSearch>form>.inputBox>div>input{
-    width: 100%;
+    width: 85%;
     height: 50px;
     font-weight: bolder;
     padding-left: 15%;
@@ -237,6 +237,11 @@ input:focus{
     color: white;
     font-size: larger;
     padding-left: 0px;
+    height: 52px;
+}
+
+#formSearch>form>.inputBox>div>input[type="date"]{
+    height: 52px;
 }
 
 .favIcon{
