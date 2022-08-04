@@ -1,9 +1,30 @@
-const form =  document.querySelector("form")
-form.addEventListener("submit",checkFlights)
+const form =  document.querySelector("#search>button")
+form.addEventListener("click",checkFlights)
 
 
-const booking = document.querySelector("#typeOfTravel")
-booking.addEventListener("change",returnInput)
+const booking = document.querySelector("#typeOfTravelResult")
+booking.addEventListener("click",handleOneWayClick)
+
+booking.addEventListener("click",handleOneWayClick)
+
+var formHeadingType = "oneWay"
+document.getElementById("oneWay").style.borderBottom="2px solid black"
+
+
+function handleOneWayClick(e){
+    formHeadingType = e.target.getAttribute("value")
+    console.log(formHeadingType)
+    if(formHeadingType==="oneWay"){
+        document.getElementById("oneWay").style.borderBottom="2px solid black"
+        document.getElementById("roundTrip").style.borderBottom="none"
+    }
+    else{
+        document.getElementById("oneWay").style.borderBottom="none"
+        document.getElementById("roundTrip").style.borderBottom="2px solid black"
+    }
+    returnInput()
+}
+
 
 setToday()
 displaySearch()
@@ -19,7 +40,6 @@ function checkFlights(){
     const from = document.querySelector("#from")
     const to = document.querySelector("#to")
     const depart = document.querySelector("#depart")
-    const returnTrip  = type==="RoundTrip"? document.querySelector("#returnDate"):null
     const noOfPassengers = document.querySelector("#noOftravellers")
 
     if(from.value===""){
@@ -30,22 +50,18 @@ function checkFlights(){
         console.log("to")
         // from.setAttribute("class","highLight")
     }
-    else if(returnTrip!==null && returnTrip.value===""){
-        console.log("returnTrip")
-        // from.setAttribute("class","highLight")
-    }
     else if(noOfPassengers.value==="" || noOfPassengers===0){
         console.log("noOfPassengers")
         // from.setAttribute("class","highLight")
     }
     else{
-        // console.log(nonStop)
+        // console.log(nonStop,from.value.substr(6),to.value.substr(4))
         const search = {
             from :  from.value,
             to:     to.value,
             depart: depart.value,
-            returnTrip: returnTrip===null?null:returnTrip.value,
-            type: type.value,
+            returnTrip: formHeadingType==="roundTrip"?true:false,
+            type: formHeadingType,
             noOfPassengers: noOfPassengers.value,
         }
         localStorage.setItem("search",JSON.stringify(search))
@@ -54,30 +70,46 @@ function checkFlights(){
 }
 
 function returnInput(){
-    const val = booking.value
-    // console.log(val)
     const div = document.querySelector("#return")
-    if(val==="RoundTrip"){
+    if(formHeadingType==="roundTrip"){
+        // console.log("abcd")
+        // const fav = document.createElement("i")
+        // fav.className = "fa-solid fa-calendar-days"
+
+        // const p = document.createElement("p")
+        // p.append(fav)
+
+        // const div1 = document.createElement("div")
+        // div1.append(p)
+        // console.log(div1)
+
+        const label = document.createElement("label")
+        label.innerText="Return"
+        
+        const br = document.createElement("br")
+
         const returnDate = document.createElement("input")
-        // console.log(returnDate)
         returnDate.setAttribute("type","date")
         let date = new Date()
-        date.setDate(date.getDate() + 1)
+        date.setDate(date.getDate() + 10)
         returnDate.value = date.toISOString().substr(0, 10)
-        const returnDateLabel = document.createElement("label")
-        returnDateLabel.innerText="Return Date"
-        const br = document.createElement("br")
-        div.append(returnDateLabel,br,returnDate)
+        
+        const div2 = document.createElement("div")
+        div.append(label,br,returnDate)
+
+        div.setAttribute("class","InputBox")
+        div.append(div2)
     }
     else{
         div.innerText=""
+        div.removeAttribute("class")
     }
 }
 
 
 function displaySearch(){
     const search = JSON.parse(localStorage.getItem("search"))
-    // console.log(search)
+    console.log(search)
     const data = JSON.parse(localStorage.getItem('data'))
     // console.log(search.nonStop,"nonStop")
     let data1 = data[search.from.toLowerCase()]['Travel'][search.to.toLowerCase()]['non_stop']

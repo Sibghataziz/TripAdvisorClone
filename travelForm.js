@@ -13,7 +13,7 @@ document.getElementById("from").addEventListener("input",handleFrom)
 
 document.getElementById("to").addEventListener("input",handleTo)
 
-
+// document.getElementById("navbar").load("nav.html")
 
 
 function handleTo(e){
