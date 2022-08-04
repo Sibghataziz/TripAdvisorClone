@@ -1,0 +1,600 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+      <!-- Link Swiper's CSS -->
+      <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+      <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+   
+   
+
+   
+
+   
+    <style>
+        @font-face {
+            font-family: TripSans;
+            src: url(TripSans-Regular.ttf);
+        }
+      body{
+        font-family: TripSans;
+        background-color: #f2f2f2;
+      }
+     
+    
+     #mainTitle{
+         text-align: center;
+        font-family: TripSans;
+        font-weight: 700;
+        font-size: 34px;
+       
+     }
+     #MainDiv{
+        margin: auto;
+        width: 95%;
+       
+        display: flex;
+       
+        justify-content: space-between;
+
+     }
+     #mainLeftDiv{
+       width: 22%;
+       border: 1px solid teal;
+       height: 800px;
+     }
+
+     #mainRightDiv{
+        width: 75%;
+       
+
+     }
+     #iteamMainParent .topTiteDiv{
+         display: flex;
+         justify-content: space-between;
+         margin-bottom: 10px;
+     }
+
+     #iteamMainParent .topTiteDiv a:first-child{
+     font-family: TripSans;
+     font-size: 25px;
+     font-weight: bold;
+     font-style: normal;
+     text-decoration: none;
+     color: black;
+
+     }
+     #iteamMainParent .topTiteDiv a:last-child{
+        font-size: 15px;
+        font-family: TripSans;
+        font-weight: bold;
+        text-decoration: none;
+        color: black;
+     }
+
+     #ScrollDiv{
+       
+       display: flex;
+       gap: 7px;
+       margin-bottom: 30px;
+       
+        
+     }
+     #divIside{
+        width: 250px;
+        background-color: white;
+       height: 200px;
+     }
+      #divIside img{
+        width: 100%;
+        height: 70%;
+        margin-bottom: 5px;
+      }
+      #divIside >div{
+        display: flex;
+        align-items: center;
+        height: 20px;
+        
+      }
+      #divIside >div div {
+        width: 50%;
+        margin-top: 5px;
+        margin-bottom: 2px;
+        margin-left: 5px;
+        
+        
+
+        
+      }
+
+      #divIside >div div i{
+        color: #00aa6c;
+      }
+
+
+      #divIside a{
+        
+        text-decoration: none;
+       font-weight: bold;
+       font-size: 15px;
+       color: black;
+      }
+      #divIside >p{
+        color: black;
+        font-size:smaller;
+        margin-top: 1px;
+
+        
+      }
+
+      /* BotomPart */
+     #botomTopDiv{
+        display: flex;
+        text-align: center;
+       justify-content: space-between;
+       align-items: center;
+     }
+     #botomTopDiv select{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 40px;
+        padding-right: 40px;
+     }
+
+     #botomIteamDiv{
+        display: flex;
+        background-color: white;
+       margin-bottom: 20px;
+        justify-content: left;
+        text-align: left;
+        gap: 20px;
+        box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+        border-radius: ;
+     }
+     #botomIteamDiv img{
+        height: 100%;
+       width: 250px;
+       
+     }
+     #botomIteamDiv >div:last-child{
+        padding: 12px;
+
+     } 
+     #botomIteamDiv >div:last-child a{
+        font-size: large;
+        color: black;
+        font-weight: bold;
+        text-decoration: none;
+     }
+     #botomIteamDiv >div:last-child>div{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-top: -8px;
+        margin-bottom: -20px;
+       
+     }
+     #botomIteamDiv >div:last-child>div i{
+        color: #00aa6c;
+     }
+     
+
+     /* leftPart */
+ 
+     #map{
+       position: relative;
+       width: 100%;
+       height: auto;
+     }
+
+     #map img{
+        width: 100%;
+     }
+     #map button{
+        padding: 12px;
+        
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+       
+     }
+     
+     
+    </style>
+
+
+</head>
+<body>
+    
+        <h1 id="mainTitle">Restaurants in Mumbai</h1>
+         
+    
+    <div id="MainDiv">
+       <div id="mainLeftDiv">
+  
+         <div id="map">
+            <img src="https://static.tacdn.com/img2/maps/img_map.png" alt="map">
+            <button>
+                <i class="fa fa-location-dot"> View Map</i>
+                
+            </button>
+         </div>
+            
+       </div>
+
+        
+       <div id="mainRightDiv">
+         <div id="iteamMainParent">
+            <div class="topTiteDiv">
+                <a href="https://www.tripadvisor.in/Restaurants-g304554-Mumbai_Maharashtra.html">Delivery Available</a>
+                <a href="https://www.tripadvisor.in/Restaurants-g304554-Mumbai_Maharashtra.html">See All</a>
+            </div>
+            
+            <div id="ScrollDiv">
+               
+                
+                <div id="divIside">
+                    
+                 <img src="https://media-cdn.tripadvisor.com/media/photo-f/1a/94/21/1a/img-20191223-wa0076-largejpg.jpg" alt="image"><br>
+                   
+                 <a href="Shakey Wakey">Shakey Wakey</a> 
+                  <div>
+                        <div id="ratingIon">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star-half-alt"></i>
+                        </div>
+
+                        <p>864</p>
+                    </div>
+                    <p>Cafe, Fast food, Health... ₹₹ - ₹₹₹</p> 
+                </div>
+               
+                <div id="divIside">
+                    
+                    <img src="https://media-cdn.tripadvisor.com/media/photo-f/1a/94/21/1a/img-20191223-wa0076-largejpg.jpg" alt="image"><br>
+                      
+                    <a href="Shakey Wakey">Shakey Wakey</a> 
+                     <div>
+                           <div id="ratingIon">
+                               <i class="fas fa-star"></i>
+                               <i class="fas fa-star"></i>
+                               <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star-half-alt"></i>
+                           </div>
+   
+                           <p>864</p>
+                       </div>
+                       <p>Cafe, Fast food, Health... ₹₹ - ₹₹₹</p> 
+                   </div>
+
+
+                   <div id="divIside">
+                    
+                    <img src="https://media-cdn.tripadvisor.com/media/photo-f/1a/94/21/1a/img-20191223-wa0076-largejpg.jpg" alt="image"><br>
+                      
+                    <a href="Shakey Wakey">Shakey Wakey</a> 
+                     <div>
+                           <div id="ratingIon">
+                               <i class="fas fa-star"></i>
+                               <i class="fas fa-star"></i>
+                               <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star-half-alt"></i>
+                           </div>
+   
+                           <p>864</p>
+                       </div>
+                       <p>Cafe, Fast food, Health... ₹₹ - ₹₹₹</p> 
+                   </div>
+
+                   <div id="divIside">
+                    
+                    <img src="https://media-cdn.tripadvisor.com/media/photo-f/1a/94/21/1a/img-20191223-wa0076-largejpg.jpg" alt="image"><br>
+                      
+                    <a href="Shakey Wakey">Shakey Wakey</a> 
+                     <div>
+                           <div id="ratingIon">
+                               <i class="fas fa-star"></i>
+                               <i class="fas fa-star"></i>
+                               <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star-half-alt"></i>
+                           </div>
+   
+                           <p>864</p>
+                       </div>
+                       <p>Cafe, Fast food, Health... ₹₹ - ₹₹₹</p> 
+                   </div>
+               
+             
+
+
+
+            </div>
+
+
+
+
+          <!-- next Part -->
+              <div class="topTiteDiv">
+                <a href="https://www.tripadvisor.in/Restaurants-g304554-Mumbai_Maharashtra.html">Outdoor Seating Available</a>
+                <a href="https://www.tripadvisor.in/Restaurants-g304554-Mumbai_Maharashtra.html">See All</a>
+            </div>
+            
+            <div id="ScrollDiv">
+               
+                
+                <div id="divIside">
+                    
+                 <img src="https://media-cdn.tripadvisor.com/media/photo-i/16/a1/4f/bb/kung-pao-chicken.jpg" alt="image"><br>
+                   
+                 <a href="Shakey Wakey">EAST-EAST ASIAN SPICE TRAIL</a> 
+                  <div>
+                        <div id="ratingIon">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star-half-alt"></i>
+                        </div>
+
+                        <p>864</p>
+                    </div>
+                    <p>Cafe, Fast food, Health... ₹₹ - ₹₹₹</p> 
+                </div>
+               
+                <div id="divIside">
+                    
+                    <img src="https://media-cdn.tripadvisor.com/media/photo-i/16/a1/4f/bb/kung-pao-chicken.jpg" alt="image"><br>
+                      
+                    <a href="Shakey Wakey">EAST-EAST ASIAN SPICE TRAIL</a> 
+                     <div>
+                           <div id="ratingIon">
+                               <i class="fas fa-star"></i>
+                               <i class="fas fa-star"></i>
+                               <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star-half-alt"></i>
+                           </div>
+   
+                           <p>864</p>
+                       </div>
+                       <p>Cafe, Fast food, Health... ₹₹ - ₹₹₹</p> 
+                   </div>
+               
+             
+                   <div id="divIside">
+                    
+                    <img src="https://media-cdn.tripadvisor.com/media/photo-i/16/a1/4f/bb/kung-pao-chicken.jpg" alt="image"><br>
+                      
+                    <a href="Shakey Wakey">EAST-EAST ASIAN SPICE TRAIL</a> 
+                     <div>
+                           <div id="ratingIon">
+                               <i class="fas fa-star"></i>
+                               <i class="fas fa-star"></i>
+                               <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star-half-alt"></i>
+                           </div>
+   
+                           <p>864</p>
+                       </div>
+                       <p>Cafe, Fast food, Health... ₹₹ - ₹₹₹</p> 
+                   </div>
+
+                   <div id="divIside">
+                    
+                    <img src="https://media-cdn.tripadvisor.com/media/photo-i/16/a1/4f/bb/kung-pao-chicken.jpg" alt="image"><br>
+                      
+                    <a href="Shakey Wakey">EAST-EAST ASIAN SPICE TRAIL</a> 
+                     <div>
+                           <div id="ratingIon">
+                               <i class="fas fa-star"></i>
+                               <i class="fas fa-star"></i>
+                               <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star-half-alt"></i>
+                           </div>
+   
+                           <p>864</p>
+                       </div>
+                       <p>Cafe, Fast food, Health... ₹₹ - ₹₹₹</p> 
+                   </div>
+
+
+            </div>
+
+         </div>
+           
+
+
+
+          <!-- botom part -->
+         
+          <div id="botomTopDiv">
+            <h2>Top Restaurants in Mumbai</h2>
+            <div>
+                <label for="">Sort By:</label>
+                <select name="" id="RatingFilter">
+                    <option value="TopRated">Highest Rated</option>
+                    <option value="LowRated">Lowest Rated</option>
+                </select>
+            </div>
+
+          </div>
+
+
+        <div id="botomIteamDiv">
+            <div id="imageDiv">
+                 <img src="https://media-cdn.tripadvisor.com/media/photo-s/14/5e/e0/d1/saptami-a-contemporary.jpg" alt="alternetive">
+            </div>
+            <div>
+                <a href="">4. The Earth Plate</a>
+                <div>
+                    <div id="ratingIon">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star-half-alt"></i>
+                    </div>
+
+                    <p>864 reviews</p>
+                </div>
+                <p>Indian, Middle Eastern₹₹ - ₹₹₹ </p>
+                <hr>
+                <p>“Bhatti da Murg This was like tandoori chicken, it was so well marinated and t...”</p>
+                <p>“... vegetarians Sigri Murgh:- Tandoori chicken drums made with in-house spice...”</p>
+
+            </div>
+
+            
+
+        </div>
+
+        <div id="botomIteamDiv">
+            <div id="imageDiv">
+                 <img src="https://media-cdn.tripadvisor.com/media/photo-s/14/5e/e0/d1/saptami-a-contemporary.jpg" alt="alternetive">
+            </div>
+            <div>
+                <a href="">4. The Earth Plate</a>
+                <div>
+                    <div id="ratingIon">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star-half-alt"></i>
+                    </div>
+
+                    <p>864 reviews</p>
+                </div>
+                <p>Indian, Middle Eastern₹₹ - ₹₹₹ </p>
+                <hr>
+                <p>“Bhatti da Murg This was like tandoori chicken, it was so well marinated and t...”</p>
+                <p>“... vegetarians Sigri Murgh:- Tandoori chicken drums made with in-house spice...”</p>
+
+            </div>
+
+            
+
+        </div>
+
+
+
+
+
+
+        <div id="botomIteamDiv">
+            <div id="imageDiv">
+                 <img src="https://media-cdn.tripadvisor.com/media/photo-s/14/5e/e0/d1/saptami-a-contemporary.jpg" alt="alternetive">
+            </div>
+            <div>
+                <a href="">4. The Earth Plate</a>
+                <div>
+                    <div id="ratingIon">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star-half-alt"></i>
+                    </div>
+
+                    <p>864 reviews</p>
+                </div>
+                <p>Indian, Middle Eastern₹₹ - ₹₹₹ </p>
+                <hr>
+                <p>“Bhatti da Murg This was like tandoori chicken, it was so well marinated and t...”</p>
+                <p>“... vegetarians Sigri Murgh:- Tandoori chicken drums made with in-house spice...”</p>
+
+            </div>
+
+            
+
+        </div>
+
+
+
+        <div id="botomIteamDiv">
+            <div id="imageDiv">
+                 <img src="https://media-cdn.tripadvisor.com/media/photo-s/14/5e/e0/d1/saptami-a-contemporary.jpg" alt="alternetive">
+            </div>
+            <div>
+                <a href="">4. The Earth Plate</a>
+                <div>
+                    <div id="ratingIon">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star-half-alt"></i>
+                    </div>
+
+                    <p>864 reviews</p>
+                </div>
+                <p>Indian, Middle Eastern₹₹ - ₹₹₹ </p>
+                <hr>
+                <p>“Bhatti da Murg This was like tandoori chicken, it was so well marinated and t...”</p>
+                <p>“... vegetarians Sigri Murgh:- Tandoori chicken drums made with in-house spice...”</p>
+
+            </div>
+
+            
+
+        </div>
+
+
+          
+
+
+
+        
+        </div>
+
+    </div>
+
+
+
+
+</body>
+</html>
+
+
+
+<script>
+     
+
+
+
+   var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        slidesPerGroup: 3,
+        loop: true,
+        loopFillGroupWithBlank: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+
+
+</script>
