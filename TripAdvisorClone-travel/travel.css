@@ -1,7 +1,7 @@
-#fullnavBar{
-    background-color: white;
-    padding-bottom: 10px;
-}
+
+
+
+
 
 .highLight{
     border: 10px solid crimson;
@@ -32,7 +32,7 @@
     
 }
 
-/* .roundFligthDetails > button{
+ /* .roundFligthDetails > button{
     background-color: goldenrod;
     border: none;
     border-radius: 10px;
@@ -40,7 +40,7 @@
     margin-left: 50px; 
     height: 80%; 
     padding: 10px 0px; 
-} */
+}  */
 
 .flightImage{
     width: 5%;
@@ -202,6 +202,7 @@ input:focus{
 
 #formSearch>form>.inputBox>div{
     /* background-color: teal; */
+    
 }
 
 #formSearch>form>.inputBox>div>input{
@@ -285,6 +286,29 @@ input:focus{
 
 
 
+#results{
+    background-color: gray;
+    margin: auto;
+    display: flex;
+    width: 94%;
+    justify-content: space-between;
+}
+
+#results>#content{
+    width: 50%;
+}
+
+
+
+
+#typeOfTravelResult{
+    /* background-color: teal; */
+    width: 15%;
+    display: flex;
+    justify-content: space-around;
+    /* padding-left: 210px; */
+    padding-bottom: 20px;
+}
 
 /* deepak */
 
@@ -361,7 +385,7 @@ body{
 
 #formOnResult{
     display: flex;
-    
+    padding-bottom: 12px;
     /* border: 1px dashed crimson; */
     gap: 5px;
     width: 100%;
@@ -446,7 +470,15 @@ input:focus{
 }
 body{
 font-family: TripSans;
-background-color: #f2f2f2;
+margin: 0;
+
+}
+#forBacrouCo{
+    width: 100%;
+    height: fit-content;
+    background-color: #f2f2f2;
+    padding-bottom: 5px;
+    padding-top: 5px;
 }
 
 #mainDataDiv{
