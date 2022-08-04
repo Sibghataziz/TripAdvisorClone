@@ -1,9 +1,8 @@
-*{
-    padding: 0px;
-    margin: 0px;
-    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
-    font-family: 'Roboto', sans-serif;
-}
+
+
+
+
+
 .highLight{
     border: 10px solid crimson;
 }
@@ -33,7 +32,7 @@
     
 }
 
-/* .roundFligthDetails > button{
+ /* .roundFligthDetails > button{
     background-color: goldenrod;
     border: none;
     border-radius: 10px;
@@ -41,12 +40,12 @@
     margin-left: 50px; 
     height: 80%; 
     padding: 10px 0px; 
-} */
+}  */
 
 .flightImage{
-    width: 5%;
-    /* height: 5%; */
-    padding: 25px;
+    width: 7%;
+    height: 7%;
+    padding: 45px;
 }
 
 .time{
@@ -203,6 +202,7 @@ input:focus{
 
 #formSearch>form>.inputBox>div{
     /* background-color: teal; */
+    
 }
 
 #formSearch>form>.inputBox>div>input{
@@ -284,6 +284,8 @@ input:focus{
     justify-content: space-around;
 }
 
+
+
 #results{
     background-color: gray;
     margin: auto;
@@ -296,6 +298,9 @@ input:focus{
     width: 50%;
 }
 
+
+
+
 #typeOfTravelResult{
     /* background-color: teal; */
     width: 15%;
@@ -304,8 +309,6 @@ input:focus{
     /* padding-left: 210px; */
     padding-bottom: 20px;
 }
-
-
 
 /* deepak */
 
@@ -382,7 +385,7 @@ body{
 
 #formOnResult{
     display: flex;
-    
+    padding-bottom: 12px;
     /* border: 1px dashed crimson; */
     gap: 5px;
     width: 100%;
@@ -460,106 +463,146 @@ input:focus{
 
 
 
-
 /* Shakti */
-
-#leftDataDiv{
-    padding: 10px;
-    padding-bottom: 25px;
-    width: 20%;
-    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
-    background-color: white;
-  }
-
-  #rightDataDiv{
-    width: 25%;   
-  }
-
-  #leftDataDiv h2{
+@font-face {
     font-family: TripSans;
-    font-size: medium;
-    margin-bottom: 20px;
-  }
+    src: url(TripSans-Regular.ttf);
+}
+body{
+font-family: TripSans;
+margin: 0;
 
- #leftDataDiv >div,#leftDataDiv >div>div{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
- }
- #leftDataDiv input{
-     accent-color: black;
- }
+}
+#forBacrouCo{
+    width: 100%;
+    height: fit-content;
+    background-color: #f2f2f2;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+#mainDataDiv{
+
+margin: auto;
+margin-top: 25px;
+display: flex;
+width: 94%;
 
 
- #leftDataDiv div p{
-  color: #828482;
-  font-size: small;
- }
- #leftDataDiv label{
-  margin-left: 5px;
-  color: #543d89;
- }
- #leftDataDiv >div{
-  margin-top: -14px;
-  margin-bottom: -14px;
- }
- #rightSideChildDiv{
-  position: sticky;
-  top: 0;
- }
- 
- #rightSideChildDiv p{
-   font-size: smaller;
-   color: #808080;
-   padding: 5px;
- }
- 
- #butonDiv{
-  display: flex;
-  justify-content: space-between;
- }
- #butonDiv img{
-   height: 26px;
- }
- #butonDiv button{
-  padding: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
-  font-size: smaller;
-  margin-bottom: 5px;
-  margin-right: 5px;
-  font-weight: bold;
- }
- #tajDiv{
-   background-color: white;
-  height: 310;
-   box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+justify-content: space-between;
+}
+#leftDataDiv{
+padding: 10px;
+padding-bottom: 25px;
+width: 17%;
+box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+background-color: white;
+height: fit-content;
 
- }
- #tajDiv img{
-  width: 100%;
-  height: 55%;
- }
- #tajDiv >div{
-  padding: 5px;
-  padding-left: 10px;
+}
 
- }
- #tajDiv button{
-  padding: 12px;
-  background-color: #f2b203;
-  border-radius: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
-  border: none;
-  font-weight: bold;
- }
- #tajDiv >div  p{
-  font-size: medium;
-  color: black;
- }
- #tajDiv >div  h2{
-  margin-top: 10px;
-  margin-bottom: 10px;
+#midleDataDiv{
+width: 53%;
+padding: 5px;
+
+}
+
+#rightDataDiv{
+width: 27%;
+margin-top: 10px;
+
+
+}
+#leftDataDiv h2{
+font-family: TripSans;
+font-size: medium;
+margin-bottom: 20px;
+}
+
+#leftDataDiv >div,#leftDataDiv >div>div{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+#leftDataDiv input{
+ accent-color: black;
+}
+
+
+#leftDataDiv div p{
+color: #828482;
+font-size: small;
+}
+#leftDataDiv label{
+margin-left: 5px;
+color: #543d89;
+}
+#leftDataDiv >div{
+margin-top: -14px;
+margin-bottom: -14px;
+}
+#rightSideChildDiv{
+
+position: sticky;
+
+top: 0;
+
+
+}
+
+#rightSideChildDiv p{
+
+font-size: smaller;
+color: #808080;
+padding: 5px;
+}
+
+#butonDiv{
+display: flex;
+justify-content: space-between;
+}
+#butonDiv img{
+height: 26px;
+}
+#butonDiv button{
+padding: 10px;
+padding-left: 20px;
+padding-right: 20px;
+font-size: smaller;
+margin-bottom: 5px;
+margin-right: 5px;
+font-weight: bold;
+}
+#tajDiv{
+background-color: white;
+height: 310px;
+box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+
+}
+#tajDiv img{
+width: 100%;
+height: 55%;
+}
+#tajDiv >div{
+padding: 5px;
+padding-left: 10px;
+
+}
+#tajDiv button{
+padding: 12px;
+background-color: #f2b203;
+border-radius: 10px;
+padding-left: 20px;
+padding-right: 20px;
+border: none;
+font-weight: bold;
+}
+#tajDiv >div  p{
+font-size: medium;
+color: black;
+}
+#tajDiv >div  h2{
+margin-top: -10px;
+margin-bottom: 10px;
 
 }
