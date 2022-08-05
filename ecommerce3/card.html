@@ -1,0 +1,311 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+   <style>
+     #justdemo{
+      width: 30%;
+      
+      border: 2px solid salmon;
+     }
+
+
+    #parent{
+        display: flex;
+        
+        justify-content: space-between; 
+        
+    }
+      #itemPart{
+       margin: 0;
+        width: 60%;
+        
+        
+        
+      }
+      #pricePart{
+       
+        margin: 0 auto;
+        margin-right: 50px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        
+
+        width: 400px;
+         padding: 20px;
+         margin: 20px;
+      }
+       input{
+        padding: 5px;
+        border: 1px solid #ccc;
+        margin-top: 6px;
+        border-radius: 4px;
+        margin-bottom: 10px;
+       }
+   
+
+      #iteamParent{
+       display: flex;
+       margin: 20px;
+       padding: 10px;
+       box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+       }
+
+       #placeOrder{
+         margin: auto;
+         padding: 12px;
+         color: white;
+         background-color: #fb641b;
+         width: 80%;
+         border-radius: 4px;
+         border: none;
+         margin-top: 20px;
+       }
+       
+       #quantyDiv{
+        display: flex;
+       }
+
+       #quntyNumber{
+
+        margin: 10px;
+        
+       }
+
+
+
+   </style>
+
+
+
+</head>
+<body>
+   <div id="parent">
+    <div id="itemPart">
+
+    </div>
+    <div id="jusdmeo">
+    <div id="pricePart">
+
+        <h2 id="itemPrice">Total Price ₹ </h2>
+        
+        <label>Promo code</label><br>
+        <input type="text" id="promoCode" placeholder="Enter Promo code"><br>
+        <button id="promoSubmit" onclick="onpromo()" style="padding: 5px ; border: none; border-radius: 4px; color: white; background-color: rgb(100, 100, 255);">Submit</button>
+        <br>
+        <button id="placeOrder" onclick="placeorder()">PLACE ORDER</button>
+
+    </div>
+  </div>
+   </div>
+   
+  
+
+    
+</body>
+</html>
+
+<script>
+ var demo = JSON.parse(localStorage.getItem("userItem")) || [];
+ 
+ var item = [];
+
+  demo.map(function(value){
+      
+      if(value.qnt==null){
+        value.qnt = 1;
+      }
+      item.push(value)
+ }) 
+ console.log(item);
+
+  if(item.length ==0){
+
+     var div = document.createElement("vid");
+     var imag =  document.createElement("img");
+    imag.setAttribute("src","https://rukminim1.flixcart.com/www/800/800/promos/16/05/2019/d438a32e-765a-4d8b-b4a6-520b560971e8.png?q=90");
+    var titile = document.createElement("h3");
+    imag.style.height = "300px"
+    imag.style.marginTop = '-100px'
+    imag.style.direction
+    titile.innerText = "There Are no Items";
+    div.append(imag,titile)
+    var patent = document.getElementById("parent").style.visibility = 'hidden';
+    div.append(imag,titile);
+  
+    var dd = document.querySelector("body")
+    dd.style.textAlign = "center"
+    dd.append(div)
+    
+    
+
+  }else{
+
+     
+
+
+  var pz =0;
+ item.map(function(value,index){
+   display(value,index);
+
+ })
+  
+
+ for(var i =0; item.length>i; i++){
+     pz += Number(item[i].price*item[i].qnt);
+ }
+ document.getElementById("itemPrice").innerText = "Total Price ₹ "+pz+" /-";
+
+  if(pz==0){
+    document.getElementById("itemPrice").innerText = "There are no item";
+  }
+ 
+function display(value,index){
+
+  var parentDiv = document.createElement("div");
+  parentDiv.setAttribute("id","iteamParent");
+
+  var imgDiv = document.createElement("div");
+
+  var image = document.createElement("img");
+
+  imgDiv.append(image);
+  var itemDiv = document.createElement("div");
+
+  var titile = document.createElement("h3");
+  var price = document.createElement("h2");
+
+
+
+  // quanty Part
+  var divQut = document.createElement("div");
+  divQut.setAttribute("id","quantyDiv")
+  var quantyPlus = document.createElement("button");
+  quantyPlus.innerText = "+";
+  quantyPlus.setAttribute("id","quntyButon");
+  var quautyNumber = document.createElement("h4");
+  quautyNumber.innerText = value.qnt;
+  quautyNumber.setAttribute("id","quntyNumber")
+  var quantySub = document.createElement("button");
+  quantySub.innerText = "-";
+  quantySub.setAttribute("id","quntyButon");
+
+  divQut.append(quantyPlus,quautyNumber,quantySub);
+
+  quantyPlus.addEventListener("click",function(){
+        pluse(index,value.qnt);
+  })
+
+  quantySub.addEventListener("click",function(){
+        sub(index,value.qnt);
+  })
+  
+  
+  
+  
+
+
+
+
+  var remove = document.createElement("button");
+   remove.innerText = "Remove";
+   remove.style.padding = '15px'
+   remove.addEventListener("click",function(){
+    removev(index);
+   });
+
+   itemDiv.append(titile,price, divQut,document.createElement("br"),remove);
+   itemDiv.style.alignContent = "center"
+
+   image.setAttribute("src",value.image_url);
+
+   titile.innerText = value.name;
+   price.innerText = "Price ₹ "+value.price* Number(value.qnt);
+   parentDiv.append(imgDiv,itemDiv);
+  
+      
+   document.getElementById("itemPart").append(parentDiv)
+  
+
+}
+
+function removev(index){
+    var it = JSON.parse(localStorage.getItem("userItem")) || [];
+    console.log(it)
+    it.splice(index,1);
+    console.log(it);
+    localStorage.setItem("userItem",JSON.stringify(it));
+
+  
+    location.reload();
+   
+
+}
+
+function placeorder(){
+    if(pz==0){
+        alert("There are no item")
+    }else{
+
+
+        alert("Enter Your Card Details")
+
+    window.location.replace("payment.html");
+
+    }
+  
+
+}
+
+function onpromo(){
+    var v = document.getElementById("promoCode").value;
+    if(v =="masai30" && pz!=0){
+        var b = (pz*30)/100;
+        pz -=b;
+        document.getElementById("itemPrice").innerText = "Total Price ₹ "+pz+" /-";
+    }else{
+        alert("invailid code")
+    }
+
+   
+}
+
+
+
+function pluse(index,num){
+  
+  num++;
+  
+
+  var it = item;
+  it[index].qnt =num;
+  console.log(it)
+  localStorage.setItem("userItem",JSON.stringify(it));
+  location.reload();
+
+}
+
+function sub(index,num){
+  if(num==1){
+    alert("There is Only 1 Quantiy")
+  }else{
+    num--;
+  
+
+  var it = item;
+  it[index].qnt =num;
+  console.log(it)
+  localStorage.setItem("userItem",JSON.stringify(it));
+  location.reload();
+  }
+  
+
+}
+
+  }
+
+ 
+
+</script>

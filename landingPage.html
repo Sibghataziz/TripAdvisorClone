@@ -1,0 +1,707 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    
+     <!-- Link Swiper's CSS -->
+     <link
+     rel="stylesheet"
+     href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+   />
+     <!-- font awesome cdn link  -->
+     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+     <link rel="stylesheet" href="landing.css"> -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+     <script src="https://kit.fontawesome.com/4a73ef5ad9.js" crossorigin="anonymous"></script>
+
+
+     <!-- CSS only boostrap -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" >
+<link rel="stylesheet" href="scroll/css/owl.carousel.css">
+<link rel="stylesheet" href="scroll/css/owl.carousel.css">
+<script src="scroll/jquery.min.js"></script>
+<script src="scroll/owl.carousel.min.js"></script>
+
+   <style>
+
+    /* Sanjay Part */
+
+    /* * {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+} */
+
+/* body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    width: 100%;
+    height: 100vh;
+
+} */
+    
+#logo {
+    height: 40px;
+    margin-top: 30px;
+    /* padding: 0 100px; */
+    /* width: 50%; */
+    position: absolute;
+}
+
+.button button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+
+.button i{
+    margin-left: 50px;
+}
+nav {
+    height: 80px;
+    width: 100%;
+    overflow: auto;
+}
+
+nav ul {
+    float: right;
+    margin-right: 100px;
+    margin-top: 30px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    font-weight: 600;
+}
+
+#btn {
+    border: none;
+    padding: 10px 15px;
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    font-weight: bold;
+
+}
+
+.navigation {
+    width: 83%;
+    margin: auto;
+}
+
+/* body {
+    width: 83%;
+    margin: auto;
+} */
+
+.button {
+    width: 83%;
+    margin: auto;
+    padding-top: 30px;
+    
+   
+
+}
+
+.button button {
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    border-width: 1px;
+    padding: 14px 20px;
+    margin-right: 20px;
+    font-weight: bold;
+    font-size: medium;
+}
+
+.imagesearch{
+    background-image: url("https://static.tacdn.com/img2/brand/home/homemar2022_dt_trans.webp");
+
+    height: 348px;
+    width: 83%;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    margin-bottom: 70px;
+    
+}
+
+
+
+
+.input {
+    height: 50px;
+    border: none;
+    width: 70%;
+    margin: auto;
+    background: url(scroll/search.svg)no-repeat left;
+    background-color: white;
+    background-size: 20px;
+    border-radius: 50px;
+    padding: 30px;
+    padding-left: 55px;
+    background-position: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: larger;
+
+}
+
+#icon {
+    position: absolute;
+    margin: auto;
+    padding: 10px;
+    min-width: 40px;
+
+}
+
+
+
+/* its Me */
+
+
+
+.carousel-wrapper {
+  width: 1000px;
+  margin: auto;
+  position: relative;
+  text-align: center;
+  font-family: sans-serif;
+}
+.owl-carousel .owl-nav {
+  overflow: hidden;
+  height: 0px;
+}
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+  background: #5110e9;
+}
+
+.owl-carousel .item {
+  text-align: center;
+}
+.owl-carousel .nav-button {
+  height: 50px;
+  width: 25px;
+  cursor: pointer;
+  position: absolute;
+  top: 110px !important;
+}
+.owl-carousel .owl-prev.disabled,
+.owl-carousel .owl-next.disabled {
+  pointer-events: none;
+  opacity: 0.25;
+}
+.owl-carousel .owl-prev {
+  left: -35px;
+}
+.owl-carousel .owl-next {
+  right: -35px;
+}
+.owl-theme .owl-nav [class*=owl-] {
+  color: #ffffff;
+  font-size: 39px;
+  background: #000000;
+  border-radius: 3px;
+}
+.owl-carousel .prev-carousel:hover {
+  background-position: 0px -53px;
+}
+.owl-carousel .next-carousel:hover {
+  background-position: -24px -53px;
+}
+
+
+
+
+
+    
+
+ @font-face {
+    font-family: TripSans;
+    src: url(TripSans-Regular.ttf);
+}
+body{
+    font-family: TripSans;
+    margin: 0;
+}
+#RecentViewed{
+    background-color: blue;
+    margin: auto;
+    
+}
+
+.owl-carousel {
+    position: relative;
+    
+}
+.owl-next, .owl-prev {
+    position: absolute;
+    top: 50%;
+    
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+}
+.owl-next {
+    right: 0;
+    display: flex;
+    
+}
+.owl-prev{
+    left: 0;
+    display: flex;
+}
+
+
+
+
+ .owl-carousel .nav-btn{
+    position: sticky;
+  }
+
+ #childRecentSearch >div{
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid #e0e0e0;
+  width: fit-content;
+  height: 25px;
+  align-items: center;
+  border-radius: 8px;
+  padding: 25px;
+  padding-top: 20px;
+  cursor: pointer;
+
+  
+ }
+ #recentSerch {
+    margin: auto;
+    width: 85%;
+
+ }
+
+#childRecentSearch >div:hover{
+    background-color: #8d8b8b;
+    color: #e0e0e0;
+}
+
+ #childRecentSearch{
+    display: flex;
+    gap: 10px;
+ }
+ #childRecentSearch >div i{
+    margin-right: 15px;
+    font-size: larger;
+    color: black;
+ }
+ #childRecentSearch >div p{
+   
+    font-size: smaller;
+    color: #2e2e2e;
+    font-weight: 500;
+    margin-top: -10px;
+    
+ }
+ #childRecentSearch >div div:last-child{
+    margin-top: -10px;
+    margin-bottom: -10px;
+ }
+ #childRecentSearch >div h3{
+    font-size: 15px;
+    color: black;
+    
+ }
+
+
+#parentIteam{
+    margin: auto;
+    width: 85%;
+    margin-top: 83px;
+ }
+
+ 
+
+ #parentIteam >div>div a{
+    margin-top: 50px;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: large;
+    color: #000000;
+    
+ }
+ #parentIteam >div>div img{
+    margin-bottom: 10px;
+    width: 100%;
+    height: 270px;
+ }
+
+ #parentIteam >div>div label {
+    color: green;
+    font-weight: bolder;
+    
+ }
+ #parentIteam >div>div span{
+     font-size: small;
+     color: #636262;
+     margin-left: 5px;
+ }
+ #parentIteam >div>div  p {
+    margin-top: 2px;
+    color: #636262;
+    font-size: medium;
+ }
+ #parentIteam >div>div h4{
+    margin-top: 3px;
+ }
+ #parentBotomIteam{
+    margin: auto;
+    margin-top: 70px;
+    width: 85%;
+    
+    position: relative;
+
+ }
+ #parentBotomIteam img{
+    width: 100%;
+    height: 270px;
+    
+ }
+ #parentBotomIteam h1{
+    position: absolute;
+    bottom: 8px;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    left: 10px;
+    margin-bottom: 3px;
+
+ }
+
+ #parentIteam >div i, #parentBotomIteam i{
+    font-size: xx-large;
+ }
+
+#botomImage img{
+    margin-top: 70px;
+    height: 450px;
+    background-image: url(scroll/imagbar.PNG);
+    width: 100%;
+}
+
+
+   </style>
+
+
+
+</head>
+<body>
+
+      <!-- Snajay part -->
+      <div class="navigation">
+        <div class="logo">
+            <img id="logo" src="https://static.tacdn.com/img2/brand_refresh/Tripadvisor_lockup_horizontal_secondary_registered.svg" alt="logo">
+        </div>
+        <nav class="nav">
+            
+            <div class="list">
+                <ul>
+                    <li><a href="#"> <i class="fas fa-edit"></i> Review</a></li>
+                    <li><a href="#"> <i class="fa-regular fa-heart"></i> Trips</a></li>
+                    <li><a href="#"> <i class="fa-regular fa-bell"></i> Alerts</a></li>
+                    <button id="btn">Sign in</button>
+                </ul>
+            </div>
+    
+        </nav>
+    </div>
+
+    <div class="button">
+        <button>Hotels <i class="fa fa-bed"></i> </button>
+        <button>Holiday Homes <i class="fa fa-house"></i> </button>
+        <button>Restaurants <i class="fa-solid fa-utensils"></i> </button>
+        <button>Travel Forums <i class="fa fa-plane"></i> </button>
+                            
+    </div>
+
+    <div class="imagesearch">
+        <!-- <i id="icon" class="fas fa-search" ></i> -->
+        <input  type="text" class="input" placeholder="Where to?" id="">
+        
+    </div>
+
+
+
+
+
+
+  <!-- Shakti part -->
+
+   
+    <div id="recentSerch">
+        <h2>Your recent searches</h2>
+    <div id="childRecentSearch">
+       <div>
+        <div><i class="fa-solid fa-location-dot"></i></div>
+        <div>
+            <h3>Mumbai</h3>
+            <p>Maharatra</p>
+        </div>
+       </div>
+        
+       <div>
+        <div><i class="fa-solid fa-magnifying-glass"></i></div>
+        <div>
+            <h3>Restaurants in Mumbai </h3>
+        </div>
+       </div>
+
+       <div>
+        <div><i class="fa-solid fa-magnifying-glass"></i></i></div>
+        <div>
+            <h3>Thinks to do in Mumbai </h3>
+        </div>
+       </div>
+
+       <div>
+        <div><i class="fa-solid fa-magnifying-glass"></i></i></div>
+        <div>
+            <h3>Hotels in Mumbai </h3>
+        </div>
+       </div>
+
+       <div>
+        <div><i class="fa-solid fa-location-dot"></i></div>
+        <div>
+            <h3>Chainnai (Madras)</h3>
+            <p>Chainnai Distric</p>
+        </div>
+       </div>
+        
+    </div>
+    </div>
+   
+
+
+ <!-- <div id="RecentViewed">
+        <h2>Recently viewed</h2>
+        <div>
+            <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/4c/ca/d8/20190916-154549-largejpg.jpg?w=300&h=300&s=1" alt="imge">
+        </div>
+         
+         <a href="">Manuhaar- The Taste of Tradition</a><br>
+         <label>★★★★★  </label><span>   370</span>
+         <p>₹₹ - ₹₹₹ • Indian, Asian, Vegetarian Friendly</p>
+    </div> -->
+
+    <div id="parentIteam">
+       <h2>Recently viewed</h2>
+       <div class="owl-carousel owl-theme" >
+        <div >
+            <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/4c/ca/d8/20190916-154549-largejpg.jpg?w=300&h=300&s=1" alt="imge">
+            <a href="">Manuhaar- The Taste of Tradition</a><br>
+            <label>★★★★★</label><span>   370</span>
+            <p>₹₹ - ₹₹₹ • Indian, Asian, Vegetarian Friendly</p>
+        </div>
+        <div >
+            <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/db/56/5f/yumm.jpg?w=300&h=-1&s=1" alt="imge">
+            <a href="">Sangeetha Veg Restaurant</a><br>
+            <label>★★★★☆</label><span>   380</span>
+            <p>₹₹ - ₹₹₹ • Indian, Asian, Vegetarian Friendly</p>
+        </div>
+        <div >
+            <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/a1/4f/bb/kung-pao-chicken.jpg?w=300&h=300&s=1" alt="imge">
+            <a href="">EAST-EAST ASIAN SPICE TRAIL</a><br>
+            <label>★★★★★</label><span>   483</span>
+            <p>₹₹ - ₹₹₹ • Chiness,japanese,Aisan </p>
+        </div>
+        <div >
+            <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/94/21/1a/img-20191223-wa0076-largejpg.jpg?w=500&h=500&s=1" alt="imge">
+            <a href="">Shakey Wankey</a><br>
+            <label>★★★★★</label><span>   87</span>
+            <p>₹₹ - ₹₹₹ • Dessert,Cafe,Fast food</p>
+        </div>
+        <div >
+            <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/40/8a/cb/img-20190913-200636-01.jpg?w=500&h=500&s=1" alt="imge">
+            <a href="">Mostly Grills</a><br>
+            <label>★★★★★</label><span>   650</span>
+            <p>₹₹ - ₹₹₹ • Indian, Asian, Vegetarian Friendly</p>
+        </div>
+        
+       </div >
+
+
+    </div>
+
+
+
+
+    <div id="parentIteam">
+        <h2>You might like these</h2>
+        <p>More restaurants in Chennai (Madras)</p>
+        <div class="owl-carousel owl-theme" >
+         <div >
+             <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/fa/4f/28/hall.jpg?w=500&h=500&s=1" alt="imge">
+             <a href="">Adyar Anada Bhavan</a><br>
+             <label>★★★★☆</label><span>   370</span>
+             <p>₹₹ - ₹₹₹ • Indian, Asian, Vegetarian Friendly</p>
+         </div>
+         <div >
+             <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-s/03/27/7d/87/up-north.jpg?w=500&h=500&s=1" alt="imge">
+             <a href="">Up Noth</a><br>
+             <label>★★★★☆</label><span>   380</span>
+             <p>₹₹ - ₹₹₹ • Indian, Asian, Vegetarian Friendly</p>
+         </div>
+         <div >
+             <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/e3/19/97/madras-pavilion.jpg?w=500&h=500&s=1" alt="imge">
+             <a href="">Madras Pravilion</a><br>
+             <label>★★★★☆</label><span>   910</span>
+             <p>₹₹ - ₹₹₹ • Chiness,japanese,Aisan </p>
+         </div>
+         <div >
+             <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/05/ee/0d/cf/tuscana-on-chamiers-by.jpg?w=500&h=500&s=1" alt="imge">
+             <a href="">Tuscana Pizzeria</a><br>
+             <label>★★★★</label><span>   182</span>
+             <p>₹₹ - ₹₹₹ • Italian,Pizza,Deli</p>
+         </div>
+         <div >
+             <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/b0/74/e3/murugans-idli-shop.jpg?w=500&h=-1&s=1" alt="imge">
+             <a href="">Murugans Ldli 
+                Shop
+             </a><br>
+             <label>★★★★★</label><span>   380</span>
+             <p>₹₹ - ₹₹₹ • Indian,Fast food, Vegetian Friendly</p>
+         </div>
+         
+        </div >
+ 
+ 
+     </div>
+
+
+
+
+     <div id="parentIteam">
+        <h2>Ways to tour Patna</h2>
+        <p>Book these experiences for a close-up look at Patna.</p>
+        <div class="owl-carousel owl-theme" >
+         <div >
+             <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/60/74/be/caption.jpg?w=300&h=300&s=1" alt="imge">
+             <a href="">Pinddaan at Gaya</a><br>
+             <label>★★★★☆</label><span>   370</span>
+             <h4>from  ₹10,819  per adult</h4>
+         </div>
+         <div >
+             <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/5f/26/24/caption.jpg?w=500&h=500&s=1" alt="imge">
+             <a href="">Buddhist Tour From The Brith To Death</a><br>
+             <label>★★★★★</label><span>   3</span>
+             <h4>from  ₹1,28,094  per adult</h4>
+         </div>
+         <div >
+             <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/40/48/d3/caption.jpg?w=500&h=500&s=1" alt="imge">
+             <a href="">Jain Spiritual Tour</a><br>
+             <label>★★★★☆</label><span>   9</span>
+             <h4>from  ₹48,468  per adult</h4>
+         </div>
+         <div >
+             <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/60/87/ec/caption.jpg?w=500&h=500&s=1" alt="imge">
+             <a href="">Spritiual Tour of Bodhgaya & Varanasi (5 Days)</a><br>
+             <label>★★★★</label><span>   182</span>
+             <h4>from  ₹64,509  per adult</h4>
+         </div>
+         <div >
+             <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f8/2a/bf/caption.jpg?w=500&h=500&s=1" alt="imge">
+             <a href="">Nalanda Rajgir and Bodh Gaya form Patna
+             </a><br>
+             <label>★★★★★</label><span>   1</span>
+             <h4>from  ₹11,684  per adult</h4>
+         </div>
+         
+        </div >
+ 
+ 
+     </div>
+
+
+
+     <div id="parentBotomIteam">
+        <h2>Top destinations for your next holiday</h2>
+        
+        <div class="owl-carousel owl-theme" >
+         <div >
+             <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/23/6a/ff/2a/caption.jpg?w=300&h=300&s=1&cx=7014&cy=3760&chk=v1_14690e40614ca9b48b73" alt="imge">
+             <h1>Dubai, United Arab Emirates</h1>
+         </div>
+        
+      
+        <div >
+            <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/d2/2f/7a/palace-from-the-outside.jpg?w=300&h=300&s=1" alt="imge">
+            <h1>Bengaluru, India</h1>
+        </div>
+       
+      
+        <div >
+            <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/80/d7/80/caption.jpg?w=500&h=500&s=1" alt="imge">
+            <h1>Pune, India</h1>
+        </div>
+       
+    
+     
+        <div >
+            <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/98/f7/df/charminar.jpg?w=500&h=500&s=1" alt="imge">
+            <h1>Hyderabad, India</h1>
+        </div>
+       
+      
+      
+        <div >
+            <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/33/fe/ac/kolkata-calcutta.jpg?w=500&h=500&s=1" alt="imge">
+            <h1>Kolkata (Calcutta), India</h1>
+        </div>
+       
+      
+      <div >
+        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/00/d5/bf/visit-india-tours-sightseeing.jpg?w=500&h=500&s=1" alt="imge">
+        <h1>Gurugram (Gurgaon), India</h1>
+       </div>
+       </div>
+    </div>
+      
+   <div id="botomImage">
+    <img src="scroll/imagbar.PNG" alt="">
+   </div>
+
+    
+    <script>
+        $(document).ready(function(){
+            $('.owl-carousel').owlCarousel({
+    margin:17,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:4
+        }
+    }
+})
+$( ".owl-prev").html('<i class="fa-solid fa-circle-arrow-left"></i>');
+ $( ".owl-next").html('<i class="fa-solid fa-circle-arrow-right"></i>');
+
+        })
+    </script>
+
+</body>
+</html>

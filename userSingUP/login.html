@@ -1,0 +1,122 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+   <style>
+     
+
+      div{
+        margin: 0 auto;
+        margin-top: 40px;
+        width: 30%;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        border-radius: 10px;
+        padding: 40px;
+        justify-content: center;
+       
+      }
+      label{
+        text-align: left;
+        font-weight: bold;
+      }
+      input{
+        padding: 12px;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        width: 100%;
+        box-sizing: border-box;
+      }
+
+      input[type="submit"]{
+        color: white;
+        text-transform: uppercase;
+        border-radius: 30px;
+        background-color: rgb(61, 61, 172);
+        cursor: pointer;
+      }
+
+      h2,p{
+        text-align: center;
+
+      }
+      a{
+        font-weight: bolder;
+        text-decoration: none;
+      }
+
+   </style>
+
+
+
+</head>
+<body>
+
+    <!-- <a href="login.html">log in</a> -->
+
+   
+    
+    <div>
+
+
+       <h2>Singn In</h2>
+       <form>
+       
+        <label for="">Gmail</label><br />
+        <input
+          id="gmail"
+          type="email"
+          placeholder="Enter Email"
+        /><br />
+        <label for="">password</label><br />
+        <input
+          id="passward"
+          type="password"
+          placeholder="Enter password"
+        /><br />
+        <input type="Submit" />
+      </form>
+       
+      <p>Don't have an account? 
+         <a href="index.html">Sign Up</a></p>
+
+    </div>
+
+    
+</body>
+</html>
+
+
+<script>
+
+    document.querySelector("form").addEventListener("submit",doWork);
+   
+ function doWork(){
+        event.preventDefault();
+  
+  
+    var gmail = document.getElementById("gmail").value;
+    var passward = document.getElementById("passward").value;
+   
+   if(gmail == localStorage.getItem("gmail") && passward == localStorage.getItem("passward")){
+       alert("login successful.");
+   }else{
+   
+   
+      alert("Something went wrong! Incorrect email or password")
+      window.location.replace("login.html");
+   }
+    
+   
+       
+   
+   
+    }
+      
+   
+   
+   </script>
