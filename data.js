@@ -4,8 +4,8 @@ data = {
     "Kokata": {
         Hotel:  [
             {
-            name: "The Oberio Grand",
-            image:  { image1: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/4e/9c/01/guest-room.jpg?w=1200&h=-1&s=1",
+            name: "ITC Sonar, Kolkata - a Luxury Collection Hotel",
+            image:  { image1: "https://media-cdn.tripadvisor.com/media/photo-s/1c/e5/6e/36/itc-sonar.jpg",
                       image2: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/91/45/43/the-oberoi-grand.jpg?w=1100&h=-1&s=1",
                       image3: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/b3/25/58/classic-suite--v17337145.jpg?w=1200&h=-1&s=1",
                       image4: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/b3/27/9d/hallways--v17336973.jpg?w=1200&h=-1&s=1",
@@ -29,11 +29,12 @@ data = {
             Kolkata (Calcutta) is also known for some great history museums, including Indian Museum (Jadu Ghar), Swami Vivekananda's Ancestral House, and Kolkata Tram Museum Smaranika, which are not too far from Itc Sonar Hotel Kolkata.
             
             At ITC Sonar, your comfort and satisfaction come first, and they look forward to welcoming you to Kolkata (Calcutta).`,
-            hotel_link : "link"
+            icon_link : "https://static.tacdn.com/img2/branding/hotels/Agoda.png",
+            hotel_link : "https://www.agoda.com/search?cid=1856692&currency=INR&checkin=2022-08-14&checkout=2022-08-15&NumberofAdults=1&NumberofChildren=0&childages=&Rooms=1&mcid=3038&pid=8d041ebe-da27-4822-b2cb-9eba7a0c091e&audid=&audm=&MBL=M&BaseRate=5500.00&TaxandFee=660.00&BasePriceDisplay=L&DisplayCurrency=INR&ccallout=TRUE&source=sp&hl=en&tag=hid2914024,pid8d041ebe-da27-4822-b2cb-9eba7a0c091e&n=11422&selectedproperty=2914024&city=6241&adults=1&children=0&hc=INR&los=1"
         },
         {
-            name: "Hyatt Regency Kolkata",
-            image:  { image1: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/22/1e/16/a4/exterior.jpg?w=1100&h=-1&s=1",
+            name: "The Oberoi Grand",
+            image:  { image1: "https://media-cdn.tripadvisor.com/media/photo-s/1b/4e/9c/01/guest-room.jpg",
                       image2: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/e1/b0/6f/hyatt-regency-kolkata.jpg?w=1200&h=-1&s=1",
                       image3: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/22/1e/16/d7/spa.jpg?w=1100&h=-1&s=1",
                       image4: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/22/1e/16/d6/restaurant.jpg?w=1100&h=-1&s=1",
@@ -57,11 +58,12 @@ data = {
             Kolkata (Calcutta) is also known for some great history museums, including Indian Museum (Jadu Ghar), Swami Vivekananda's Ancestral House, and Kolkata Tram Museum Smaranika, which are not too far from Itc Sonar Hotel Kolkata.
             
             At ITC Sonar, your comfort and satisfaction come first, and they look forward to welcoming you to Kolkata (Calcutta).`,
-            hotel_link : "link"
+            icon_link : "https://static.tacdn.com/img2/branding/hotels/booking%20logo.png",
+            hotel_link : "https://www.tripadvisor.in/Commerce?p=BookingCom&src=43840077&geo=302191&from=HotelDateSearch_Hotels&slot=1&matchID=1&oos=0&cnt=12&silo=6176&bucket=930562&nrank=2&crank=2&clt=D&ttype=DesktopMeta&tm=239628136&managed=false&capped=false&gosox=1-kWCWyqjZ_dCW4Fn2yYaBCjGGLe6FalZo1ZlGJDMhYKsmdXClu7xLW8rAxclkOXcFSSHG6iVTgEBjIlEq26-kULXOaT5gewqpOK-5c1xhEnkfd-G56yvPtE3LSjGonP5U8daK1RbavJNnBFkje-9GpgaZrC2hO1dK7HP4dam8v9qE9sebhl_ur5R7rL_6V0i9FimYUixfthFwUfy-KrdgG01X8yZ5LunHE0E-Gbmio_gftQVMkK3-WiR4TtflVS&priceShown=8400&pm=AIWE&hac=AVAILABLE&mbl=LOSE&mbldelta=473&rate=7500.00&fees=900.00&cur=INR&adults=1&child_rm_ages=&inDay=14&outDay=15&rdex=RDEX_78f15e1fa5651a849c28f52347010005&rooms=1&inMonth=8&inYear=2022&outMonth=8&outYear=2022&auid=6f29892d-ea07-491d-89d3-c76c7bc2179b&def_d=true&bld=L_1,D_9,G_1,W_7,U_1,C_220814,T_21&bh=true&cs=1603ff9fcdba7a2b5fb6d92e08e6850dc&area=QC_Meta|Chevron|Available|Main|Desktop&tp=Hotels_MainList&ik=93b45456147b45e29c3771b0a80bbd08&aok=7574a5d81ba24d4b8665499ee98955f2&pageLocId=304558"
         },
         {
-            name: "Fairfield by Marriott Kolkata",
-            image:  { image1: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/24/9c/50/47/vertex-the-liquid-restaurant.jpg?w=1200&h=-1&s=1",
+            name: "Hyatt Regency Kolkata",
+            image:  { image1: "https://media-cdn.tripadvisor.com/media/photo-s/22/1e/16/a4/exterior.jpg",
                       image2: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/36/a9/15/our-executive-rooms-boast.jpg?w=1200&h=-1&s=1",
                       image3: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/24/9c/50/eb/kava.jpg?w=1200&h=-1&s=1",
                       image4: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/24/9c/50/dd/vertex-the-liquid-restaurant.jpg?w=1200&h=-1&s=1",
@@ -85,11 +87,12 @@ data = {
             Kolkata (Calcutta) is also known for some great history museums, including Indian Museum (Jadu Ghar), Swami Vivekananda's Ancestral House, and Kolkata Tram Museum Smaranika, which are not too far from Itc Sonar Hotel Kolkata.
             
             At ITC Sonar, your comfort and satisfaction come first, and they look forward to welcoming you to Kolkata (Calcutta).`,
-            hotel_link : "link"
+            icon_link : "https://static.tacdn.com/img2/branding/hotels/Agoda.png",
+            hotel_link : "https://www.tripadvisor.in/Commerce?p=Agoda&src=35834045&geo=307348&from=HotelDateSearch_Hotels&slot=1&matchID=1&oos=0&cnt=10&silo=6386&bucket=903226&nrank=1&crank=1&clt=D&ttype=DesktopMeta&tm=239628136&audience=16790&managed=false&capped=false&gosox=WWhsMMoyGOzS2CvXpjbfWILqk2j0KW6jkzjZNGApP-aoFBe_dnvsD2wk5OYZYplMttKWOjBKzdOXixXPyPVDGydbMrG8uDuTR9JA39AXRt7LoBriLnNOjVH-7tqJCchif2lRnoyJwmmRECjmMpwMr9gmiGgyrGEh-XPZojxI2qq_HtRouGQufiovNH6jXfRmIA5QqEzEXdeVXmRZ6r7wlisZRptcFrPXtgGPPfQ6TNo7XblLlj2t9o1CK_h5t6q7AL2Z-Zjd4S7DYceml0NQhg&priceShown=6000&pm=AIWE&hac=AVAILABLE&mbl=BEAT&mbldelta=0&rate=6000.00&fees=720.00&cur=INR&adults=1&child_rm_ages=&inDay=14&outDay=15&rdex=RDEX_23476aa1118926442854b746555cb2c1&rooms=1&inMonth=8&inYear=2022&outMonth=8&outYear=2022&auid=dd8cf4db-62f3-4ff3-89a5-80804da98e24&def_d=true&bld=L_1,D_9,G_1,W_7,U_1,C_220814,T_21&bh=true&cs=10db93edfbbae25414c373d3308e33ea0&area=QC_Meta|Chevron|Available|Main|Desktop&tp=Hotels_MainList&ik=93b45456147b45e29c3771b0a80bbd08&aok=d09cee56f154425f9f16bb1752e474c9&pageLocId=304558"
         },
         {
-            name: "ITC Sonar, Kolkata - a Luxury Collection Hotel",
-            image:  { image1: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/e5/6e/36/itc-sonar.jpg?w=1200&h=-1&s=1",
+            name: "Ibis Kolkata Rajarhat",
+            image:  { image1: "https://media-cdn.tripadvisor.com/media/photo-s/1c/cf/7e/69/exterior-view.jpg",
                       image2: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/e5/6e/6c/pala.jpg?w=1200&h=-1&s=1",
                       image3: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/e5/6e/57/dumpukht.jpg?w=1200&h=-1&s=1",
                       image4: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/e5/6e/4f/tea-pavilion.jpg?w=1200&h=-1&s=1",
@@ -113,11 +116,12 @@ data = {
             Kolkata (Calcutta) is also known for some great history museums, including Indian Museum (Jadu Ghar), Swami Vivekananda's Ancestral House, and Kolkata Tram Museum Smaranika, which are not too far from Itc Sonar Hotel Kolkata.
             
             At ITC Sonar, your comfort and satisfaction come first, and they look forward to welcoming you to Kolkata (Calcutta).`,
-            hotel_link : "link"
+            icon_link : "lhttps://static.tacdn.com/img2/branding/hotels/booking%20logo.png",
+            hotel_link : "https://www.tripadvisor.in/Commerce?p=BookingCom&src=139868711&geo=15116824&from=HotelDateSearch_Hotels&slot=1&matchID=1&oos=0&cnt=7&silo=6176&bucket=930562&nrank=1&crank=1&clt=D&ttype=DesktopMeta&tm=239628136&managed=false&capped=false&gosox=WfVh4k9bPKJXDjYyFYHqTbh4zpKWqe_HfQ2zQJEAO8wnQg5AE-oOU3DnQt45P8qAkOlLMHA8z0DZUrwZqL5JSgyw5xYodmInRNrflrDoW9cfWOIjnPNvZ1kiGao42il2c1xYLcRP1l_MZ3QZMe2ka11pCcK_UGNK0Ktj-q1wp8bdI-KXhsZBc2XgeK7i3VF2dVDT386N1IAcOBLgsho7uJ-pPKntu-9Un-pfAqg8ZejKTYxBeQM31Rt3zEwqMFK8&priceShown=3902&pm=AIWE&hac=AVAILABLE&mbl=LOSE&mbldelta=979&rate=3484.00&fees=418.08&cur=INR&adults=1&child_rm_ages=&inDay=14&outDay=15&rdex=RDEX_2333c1de2a0529714ffd2a8933da5c5&rooms=1&inMonth=8&inYear=2022&outMonth=8&outYear=2022&auid=6a056998-98d1-4aec-9da6-aa92ad12ff85&def_d=true&bld=L_1,D_9,G_1,W_7,U_1,C_220814,T_21&bh=true&cs=19f8ea47044aa163488586350c3b8971a&area=QC_Meta|Chevron|Available|Main|Desktop&tp=Hotels_MainList&ik=93b45456147b45e29c3771b0a80bbd08&aok=371e4e4d8f4a4ecd9015fc99e62163ee&pageLocId=304558"
         },
         {
-            name: "Holiday Inn Express Kolkata",
-            image:  { image1: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/24/9c/7e/4a/hotel-facade.jpg?w=1200&h=-1&s=1",
+            name: "Fairfield by Marriott Kolkata",
+            image:  { image1: "https://media-cdn.tripadvisor.com/media/photo-s/24/9c/50/47/vertex-the-liquid-restaurant.jpg",
                       image2: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/eb/f6/ae/holiday-inn-express-kolkata.jpg?w=1200&h=-1&s=1",
                       image3: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/24/11/ae/ea/holiday-inn-express-kolkata.jpg?w=1200&h=-1&s=1",
                       image4: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/24/9c/7e/ca/alfresco.jpg?w=1200&h=-1&s=1",
@@ -141,11 +145,12 @@ data = {
             Kolkata (Calcutta) is also known for some great history museums, including Indian Museum (Jadu Ghar), Swami Vivekananda's Ancestral House, and Kolkata Tram Museum Smaranika, which are not too far from Itc Sonar Hotel Kolkata.
             
             At ITC Sonar, your comfort and satisfaction come first, and they look forward to welcoming you to Kolkata (Calcutta).`,
-            hotel_link : "link"
+            icon_link : "https://static.tacdn.com/img2/branding/hotels/Agoda.png",
+            hotel_link : "https://www.tripadvisor.in/Commerce?p=Agoda&src=173360749&geo=19268191&from=HotelDateSearch_Hotels&slot=1&matchID=1&oos=0&cnt=10&silo=6386&bucket=903226&nrank=2&crank=1&clt=D&ttype=DesktopMeta&tm=239628136&audience=16790&managed=false&capped=false&gosox=-VFjMmrwQ019ysIqtVIDAlhuWmz7upeYX34UMXbS2CGoFBe_dnvsD2wk5OYZYplMttKWOjBKzdOXixXPyPVDGydbMrG8uDuTR9JA39AXRt7LoBriLnNOjVH-7tqJCchilJ8AX1MGTZIX1Ozz6G3Mg_r9s_BhdqDs4kcyCUTq9Ijg0nlhuOVQaRER04Wh__daOqL_b-Wr_gfpOmXb4ZUgskwvP0i-zYExWSgMXlZxN7Kj6lz6TOmWuADaiqIBwcskf1Q3fmykzLeZxI3DYzV0IA&priceShown=5040&pm=AIWE&hac=AVAILABLE&mbl=MEET&mbldelta=0&rate=4500.00&fees=540.00&cur=INR&adults=1&child_rm_ages=&inDay=14&outDay=15&rdex=RDEX_2f8cd469838ca556c6b369adee17cfef&rooms=1&inMonth=8&inYear=2022&outMonth=8&outYear=2022&auid=7f3db77d-f590-4167-9c26-40aa6f5ea14d&def_d=true&bld=L_1,D_9,G_1,W_7,U_1,C_220814,T_21&bh=true&cs=14aa8fdb4adb99750e022729679540fc3&area=QC_Meta|Chevron|Available|Main|Desktop&tp=Hotels_MainList&ik=93b45456147b45e29c3771b0a80bbd08&aok=bd18602913414590a22374c611257496&pageLocId=304558"
         },
         {
-            name: "ITC Royal Bengal",
-            image:  { image1: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/a2/4e/0e/hotel-facade.jpg?w=900&h=-1&s=1",
+            name: "The Lalit Great Eastern Kolkata",
+            image:  { image1: "https://media-cdn.tripadvisor.com/media/photo-s/1c/d2/51/7c/exterior-at-the-lalit.jpg",
                       image2: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/a2/4c/42/hotel-reception.jpg?w=1000&h=-1&s=1",
                       image3: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/a2/4d/95/serviced-apartment.jpg?w=1000&h=-1&s=1",
                       image4: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/a2/4d/23/serviced-apartment-bathroom.jpg?w=1000&h=-1&s=1",
@@ -169,7 +174,8 @@ data = {
             Kolkata (Calcutta) is also known for some great history museums, including Indian Museum (Jadu Ghar), Swami Vivekananda's Ancestral House, and Kolkata Tram Museum Smaranika, which are not too far from Itc Sonar Hotel Kolkata.
             
             At ITC Sonar, your comfort and satisfaction come first, and they look forward to welcoming you to Kolkata (Calcutta).`,
-            hotel_link : "link"
+            icon_link : "https://static.tacdn.com/img2/branding/hotels/Agoda.png",
+            hotel_link : "https://www.tripadvisor.in/Commerce?p=Agoda&src=55549374&geo=1155602&from=HotelDateSearch_Hotels&slot=1&matchID=1&oos=0&cnt=10&silo=6386&bucket=903226&nrank=1&crank=1&clt=D&ttype=DesktopMeta&tm=239628136&audience=16790&managed=false&capped=false&gosox=cE9x3gEbz3ZUeWfGjhQqMz-3UthOlYdtrVr6c_F_rlqoFBe_dnvsD2wk5OYZYplMttKWOjBKzdOXixXPyPVDGydbMrG8uDuTR9JA39AXRt7LoBriLnNOjVH-7tqJCchiiNFhumZ1r5suosCpnNO44prKG6QUckubxWjCeYfNyY9WtlyNQ6IHq1hIA3uNcJzUThN-nK-WwWpL_yCbvpL690wvP0i-zYExWSgMXlZxN7Kj6lz6TOmWuADaiqIBwcskf1Q3fmykzLeZxI3DYzV0IA&priceShown=5346&pm=AIWE&hac=AVAILABLE&mbl=BEAT&mbldelta=0&rate=4773.59&fees=572.83&cur=INR&adults=1&child_rm_ages=&inDay=14&outDay=15&rdex=RDEX_152dd203cb60d298197bca150b19c05b&rooms=1&inMonth=8&inYear=2022&outMonth=8&outYear=2022&auid=7d5dc5ba-d535-41f8-ae6b-a37a92ee50ae&def_d=true&bld=L_1,D_9,G_1,W_7,U_1,C_220814,T_21&bh=true&cs=1ba98a335ba043f8d374f4a9375ea562d&area=QC_Meta|Chevron|Available|Main|Desktop&tp=Hotels_MainList&ik=93b45456147b45e29c3771b0a80bbd08&aok=df6d6f0bbe634cd5b884dc7f9b4fe0be&pageLocId=304558"
         }
     ],
         
