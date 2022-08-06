@@ -1,13 +1,18 @@
+const asciValue = {
+    kolkata: 743,
+    mumbai:	635,
+    chennai: 726,
+    delhi: 518,
+}
+
 addHeading()
-
-
 
 function addHeading(){
     const hotel = localStorage.getItem("hotel")
     // console.log(hotel)
     let data = JSON.parse(localStorage.getItem("data"))
     data = data[hotel.toLocaleLowerCase()]["Hotel"]
-    console.log(data)
+    // console.log(data)
 
     //form Heading
     document.querySelector("#heading>h1").innerText = `${hotel} Hotels and Places to Stay`
@@ -50,18 +55,18 @@ function addHeading(){
 
         //deatils div - div1
         const icon = document.createElement("img")
-        icon.setAttribute("src","https://static.tacdn.com/img2/branding/hotels/6290_TripAdvisor_Redux2_HI.png") //element.icon
+        icon.setAttribute("src",element.icon_link) 
 
         const details_h2 = document.createElement("h2")
-        // const fare = calculateFare(hotel,element)
-        details_h2.innerText = "Rs.4326" // fare
+        const fare = calculateFare(hotel,element.name)
+        details_h2.innerText = `Rs.${fare}` 
 
         const btn = document.createElement("button")
         btn.innerText = "View Deal"
         btn.setAttribute("class","ViewDealBtn")
 
         const link = document.createElement("a")
-        link.setAttribute("href","https://www.booking.com/searchresults.en-gb.html?group_adults=1&utm_content=los-01_bw-010_dom-in_defdate-0_spo-0_clksrc-0&checkout=2022-08-15&utm_term=hotel-1952023&redirected=1&sid=0f7c63214e008d9fee4baaba8af9d58b&show_room=195202310_328517142_1_42_0&checkin=2022-08-14&utm_source=metatripad&hlrd=with_dates&room1=A%2C&utm_medium=dmeta&group_children=0&keep_landing=1&utm_campaign=in&no_rooms=1&highlighted_hotels=1952023&aid=7344211&city=-2092511&label=metatripad-link-dmetain-hotel-1952023_xqdz-d862ae2c2ec82354163c3d9743c35d07_los-01_bw-010_tod-19_dom-in_curr-INR_gst-01_nrm-01_clkid-d462c79d-fa61-4f03-a84a-4e67c7c678c8_aud-0000_mbl-M_pd-_sc-2_defdate-0_spo-0_clksrc-0_mcid-10&source=hotel")//element.hotel_link
+        link.setAttribute("href",element.hotel_link)//element.hotel_link
         link.append(btn)
 
         const p1 = document.createElement("p")
@@ -77,22 +82,31 @@ function addHeading(){
         const p31 = document.createElement("p")
         p31.innerText = "Agoda.com"
 
+        const h41 = document.createElement("h4")
+        h41.innerText= `Rs.${fare}`
+
         const p32 = document.createElement("p")
         p32.innerText = "Hotels.com"
 
+        const h42 = document.createElement("h4")
+        h42.innerText= `Rs.${fare}`
+
         const p33 = document.createElement("p")
         p33.innerText = "Trip.com"
+
+        const h43 = document.createElement("h4")
+        h43.innerText= `Rs.${fare}`
 
         const hr = document.createElement("hr")
 
         const all4 = document.createElement("h4")
         all4.innerText = "View all 14 deals from"
 
-        const h4 = document.createElement("h4")
-        h4.innerText= "Rs.4323"
+        const h44 = document.createElement("h4")
+        h44.innerText= `Rs.${fare}`
 
         const d2 = document.createElement("div")
-        d2.append(p31,h4,p32,h4,p33,h4,hr,all4,h4)
+        d2.append(p31,h41,p32,h42,p33,h43,hr,all4,h44)
 
         //deatils div - div3
         const p_span1 = document.createElement("span")
@@ -148,4 +162,20 @@ function addHeading(){
 
         hotelList.append(div)
     });
+}
+
+
+function calculateFare(hotel,name){
+    const val = calculateAsciiValue(name)+asciValue[hotel.toLocaleLowerCase()]*2
+    return val
+}
+
+function calculateAsciiValue(str){
+    let count = 0
+    // console.log(str)
+    for(let i=0;i<str.length;i++){
+        count+=str.charCodeAt(i)
+    }
+    // console.log(count)
+    return count*2
 }
