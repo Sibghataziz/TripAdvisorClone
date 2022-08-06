@@ -1,14 +1,12 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Log In</title>
 
-   <style>
-     
-
-      div{
+    <style>
+      div {
         margin: 0 auto;
         margin-top: 40px;
         width: 30%;
@@ -16,13 +14,12 @@
         border-radius: 10px;
         padding: 40px;
         justify-content: center;
-       
       }
-      label{
+      label {
         text-align: left;
         font-weight: bold;
       }
-      input{
+      input {
         padding: 12px;
         margin-top: 6px;
         margin-bottom: 16px;
@@ -32,7 +29,7 @@
         box-sizing: border-box;
       }
 
-      input[type="submit"]{
+      input[type="submit"] {
         color: white;
         text-transform: uppercase;
         border-radius: 30px;
@@ -40,38 +37,24 @@
         cursor: pointer;
       }
 
-      h2,p{
+      h2,
+      p {
         text-align: center;
-
       }
-      a{
+      a {
         font-weight: bolder;
         text-decoration: none;
       }
-
-   </style>
-
-
-
-</head>
-<body>
-
+    </style>
+  </head>
+  <body>
     <!-- <a href="login.html">log in</a> -->
 
-   
-    
     <div>
-
-
-       <h2>Singn In</h2>
-       <form>
-       
-        <label for="">Gmail</label><br />
-        <input
-          id="gmail"
-          type="email"
-          placeholder="Enter Email"
-        /><br />
+      <h2>Sign In</h2>
+      <form>
+        <label for="">Email</label><br />
+        <input id="gmail" type="email" placeholder="Enter Email" /><br />
         <label for="">password</label><br />
         <input
           id="passward"
@@ -80,43 +63,30 @@
         /><br />
         <input type="Submit" />
       </form>
-       
-      <p>Don't have an account? 
-         <a href="index.html">Sign Up</a></p>
 
+      <p>Don't have an account? <a href="SignUp.html">Sign Up</a></p>
     </div>
-
-    
-</body>
+  </body>
 </html>
 
-
 <script>
+  document.querySelector("form").addEventListener("submit", doWork);
 
-    document.querySelector("form").addEventListener("submit",doWork);
-   
- function doWork(){
-        event.preventDefault();
-  
-  
+  function doWork() {
+    event.preventDefault();
+
     var gmail = document.getElementById("gmail").value;
-    var passward = document.getElementById("passward").value;
-   
-   if(gmail == localStorage.getItem("gmail") && passward == localStorage.getItem("passward")){
-       alert("login successful.");
-   }else{
-   
-   
-      alert("Something went wrong! Incorrect email or password")
-      window.location.replace("login.html");
-   }
-    
-   
-       
-   
-   
+    var password = document.getElementById("passward").value;
+
+    const tripUserList = JSON.parse(localStorage.getItem("tripUserList")) || [];
+    const present = tripUserList.filter((element) => {
+      return element.gmail === gmail && element.password === password;
+    });
+    if (present.length > 0) {
+      localStorage.setItem("tripUser", JSON.stringify(present[0]));
+      location = "index.html";
+    } else {
+      alert("Invalid Credentials");
     }
-      
-   
-   
-   </script>
+  }
+</script>
