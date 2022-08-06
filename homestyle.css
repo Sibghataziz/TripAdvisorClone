@@ -48,11 +48,17 @@ nav a {
 
 #btn {
     border: none;
-    padding: 10px 15px;
+    padding: 8px 15px;
     color: white;
     background-color: black;
     border-radius: 20px;
     font-weight: bold;
+}
+
+#btn:hover {
+    color: black;
+    background-color: white;
+    border: 2px solid black;
 
 }
 
@@ -81,6 +87,35 @@ body {
     margin-right: 20px;
     font-size: 15px;
 }
+#hotel,#holidayhome,#travel,#restaurant {
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    border-width: 1px;
+    padding: 10px 15px;
+    margin-right: 20px;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+#hotelicon,#homeicon,#foodicon,#travelicon{
+    margin-left: 10px;
+}
+
+.button button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+#travel:hover , #restaurant:hover , #holidayhome:hover ,  #hotel:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+
 
 .imagesearch{
     background-image: url("https://static.tacdn.com/img2/brand/home/homemar2022_dt_trans.webp");
