@@ -4,6 +4,8 @@
   /* margin: 0 ; */
   /* height: 10; */
   /* height: 1024px; */
+  font-family:'Times New Roman', Times, serif;
+
 }
 .row {
   display: flex;
