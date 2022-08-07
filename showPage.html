@@ -3,7 +3,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Restaurant</title>
    
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 
@@ -16,6 +16,18 @@
        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
        <link rel="stylesheet" href="landing.css"> -->
        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+       <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/footerstyle.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="icon" href="https://static.tacdn.com/img2/brand_refresh/Tripadvisor_logoset_solid_green.svg">
        <script src="https://kit.fontawesome.com/4a73ef5ad9.js" crossorigin="anonymous"></script>
   
   
@@ -357,6 +369,67 @@ transform: translate(-50%,-50%);
 
 </head>
 <body>
+  <div id="navbar">
+    <div id="parentnav">
+      <div class="childnav">
+        <div class="search">
+          <a href="index.html"><img
+              id="logo"
+              src="https://static.tacdn.com/img2/brand_refresh/Tripadvisor_lockup_horizontal_secondary_registered.svg"
+              alt="logo"
+            />
+          </a>
+        </div>
+        <div>
+          <input
+            id="input"
+            type="text"
+            placeholder="Search"
+            name="search"
+            id=""
+          />
+        </div>
+        <div></div>
+      </div>
+      <div class="icons">
+        <div id="alert">
+          <img
+            class="iconlogo"
+            src="https://cdn-icons-png.flaticon.com/128/1250/1250615.png"
+            alt="alert"
+          />
+          <h4>Review</h4>
+        </div>
+        <div id="alert">
+          <img
+            class="iconlogo"
+            src="https://cdn-icons-png.flaticon.com/128/1077/1077035.png"
+            alt="alert"
+          />
+          <h4>trips</h4>
+        </div>
+        <div id="alert">
+          <img
+            class="iconlogo"
+            src="https://cdn-icons-png.flaticon.com/128/1827/1827422.png"
+            alt="alert"
+          />
+          <h4>Alerts</h4>
+        </div>
+        <div id="signIn">
+          <a href="login.html"><button id="signin">Sign in</button></a>
+        </div>
+      </div>
+    </div>
+    <div id="small">
+      <a href="hotel.html"><small>Hotels</small></a>
+      <small>Things to do</small>
+      <small>Restaurants</small>
+      <a href="flightsForm.html"><small>Fligths</small></a>
+      <small>Holiday homes</small>
+      <small>Package Holidays</small>
+    </div>
+  </div>
     
         <h1 id="mainTitle">Restaurants in Mumbai</h1>
          
@@ -377,10 +450,10 @@ transform: translate(-50%,-50%);
         
        <div id="mainRightDiv">
          
-        <div>
+        <div id="forOnediv">
          <div id="TitileDiv">
-             <a href="">Delivery Available</a>
-             <a href="">See all</a>
+             <a href="" style="font-size:x-large ;">Delivery Available</a>
+             <!-- <a href="" onclick="onHide()">See all</a> -->
          </div>
 
           <div class="owl-carousel owl-theme" id="firstItem">
@@ -393,10 +466,10 @@ transform: translate(-50%,-50%);
 
 
 
-      <div>
+      <div >
         <div id="TitileDiv">
-            <a href="">Outdoor Seating Available</a>
-            <a href="">See all</a>
+            <a href="" style="font-size:x-large ;">Outdoor Seating Available</a>
+            <!-- <a href=""  onclick="onHide()">See all</a> -->
         </div>
 
        <div class="owl-carousel owl-theme" id="secondtItem">
@@ -409,7 +482,7 @@ transform: translate(-50%,-50%);
 
        
            <div id="lastDiv">
-            <h2>Top Restaurants in Mumbai</h2>
+            <h2 id="toRes">Top Restaurants in Mumbai</h2>
               <div>
                   <label for="">Sort By:</label>
                   <select name="" id="RatingFilter">
@@ -440,7 +513,113 @@ transform: translate(-50%,-50%);
   
               
   
-          
+            <footer class="footer">
+              <div class="container">
+                <div class="row">
+                  <div class="footer_col">
+                    <p>About Tripadvisor</p>
+                    <ul>
+                      <li>About us</li>
+                      <li>Press</li>
+                      <li>Resource and Policies</li>
+                      <li>Careers</li>
+                      <li>Trust and Safety</li>
+                      <li>Contact us</li>
+                    </ul>
+                  </div>
+                  <div class="footer_col">
+                    <p>Explore</p>
+                    <ul>
+                      <li>Write a review</li>
+                      <li>Add a place</li>
+                      <li>Join</li>
+                      <li>Travellers' Choice</li>
+        
+                      <li>Help Centre</li>
+                      <li>Travel Articles</li>
+                    </ul>
+                  </div>
+                  <div class="footer_col">
+                    <p>Do Business With Us</p>
+                    <ul>
+                      <li>Owners and DMO/CVB</li>
+                      <li>Business Advantages</li>
+                      <li>Resource and Policies</li>
+                      <li>Sponsored Placements</li>
+                      <li>Access and Content API</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="right-container">
+                  <p>Tripadvisor Sites</p>
+                  <ul>
+                    <li>Book tours and attraction tickets on <b>Viator</b></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="bottom-container">
+                <div class="left-container">
+                  <div class="left-first-container">
+                    <div>
+                      <img
+                        id="footerlogo"
+                        src="data:image/png;base64,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"
+                        alt="logo"
+                      />
+                    </div>
+                    <div>
+                      <small>© 2022 TripAdvisor LLC All rights reserved.</small> <br />
+                      <a href="https://tripadvisor.mediaroom.com/in-terms-of-use"
+                        >Terms of Use</a
+                      >
+                      <a href="https://tripadvisor.mediaroom.com/in-privacy-policy"
+                        >Privacy and cookies Statement</a
+                      >
+                      <a href="https://www.tripadvisor.in/SiteIndex">Cookies Consent</a>
+                      <a href="https://www.tripadvisor.in/SiteIndex">Site Map</a> <br />
+                      <a href="https://www.tripadvisor.in/pages/service_en.html"
+                        >How the site works</a
+                      >
+                      <a href="https://tripadvisor.mediaroom.com/IN-contact-us"
+                        >Contact us</a
+                      >
+                    </div>
+                    <div id="inputsBox">
+                      <select name="₹ INR" id="">
+                        <option value="₹ INR">₹ INR</option>
+                      </select>
+                      <select name="₹ INR" id="">
+                        <option value="₹ INR">India</option>
+                      </select>
+                      <br />
+                      <p>
+                        <a href="https://www.facebook.com/Tripadvisor/"
+                          ><i class="fa-brands fa-facebook"></i
+                        ></a>
+                        <a href="https://twitter.com/TripAdvisorInd"
+                          ><i class="fa-brands fa-twitter"></i
+                        ></a>
+                        <a href="https://www.pinterest.com/tripadvisor/"
+                          ><i class="fa-brands fa-pinterest"></i
+                        ></a>
+                        <a href="https://www.instagram.com/tripadvisor/"
+                          ><i class="fa-brands fa-instagram"></i
+                        ></a>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="left-second-container">
+                    <p>
+                      This is the version of our website addressed to speakers of
+                      English in India. If you are a resident of another country or
+                      region, please select <br />
+                      the appropriate version of Tripadvisor for your country or region
+                      in the drop-down menu.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </footer>      
         
 
  
@@ -477,235 +656,17 @@ $( ".owl-prev").html('<i class="fa-solid fa-angle-left"></i>');
 
 
 <script>
-var Restaurant = [
-    
-    {
-    name : "Spice Art",
-     tyep: "Delivery",
-    image: [
-             "https://media-cdn.tripadvisor.com/media/photo-w/07/6f/1f/ff/spice-art.jpg",
-             "https://media-cdn.tripadvisor.com/media/photo-w/1c/c3/0c/6c/amritsari-chole-platter.jpg",
-             "https://media-cdn.tripadvisor.com/media/photo-w/1c/c3/0c/63/papad-ki-sabzi.jpg",
-             "https://media-cdn.tripadvisor.com/media/photo-w/1c/c3/0c/65/gulabi-salmon-tikka.jpg",
-             "https://media-cdn.tripadvisor.com/media/photo-w/1c/c3/0c/81/do-din-ki-dal.jpg",
-             "https://media-cdn.tripadvisor.com/media/photo-o/07/6f/1f/b8/spice-art.jpg"
-
-          ],
-
-    addrs: "1st Floor Crowne Plaza Rohini Twin District Centre, Sector 10, Rohini, New Delhi 110085 India",
-
-    webSite: "https://www.ihg.com/crowneplaza/hotels/gb/en/new-delhi/delba/hoteldetail?qDest=Delhi%20Gandhi%20Airport,%20India&qCiD=17&qCoD=18&qCiMy=62019&qCoMy=62019&qAdlt=1&qChld=0&qRms=1&qWch=0&qSmP=1&setPMCookies=true&qRtP=6CBARC&qAAR=6CBARC&qAkamaiCC=IN&srb_u=1&qRad=30&qRdU=mi&presentationViewType=null&qSrt=sDD&qBrs=re.ic.in.vn.cp.vx.hi.ex.rs.cv.sb.cw.ma.ul.ki.va",
-
-    reviews: {
-         rating: 5 ,
-         totalRevies: 261,
-         rank: 13,
-         outof: 6656 ,
-    },
-
-    details: `ABOUT
-Spice Art, an award winning contemporary Indian restaurant serves North Western Frontier cuisine featuring a wide range of kebabs and curries, Awadhi and Delhi delicacies with a private dining area for guests.
-PRICE RANGE
-₹800 - ₹1,600
-CUISINES
-Indian, Asian
-SPECIAL DIETS
-Vegetarian Friendly, Vegan Options, Halal, Gluten Free Options
-MEALS
-Dinner
-FEATURES
-Delivery, Wheelchair Accessible, Takeout, Reservations, Private Dining, Seating, Parking Available, Validated Parking, Valet Parking, Highchairs Available, Serves Alcohol, Full Bar, Accepts American Express, Accepts Mastercard, Accepts Visa, Accepts Credit Cards, Table Service`
-        
-  },
-
-    {
-    name : "Thyme",
-    tyep: "Delivery",
-    image: [
-            "https://media-cdn.tripadvisor.com/media/photo-w/14/49/e7/02/thyme-full-view.jpg",
-            "https://media-cdn.tripadvisor.com/media/photo-w/14/49/e7/44/live-salad-counter-at.jpg",
-            "https://media-cdn.tripadvisor.com/media/photo-w/14/49/e7/2c/chef-at-work-at-thyme.jpg",
-            "https://media-cdn.tripadvisor.com/media/photo-w/13/1f/16/b4/thyme-buffet.jpg",
-            "https://media-cdn.tripadvisor.com/media/photo-w/14/49/e7/58/live-food-counter-at.jpg",
-            "https://media-cdn.tripadvisor.com/media/photo-w/0f/af/7f/94/enjoy-lavish-buffet-showcasing.jpg"
-          ],
-
-    addrs: "National Highway 48, Rajokri Rd D Block, 6:Samalkha, New Delhi 110037 India",
-
-    webSite: "https://theumrao.com/thyme-multi-cuisine/",
-
-    reviews: {
-         rating: 4.0 ,
-         totalRevies: 1281,
-         rank: 13 ,
-         outof:  6656,
-    },
-
-    details: `PRICE RANGE
-₹1,650 - ₹1,750
-CUISINES
-Indian, Seafood, International, Asian
-SPECIAL DIETS
-Vegetarian Friendly, Vegan Options, Gluten Free Options
-MEALS
-Breakfast, Lunch, Dinner, Brunch, Drinks
-FEATURES
-Takeout, Reservations, Outdoor Seating, Private Dining, Seating, Parking Available, Validated Parking, Valet Parking, Television, Highchairs Available, Wheelchair Accessible, Serves Alcohol, Full Bar, Free Wifi, Accepts Credit Cards, Table Service, Wine and Beer, Accepts American Express, Accepts Mastercard, Accepts Visa, Digital Payments, Accepts Discover, Live Music, Waterfront, Jazz Bar, Family style, Non-smoking restaurants, Gift Cards Available `
-        
-  },
-    
-  {
-    name : "Quoin",
-    tyep: "Delivery",
-    image: [
-            "https://media-cdn.tripadvisor.com/media/photo-w/12/47/c3/12/quoin.jpg",
-            "https://media-cdn.tripadvisor.com/media/photo-p/0e/82/fa/de/siachen-frost.jpg",
-            "https://media-cdn.tripadvisor.com/media/photo-p/0e/82/fa/de/siachen-frost.jpg",
-            "https://media-cdn.tripadvisor.com/media/photo-w/0e/82/fa/30/tiranga.jpg",
-            "https://media-cdn.tripadvisor.com/media/photo-p/14/d0/73/2c/food.jpg",
-            "https://media-cdn.tripadvisor.com/media/photo-p/1b/0b/7b/3d/quoin.jpg",
-            "https://media-cdn.tripadvisor.com/media/photo-p/11/e2/1b/72/img-20180121-201528-largejpg.jpg"
-          ],
-
-    addrs: "Asset No 2 Aerocity Hospitality District,, New Delhi 110037 India",
-
-    webSite: "http://www.pullmandelhiaerocity.com/",
-
-    reviews: {
-         rating:  5.0,
-         totalRevies: 451,
-         rank: 31 ,
-         outof:  6656,
-    },
-
-    details: `ABOUT
-Quoin is a modern sports bar and an urban hangout where you can find distinctive flavours of your favourite brew, mood-setting music and fresh locally produced mouth-watering bonne bouche & savouries that come together to provide you an experience like no other. At Quoin, guests can enjoy their favourite drinks round the clock. With an ‘Always Game On’ philosophy, similar to a signal to play in a sports match, Quoin is always ready to entertain the sports lovers by screening their favourite matches. With games like Foosball, Pool, a virtual real-life golf simulator and many board games. Guests can undertake many drinking challenges and games at Quoin. Golf simulator welcomes all the golf lovers to experience the real golfing at Quoin. They can practise, play and train or choose to solo or group golfing while enjoying their favourite food or sipping a drink.
-PRICE RANGE
-₹275 - ₹3,000
-CUISINES
-Fast food, Bar
-SPECIAL DIETS
-Vegetarian Friendly, Vegan Options, Gluten Free Options
-MEALS
-Breakfast, Lunch, Dinner, After-hours, Drinks
-FEATURES
-Seating, Takeout, Reservations, Outdoor Seating, Parking Available, Valet Parking, Television, Highchairs Available, Wheelchair Accessible, Serves Alcohol, Full Bar, Wine and Beer, Accepts American Express, Accepts Mastercard, Accepts Visa, Digital Payments, Free Wifi, Table Service`
-        
-  },
-
-  {
-    name : "Sorrento",
-    tyep: "Delivery",
-    image: [
-        "https://media-cdn.tripadvisor.com/media/photo-w/0b/1a/3b/b0/sorrento-kitchen.jpg",
-        "https://media-cdn.tripadvisor.com/media/photo-w/17/08/ee/ba/the-perfect-spot-for.jpg",
-        "https://media-cdn.tripadvisor.com/media/photo-p/0f/58/6d/d6/lamb-chops-at-sorrento.jpg",
-        "https://media-cdn.tripadvisor.com/media/photo-w/17/08/ee/f4/fresh-organic-ingredients.jpg",
-        "https://media-cdn.tripadvisor.com/media/photo-w/0b/1a/3b/b2/sorrento.jpg",
-        "https://media-cdn.tripadvisor.com/media/photo-w/17/08/eb/8c/chef-massimiliano-sperli.jpg"
-            
-          ],
-
-    addrs: "19 Ashoka Road Connaught Place, New Delhi 110001 India",
-
-    webSite: "https://www.shangri-la.com/newdelhi/erosshangrila/dining/restaurants/sorrento/",
-
-    reviews: {
-         rating: 4.5 ,
-         totalRevies: 561,
-         rank: 23,
-         outof:  6656,
-    },
-
-    details: `ABOUT
-Certified with the Golden Q from Ospitalita' Italiana, this Italian restaurant is well known for its fresh and authentic dishes including artisanal pasta, Neapolitan delicacies, pizzas and slow – cooked family style specialties. Come and enjoy authentic food accompanied by selected fine wines from our experienced sommeliers.
-PRICE RANGE
-₹25 - ₹35
-CUISINES
-Italian, Pizza, Mediterranean, European, Neapolitan, Campania, Romana, Lazio, Sicilian, Lombard, Sardinian, Northern-Italian, Central-Italian, Southern-Italian
-SPECIAL DIETS
-Vegetarian Friendly, Vegan Options, Gluten Free Options
-MEALS
-Lunch, Dinner
-FEATURES
-Outdoor Seating, Serves Alcohol, Reservations, Seating, Parking Available, Validated Parking, Valet Parking, Highchairs Available, Wheelchair Accessible, Full Bar, Wine and Beer, Accepts American Express, Accepts Mastercard, Accepts Visa, Free Wifi, Accepts Credit Cards, Table Service, Gift Cards Available `
-        
-  },
-  
-  {
-    name : "Kiyan, The Roseate",
-    tyep: "Delivery",
-    image: [
-            "https://media-cdn.tripadvisor.com/media/photo-o/05/82/3e/19/kiyan-dusit-devarana.jpg",
-            "https://media-cdn.tripadvisor.com/media/photo-l/1a/9d/74/ad/dine-in-the-lap-of-luxury.jpg",
-            "https://media-cdn.tripadvisor.com/media/photo-w/10/c5/9e/aa/kiyan-alfresco-dining.jpg",
-            "https://media-cdn.tripadvisor.com/media/photo-o/1d/9b/64/46/kiyan-the-roseate.jpg",
-            "https://media-cdn.tripadvisor.com/media/photo-w/1d/9b/64/49/kiyan-the-roseate.jpg",
-            "https://media-cdn.tripadvisor.com/media/photo-p/1d/9b/64/47/kiyan-the-roseate.jpg"
-          ],
-
-    addrs: "National Highway 8 The Roseate, New Delhi 110017 India",
-
-    webSite: "https://www.roseatehotels.com/newdelhi/theroseate/dine/kiyan/",
-
-    reviews: {
-         rating:  4.0,
-         totalRevies: 527,
-         rank: 5 ,
-         outof: 6656 ,
-    },
-
-    details: `ABOUT
-Kiyan at The Roseate New Delhi is the resort’s all day world cuisine restaurant serving predominantly European, Indian and Thai. The restaurant is set amidst Isfahan columns surrounded by royal blue water bodies. Discover masterpieces on every platter that offers you the ideal ‘Farm to Table’ concept with fare from select organic, home grown vegetables from our 2 acre farm and free range meat. Each dish on the menu has been handcrafted by our expert chefs.
-CUISINES
-Thai, Indian, Asian, Fusion
-SPECIAL DIETS
-Vegetarian Friendly, Vegan Options, Gluten Free Options
-MEALS
-Breakfast, Lunch, Dinner, Brunch, Drinks
-FEATURES
-Private Dining, Wheelchair Accessible, Full Bar, Reservations, Outdoor Seating, Seating, Parking Available, Validated Parking, Valet Parking, Serves Alcohol, Wine and Beer, Free Wifi, Accepts Credit Cards, Table Service`
-        
-  },
-
-  {
-    name : "CIA Call it Asiian",
-    tyep: "Delivery",
-    image: [
-            "https://media-cdn.tripadvisor.com/media/photo-o/19/9a/8e/d4/img-20191011-140552-largejpg.jpg",
-            "https://media-cdn.tripadvisor.com/media/photo-w/19/4e/01/a0/cia-call-it-asiian.jpg",
-            "https://media-cdn.tripadvisor.com/media/photo-p/16/a3/dd/3a/photo1jpg.jpg",
-            "https://media-cdn.tripadvisor.com/media/photo-o/1a/7d/f9/ef/img-20200103-203143-largejpg.jpg",
-            "https://media-cdn.tripadvisor.com/media/photo-o/19/9a/8e/d2/img-20191011-143833-largejpg.jpg",
-            "https://media-cdn.tripadvisor.com/media/photo-p/19/4e/01/9f/cia-call-it-asiian.jpg"
-            
-          ],
-
-    addrs: "16 Alaknanda Rd. Opposite Don Bosco School, Narmada Shopping Complex,, New Delhi 110048 India",
-
-    webSite: "https://www.facebook.com/callitasiian/",
-
-    reviews: {
-         rating: 5.0 ,
-         totalRevies: 316,
-         rank: 37,
-         outof:  6656,
-    },
-
-    details: `CUISINES
-Chinese, Sushi, Asian, Thai, Singaporean
-SPECIAL DIETS
-Vegetarian Friendly, Vegan Options
-MEALS
-Lunch, Dinner
-FEATURES
-Delivery, Takeout, Reservations, Seating, Table Service, Accepts American Express, Accepts Mastercard, Accepts Visa, Accepts Credit Cards`
-        
-  },
+  var data = JSON.parse(localStorage.getItem("data"))
+  var city = localStorage.getItem("restaurant")
 
 
+ document.getElementById("mainTitle").innerText = "Restaurants in "+city;
+ document.getElementById("toRes").innerText = "Top Resaurants in "+city;
 
-]
+var Restaurant = data[city.toLocaleLowerCase()]["Eat"]
+console.log(Restaurant)
+console.log(city)
+
 var restSordta = Restaurant;
 
 var view1 = document.getElementById("secondtItem");
@@ -718,6 +679,10 @@ Restaurant.map(function(value,index){
    
 })
 
+
+
+
+// for Hide
 
 
 
@@ -794,12 +759,14 @@ document.getElementById("RatingFilter").addEventListener("change" ,function(){
 
 
          if(dd == "TopRated" ){
+          document.getElementById("toRes").innerText = "Top Rated Resaurants in "+city;
          
           restSordta.sort(function(a, b){return b.reviews.rating - a.reviews.rating});
           
 
          }else{
           restSordta.sort(function(a, b){return a.reviews.rating - b.reviews.rating});
+          document.getElementById("toRes").innerText = "Lowest Rated Resaurants in "+city;
             
          }
 

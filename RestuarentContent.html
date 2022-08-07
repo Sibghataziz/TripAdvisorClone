@@ -235,7 +235,7 @@ margin: 0;
   <div id="MainBotm">
     <div id="onediv" >
       <h3>Ratings and reviews</h3>
-      <p id="rev"><span id="rading" style="color: green;">5.0 ★★★★☆</span> 509 Rating</p>
+      <p id="rev"><span id="rading" style="color: green;">5.0 ★★★★☆</span> </p>
       <p id="rand">#1 of 8,614 Restaurants in Mumbai</p>
       <br>
       <br>
@@ -294,14 +294,9 @@ autoWidth:true,
     var val =  JSON.parse(localStorage.getItem("contentDta"));
       
       
-    var cityName ="MumBai";
+    var cityName =localStorage.getItem("restaurant")
 
-    // reviews: {
-    //          rating: 5 ,
-    //          totalRevies: 261,
-    //          rank: 13,
-    //          outof: 6656 ,
-    //     },
+   
 
    
 
@@ -310,7 +305,7 @@ autoWidth:true,
      }else{
         document.getElementById("rading").innerText = val.reviews.rating +" ★★★★☆ "
      }
-     document.getElementById("rev").innerText +=  val.reviews.totalRevies+" reviews";
+     document.getElementById("rev").innerText +=  " "+val.reviews.totalRevies+" reviews";
     
 
 
