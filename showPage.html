@@ -3,7 +3,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Restaurant</title>
    
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 
@@ -416,15 +416,15 @@ transform: translate(-50%,-50%);
           />
           <h4>Alerts</h4>
         </div>
-        <div id="signIn">
+        <!-- <div id="signIn">
           <a href="login.html"><button id="signin">Sign in</button></a>
-        </div>
+        </div> -->
       </div>
     </div>
     <div id="small">
       <a href="hotel.html"><small>Hotels</small></a>
       <small>Things to do</small>
-      <small>Restaurants</small>
+      <a href="showPage.html"><small>Restaurants</small></a>
       <a href="flightsForm.html"><small>Fligths</small></a>
       <small>Holiday homes</small>
       <small>Package Holidays</small>
@@ -450,10 +450,10 @@ transform: translate(-50%,-50%);
         
        <div id="mainRightDiv">
          
-        <div>
+        <div id="forOnediv">
          <div id="TitileDiv">
-             <a href="">Delivery Available</a>
-             <a href="">See all</a>
+             <a href="" style="font-size:x-large ;">Delivery Available</a>
+             <!-- <a href="" onclick="onHide()">See all</a> -->
          </div>
 
           <div class="owl-carousel owl-theme" id="firstItem">
@@ -466,10 +466,10 @@ transform: translate(-50%,-50%);
 
 
 
-      <div>
+      <div >
         <div id="TitileDiv">
-            <a href="">Outdoor Seating Available</a>
-            <a href="">See all</a>
+            <a href="" style="font-size:x-large ;">Outdoor Seating Available</a>
+            <!-- <a href=""  onclick="onHide()">See all</a> -->
         </div>
 
        <div class="owl-carousel owl-theme" id="secondtItem">
@@ -482,7 +482,7 @@ transform: translate(-50%,-50%);
 
        
            <div id="lastDiv">
-            <h2>Top Restaurants in Mumbai</h2>
+            <h2 id="toRes">Top Restaurants in Mumbai</h2>
               <div>
                   <label for="">Sort By:</label>
                   <select name="" id="RatingFilter">
@@ -659,6 +659,10 @@ $( ".owl-prev").html('<i class="fa-solid fa-angle-left"></i>');
   var data = JSON.parse(localStorage.getItem("data"))
   var city = localStorage.getItem("restaurant")
 
+
+ document.getElementById("mainTitle").innerText = "Restaurants in "+city;
+ document.getElementById("toRes").innerText = "Top Resaurants in "+city;
+
 var Restaurant = data[city.toLocaleLowerCase()]["Eat"]
 console.log(Restaurant)
 console.log(city)
@@ -675,6 +679,10 @@ Restaurant.map(function(value,index){
    
 })
 
+
+
+
+// for Hide
 
 
 
@@ -751,12 +759,14 @@ document.getElementById("RatingFilter").addEventListener("change" ,function(){
 
 
          if(dd == "TopRated" ){
+          document.getElementById("toRes").innerText = "Top Rated Resaurants in "+city;
          
           restSordta.sort(function(a, b){return b.reviews.rating - a.reviews.rating});
           
 
          }else{
           restSordta.sort(function(a, b){return a.reviews.rating - b.reviews.rating});
+          document.getElementById("toRes").innerText = "Lowest Rated Resaurants in "+city;
             
          }
 
