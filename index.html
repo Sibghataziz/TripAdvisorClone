@@ -34,16 +34,16 @@
     margin: 0;
     list-style: none;
     box-sizing: border-box;
-} */
+}
 
-/* body {
+body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
     width: 100%;
     height: 100vh;
 
 } */
-    
+
 #logo {
     height: 40px;
     margin-top: 30px;
@@ -52,16 +52,7 @@
     position: absolute;
 }
 
-.button button:hover {
-    background-color: black;
-    color: white;
-    cursor: pointer;
-}
 
-
-.button i{
-    margin-left: 50px;
-}
 nav {
     height: 80px;
     width: 100%;
@@ -88,31 +79,34 @@ nav a {
 
 #btn {
     border: none;
-    padding: 10px 15px;
+    padding: 8px 15px;
     color: white;
     background-color: black;
     border-radius: 20px;
     font-weight: bold;
+}
+
+#btn:hover {
+    color: black;
+    background-color: white;
+    /* border: 2px solid black; */
 
 }
 
 .navigation {
-    width: 83%;
+    width: 80%;
     margin: auto;
 }
 
-/* body {
-    width: 83%;
+body {
+    /* width: 90%; */
     margin: auto;
-} */
+}
 
 .button {
-    width: 83%;
+    width: 80%;
     margin: auto;
     padding-top: 30px;
-    
-   
-
 }
 
 .button button {
@@ -120,42 +114,63 @@ nav a {
     background-color: white;
     border-radius: 10px;
     border-width: 1px;
-    padding: 14px 20px;
+    padding: 10px 15px;
     margin-right: 20px;
-    font-weight: bold;
-    font-size: medium;
+    font-size: 15px;
 }
+#hotel,#holidayhome,#travel,#restaurant {
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    border-width: 1px;
+    padding: 10px 15px;
+    margin-right: 20px;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+#hotelicon,#homeicon,#foodicon,#travelicon{
+    margin-left: 10px;
+}
+
+.button button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+#travel:hover , #restaurant:hover , #holidayhome:hover ,  #hotel:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+
 
 .imagesearch{
     background-image: url("https://static.tacdn.com/img2/brand/home/homemar2022_dt_trans.webp");
-
-    height: 348px;
-    width: 83%;
+    background-size: cover;
+    height: 400px;
+    width: 80%;
     margin: auto;
     margin-top: 30px;
-    display: flex;
-    margin-bottom: 70px;
     
 }
 
 
-
+.imagesearch {
+    display: flex;
+    border-radius: 5px;
+}
 
 .input {
     height: 50px;
     border: none;
-    width: 70%;
+    width: 50%;
     margin: auto;
-    background: url(scroll/search.svg)no-repeat left;
-    background-color: white;
-    background-size: 20px;
-    border-radius: 50px;
-    padding: 30px;
-    padding-left: 55px;
-    background-position: 20px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    font-size: larger;
-
+    border-radius: 20px;
+    padding: 20px;
 }
 
 #icon {
@@ -234,7 +249,7 @@ nav a {
 }
 body{
     font-family: TripSans;
-    margin: 0;
+    /* margin: auto; */
 }
 #RecentViewed{
     background-color: blue;
@@ -407,7 +422,7 @@ body{
 <body>
 
       <!-- Snajay part -->
-      <div class="navigation">
+      <!-- <div class="navigation">
         <div class="logo">
             <a href="index.html"><img
                 id="logo"
@@ -428,13 +443,49 @@ body{
             </div>
     
         </nav>
-    </div>
+    </div> -->
 
-    <div class="button">
+    <!-- <div class="button">
         <button>Hotels <i class="fa fa-bed"></i> </button>
         <button>Holiday Homes <i class="fa fa-house"></i> </button>
         <button>Restaurants <i class="fa-solid fa-utensils"></i> </button>
         <a href="flightsForm.html"><button>Travel Forums <i class="fa fa-plane"></i> </button></a>
+                            
+    </div> -->
+
+    <!-- <div class="imagesearch">
+        <i id="icon" class="fas fa-search" ></i>
+        <input  type="text" class="input" placeholder="Where to?" id="">
+        
+    </div> -->
+    <div class="navigation">
+        <div class="logo">
+            <img id="logo" src="https://static.tacdn.com/img2/brand_refresh/Tripadvisor_lockup_horizontal_secondary_registered.svg" alt="logo">
+        </div>
+        <nav class="nav">
+            
+            <div class="list">
+                <ul>
+                    <li><a href="#"> <i class="fas fa-edit"></i> Review</a></li>
+                    <li><a href="#"> <i class="fa-regular fa-heart"></i> Trips</a></li>
+                    <li><a href="#"> <i class="fa-regular fa-bell"></i> Alerts</a></li>
+                    <!-- <button id="btn">Sign in</button> -->
+                    <a href="login.html" id="btn">Sign in</a>
+                </ul>
+            </div>
+    
+        </nav>
+    </div>
+
+    <div class="button">
+        <!-- <button>Hotels <i class="fa fa-bed"></i> </button> -->
+        <a id="hotel" class="links " href="#">Hotels <i id="hotelicon" class="fa fa-bed"></i> </a>
+        <!-- <button>Holiday Homes <i class="fa fa-house"></i> </button> -->
+        <a id="holidayhome" class="links " href="#">Holiday Homes <i id="homeicon" class="fa fa-house"></i> </a>
+        <!-- <button>Restaurants <i class="fa-solid fa-utensils"></i> </button> -->
+        <a id="restaurant" class="links " href="#">Restaurants <i id="foodicon" class="fa fa-utensils"></i> </a>
+        <!-- <button>Travel Forums <i class="fa fa-plane"></i> </button> -->
+        <a id="travel" class="links " href="flightsForm.html">Travel Forums <i id="travelicon" class="fa fa-plane"></i> </a>
                             
     </div>
 
@@ -443,7 +494,6 @@ body{
         <input  type="text" class="input" placeholder="Where to?" id="">
         
     </div>
-
 
 
 
