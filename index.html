@@ -149,20 +149,18 @@ body {
 
 
 .imagesearch{
+    /* display: flex; */
+    border-radius: 5px;
     background-image: url("https://static.tacdn.com/img2/brand/home/homemar2022_dt_trans.webp");
     background-size: cover;
     height: 400px;
     width: 80%;
     margin: auto;
     margin-top: 30px;
-    
+    align-content: center;
+    position: relative;
 }
 
-
-.imagesearch {
-    display: flex;
-    border-radius: 5px;
-}
 
 .input {
     height: 50px;
@@ -382,7 +380,6 @@ body{
     margin: auto;
     margin-top: 70px;
     width: 85%;
-    
     position: relative;
 
  }
@@ -412,6 +409,46 @@ body{
     background-image: url(scroll/imagbar.PNG);
     width: 100%;
 }
+
+
+/* sibghat */
+.imagesearch > input{
+    height: 50px;
+    width: 60%;
+    margin: auto;    
+    position: absolute;
+    left: 20%;
+    top: 40%;
+    border-radius: 25px;
+    padding: 0px 15px;
+    border: none;
+    text-align: left;
+    /* background-color: teal; */
+}
+
+.imagesearch>input:focus{
+    border: none;
+    outline: none;
+}
+
+.imagesearch > ul{
+    position: absolute;
+    left: 17%;
+    top: 48%;
+    width: 60%;
+    display: none;
+}
+
+.imagesearch > ul > li{
+    background-color: white;
+    height: 25px;
+    padding-bottom: 0px;
+    padding-top: 10px;
+    padding-left: 15px;
+    margin: auto;
+    border: 1px solid lightgray;
+}
+
 
 
    </style>
@@ -460,7 +497,7 @@ body{
     </div> -->
     <div class="navigation">
         <div class="logo">
-            <img id="logo" src="https://static.tacdn.com/img2/brand_refresh/Tripadvisor_lockup_horizontal_secondary_registered.svg" alt="logo">
+            <a href="index.html"><img id="logo" src="https://static.tacdn.com/img2/brand_refresh/Tripadvisor_lockup_horizontal_secondary_registered.svg" alt="logo"></a>
         </div>
         <nav class="nav">
             
@@ -478,12 +515,12 @@ body{
     </div>
 
     <div class="button">
-        <!-- <button>Hotels <i class="fa fa-bed"></i> </button> -->
-        <a id="hotel" class="links " href="#">Hotels <i id="hotelicon" class="fa fa-bed"></i> </a>
+        <button id="hotel">Hotels <i class="fa fa-bed"></i> </button>
+        <!-- <a  class="links " href="#">Hotels <i id="hotelicon" class="fa fa-bed"></i> </a> -->
         <!-- <button>Holiday Homes <i class="fa fa-house"></i> </button> -->
         <a id="holidayhome" class="links " href="#">Holiday Homes <i id="homeicon" class="fa fa-house"></i> </a>
-        <!-- <button>Restaurants <i class="fa-solid fa-utensils"></i> </button> -->
-        <a id="restaurant" class="links " href="#">Restaurants <i id="foodicon" class="fa fa-utensils"></i> </a>
+        <button id="restaurant">Restaurants <i class="fa-solid fa-utensils"></i> </button>
+        <!-- <a id="restaurant" class="links " href="#">Restaurants <i id="foodicon" class="fa fa-utensils"></i> </a> -->
         <!-- <button>Travel Forums <i class="fa fa-plane"></i> </button> -->
         <a id="travel" class="links " href="flightsForm.html">Travel Forums <i id="travelicon" class="fa fa-plane"></i> </a>
                             
@@ -491,8 +528,21 @@ body{
 
     <div class="imagesearch">
         <!-- <i id="icon" class="fas fa-search" ></i> -->
-        <input  type="text" class="input" placeholder="Where to?" id="">
-        
+        <input  type="text" class="input" placeholder="Where to?"  id="optionBar">
+        <!-- <select id="optionBar">
+            <option value="">Where to?</option>
+            <option value="kolkata" class="select-items">Kolkata</option>
+            <option value="chennai" class="select-items">Chennai</option>
+            <option value="delhi" class="select-items">Delhi</option>
+            <option value="mumbai" class="select-items">Mumbai</option>
+        </select> -->
+        <!-- <button id="optionBar">Where to?</button> -->
+        <ul id="optionList">
+            <li id="optionVal">Kolkata</li>
+            <li id="optionVal">Delhi</li>
+            <li id="optionVal">Mumbai</li>
+            <li id="optionVal">Chennai</li>
+        </ul>
     </div>
 
 
