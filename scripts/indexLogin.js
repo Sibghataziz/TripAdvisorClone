@@ -55,7 +55,9 @@ function checkVisibilty(e){
       location = "hotel.html"
     }
     else if(page=="restaurant"){
-      console.log("Shakti bhai Complete hua???")
+      // console.log("Shakti bhai Complete hua???")
+      localStorage.setItem('restaurant',e.target.innerText)
+      location = "showPage.html"
     }
   }
   else{
