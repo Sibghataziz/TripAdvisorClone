@@ -8,7 +8,7 @@ if (user) {
   const btn = document.createElement("button");
   btn.innerText = "Log Out";
   btn.addEventListener("click", logoutUser);
-  btn.setAttribute("id", "signin");
+  btn.setAttribute("id", "btn");
 
   div.append(btn);
   div.removeAttribute("href");
