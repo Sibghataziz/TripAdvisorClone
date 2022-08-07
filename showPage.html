@@ -4,16 +4,354 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
+   
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 
-      <!-- Link Swiper's CSS -->
-      <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
-    />
-      <!-- font awesome cdn link  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+       <!-- Link Swiper's CSS -->
+       <link
+       rel="stylesheet"
+       href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+     />
+       <!-- font awesome cdn link  -->
+       <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+       <link rel="stylesheet" href="landing.css"> -->
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+       <script src="https://kit.fontawesome.com/4a73ef5ad9.js" crossorigin="anonymous"></script>
+  
+  
+       <!-- CSS only boostrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" >
+  <link rel="stylesheet" href="scroll/css/owl.carousel.css">
+  <link rel="stylesheet" href="scroll/css/owl.carousel.css">
+  <script src="scroll/jquery.min.js"></script>
+  <script src="scroll/owl.carousel.min.js"></script>
+
+  <style>
+      
+   
+/* showPage  resturent part  */
+
+
+@font-face {
+    font-family: TripSans;
+    src: url(TripSans-Regular.ttf);
+}
+body{
+font-family: TripSans;
+background-color: #f2f2f2;
+}
+
+
+
+/* for scroll arrow */
+
+
+/* 
+.carousel-wrapper {
+  width: 1000px;
+  margin: auto;
+  position: relative;
+  text-align: center;
+  font-family: sans-serif;
+}
+.owl-carousel .owl-nav {
+  overflow: hidden;
+  height: 0px;
+}
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+  background: #5110e9;
+}
+
+.owl-carousel .item {
+  text-align: center;
+}
+.owl-carousel .nav-button {
+  height: 50px;
+  width: 25px;
+  cursor: pointer;
+  position: absolute;
+  top: 110px !important;
+}
+.owl-carousel .owl-prev.disabled,
+.owl-carousel .owl-next.disabled {
+  pointer-events: none;
+  opacity: 0.25;
+}
+.owl-carousel .owl-prev {
+  left: -35px;
+}
+.owl-carousel .owl-next {
+  right: -35px;
+}
+.owl-theme .owl-nav [class*=owl-] {
+  color: #ffffff;
+  font-size: 39px;
+  background: #000000;
+  border-radius: 3px;
+}
+.owl-carousel .prev-carousel:hover {
+  background-position: 0px -53px;
+}
+.owl-carousel .next-carousel:hover {
+  background-position: -24px -53px;
+} */
+
+
+.owl-carousel {
+    position: relative;
+    
+}
+.owl-next, .owl-prev {
+    position: absolute;
+    top: 28%;
+    
+   
+}
+.owl-next {
+    right: -10;
+    display: flex;
+    
+}
+.owl-prev{
+    left: -10;
+    display: flex;
+}
+
+
+
+
+ .owl-carousel .nav-btn{
+    position: sticky;
+  }
+
+
+/* main use css */
+
+#TitileDiv{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+
+#TitileDiv>a:first-child{
+    text-decoration: none;
+    font-size: x-large;
+    font-weight: bold;
+    color: black;
+}
+
+#TitileDiv>a:last-child{
+  text-decoration: none;
+    font-size: medium;
+    font-weight: bold;
+    color: black;
+}
+
+/* iteam work */
+#iteamDiv{
+  background-color: white;
+  margin-bottom: 30px;
+}
+#iteamDiv img{
+   width: 100%;
+   height: 200px;
+}
+
+#iteamDiv div{
+  padding: 8px;
+}
+
+#iteamDiv div a{
+  text-decoration: none;
+    font-size: medium;
+    font-weight: bold;
+    color: black;
+  
+}
+#iteamDiv div span{
+  font-size: small;
+  color: black;
+
+}
+#iteamDiv div p{
+  font-size: large;
+  margin-top: -1px;
+  margin-bottom: -1px;
+  color: #00aa6c;
+}
+#iteamDiv div label{
+  font-size: smaller;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+   -webkit-line-clamp: 2; /* number of lines to show */
+           line-clamp: 1; 
+   -webkit-box-orient: vertical;
+}
+.owl-carousel i{
+   font-size: medium;
+   padding: 7px;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   background-color: white;
+
+}
+
+
+
+
+
+
+#mainTitle{
+ text-align: center;
+font-family: TripSans;
+font-weight: 700;
+font-size: 34px;
+
+}
+#MainDiv{
+margin: auto;
+width: 95%;
+
+display: flex;
+
+justify-content: space-between;
+
+}
+#mainLeftDiv{
+width: 0%;
+
+
+}
+
+#mainRightDiv{
+width: 95%;
+
+
+}
+
+
+
+
+
+/* BotomPart */
+#botomTopDiv{
+display: flex;
+text-align: center;
+justify-content: space-between;
+align-items: center;
+}
+#botomTopDiv select{
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 40px;
+padding-right: 40px;
+}
+
+#botomIteamDiv{
+display: flex;
+background-color: white;
+margin-bottom: 20px;
+justify-content: left;
+text-align: left;
+gap: 20px;
+box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+border-radius: 5px;
+}
+#botomIteamDiv img{
+height: 100%;
+width: 250px;
+
+}
+#botomIteamDiv >div:last-child{
+padding: 12px;
+
+} 
+/* titile */
+#botomIteamDiv >div:last-child a{
+font-size: large;
+color: black;
+font-weight: bold;
+text-decoration: none;
+cursor: pointer;
+
+
+}
+#botomIteamDiv >div:last-child>div{
+display: flex;
+align-items: center;
+gap: 10px;
+margin-top: -8px;
+margin-bottom: -20px;
+
+}
+#botomIteamDiv >div:last-child>div i{
+color: #00aa6c;
+}
+
+#botomIteamDiv div:last-child p:nth-child(2){
+  color: #00aa6c;
+  font-size: x-large;
+  margin-bottom: -12px;
+  margin-top: -4px;
+}
+#botomIteamDiv div:last-child p:nth-child(2) span{
+    color: black;
+    margin-left: 10px;
+    font-size: medium;
+}
+#botomIteamDiv div:last-child p:nth-child(5){
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+   -webkit-line-clamp: 3; /* number of lines to show */
+           line-clamp: 1; 
+   -webkit-box-orient: vertical;
+
+}
+
+
+/* leftPart */
+
+#map{
+position: relative;
+width: 100%;
+height: auto;
+}
+
+#map img{
+width: 100%;
+}
+#map button{
+padding: 12px;
+
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+
+}
+
+#lastDiv{
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+  width: 95%;
+  margin-bottom: 50px;
+  
+}
+#lastDiv select{
+  padding: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+  </style>
+
+
 
 
 
@@ -26,379 +364,507 @@
     <div id="MainDiv">
        <div id="mainLeftDiv">
   
-         <div id="map">
+         <!-- <div id="map">
             <img src="https://static.tacdn.com/img2/maps/img_map.png" alt="map">
             <button>
                 <i class="fa fa-location-dot"> View Map</i>
                 
             </button>
-         </div>
+         </div> -->
             
        </div>
 
         
        <div id="mainRightDiv">
-         <div id="iteamMainParent">
-            <div class="topTiteDiv">
-                <a href="https://www.tripadvisor.in/Restaurants-g304554-Mumbai_Maharashtra.html">Delivery Available</a>
-                <a href="https://www.tripadvisor.in/Restaurants-g304554-Mumbai_Maharashtra.html">See All</a>
-            </div>
-            
-            <div id="ScrollDiv">
-               
-                
-                <div id="divIside">
-                    
-                 <img src="https://media-cdn.tripadvisor.com/media/photo-f/1a/94/21/1a/img-20191223-wa0076-largejpg.jpg" alt="image"><br>
-                   
-                 <a href="Shakey Wakey">Shakey Wakey</a> 
-                  <div>
-                        <div id="ratingIon">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                           <i class="fas fa-star"></i>
-                           <i class="fas fa-star-half-alt"></i>
-                        </div>
-
-                        <p>864</p>
-                    </div>
-                    <p>Cafe, Fast food, Health... ₹₹ - ₹₹₹</p> 
-                </div>
-               
-                <div id="divIside">
-                    
-                    <img src="https://media-cdn.tripadvisor.com/media/photo-f/1a/94/21/1a/img-20191223-wa0076-largejpg.jpg" alt="image"><br>
-                      
-                    <a href="Shakey Wakey">Shakey Wakey</a> 
-                     <div>
-                           <div id="ratingIon">
-                               <i class="fas fa-star"></i>
-                               <i class="fas fa-star"></i>
-                               <i class="fas fa-star"></i>
-                              <i class="fas fa-star"></i>
-                              <i class="fas fa-star-half-alt"></i>
-                           </div>
-   
-                           <p>864</p>
-                       </div>
-                       <p>Cafe, Fast food, Health... ₹₹ - ₹₹₹</p> 
-                   </div>
-
-
-                   <div id="divIside">
-                    
-                    <img src="https://media-cdn.tripadvisor.com/media/photo-f/1a/94/21/1a/img-20191223-wa0076-largejpg.jpg" alt="image"><br>
-                      
-                    <a href="Shakey Wakey">Shakey Wakey</a> 
-                     <div>
-                           <div id="ratingIon">
-                               <i class="fas fa-star"></i>
-                               <i class="fas fa-star"></i>
-                               <i class="fas fa-star"></i>
-                              <i class="fas fa-star"></i>
-                              <i class="fas fa-star-half-alt"></i>
-                           </div>
-   
-                           <p>864</p>
-                       </div>
-                       <p>Cafe, Fast food, Health... ₹₹ - ₹₹₹</p> 
-                   </div>
-
-                   <div id="divIside">
-                    
-                    <img src="https://media-cdn.tripadvisor.com/media/photo-f/1a/94/21/1a/img-20191223-wa0076-largejpg.jpg" alt="image"><br>
-                      
-                    <a href="Shakey Wakey">Shakey Wakey</a> 
-                     <div>
-                           <div id="ratingIon">
-                               <i class="fas fa-star"></i>
-                               <i class="fas fa-star"></i>
-                               <i class="fas fa-star"></i>
-                              <i class="fas fa-star"></i>
-                              <i class="fas fa-star-half-alt"></i>
-                           </div>
-   
-                           <p>864</p>
-                       </div>
-                       <p>Cafe, Fast food, Health... ₹₹ - ₹₹₹</p> 
-                   </div>
-               
-             
-
-
-
-            </div>
-
-
-
-
-          <!-- next Part -->
-              <div class="topTiteDiv">
-                <a href="https://www.tripadvisor.in/Restaurants-g304554-Mumbai_Maharashtra.html">Outdoor Seating Available</a>
-                <a href="https://www.tripadvisor.in/Restaurants-g304554-Mumbai_Maharashtra.html">See All</a>
-            </div>
-            
-            <div id="ScrollDiv">
-               
-                
-                <div id="divIside">
-                    
-                 <img src="https://media-cdn.tripadvisor.com/media/photo-i/16/a1/4f/bb/kung-pao-chicken.jpg" alt="image"><br>
-                   
-                 <a href="Shakey Wakey">EAST-EAST ASIAN SPICE TRAIL</a> 
-                  <div>
-                        <div id="ratingIon">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                           <i class="fas fa-star"></i>
-                           <i class="fas fa-star-half-alt"></i>
-                        </div>
-
-                        <p>864</p>
-                    </div>
-                    <p>Cafe, Fast food, Health... ₹₹ - ₹₹₹</p> 
-                </div>
-               
-                <div id="divIside">
-                    
-                    <img src="https://media-cdn.tripadvisor.com/media/photo-i/16/a1/4f/bb/kung-pao-chicken.jpg" alt="image"><br>
-                      
-                    <a href="Shakey Wakey">EAST-EAST ASIAN SPICE TRAIL</a> 
-                     <div>
-                           <div id="ratingIon">
-                               <i class="fas fa-star"></i>
-                               <i class="fas fa-star"></i>
-                               <i class="fas fa-star"></i>
-                              <i class="fas fa-star"></i>
-                              <i class="fas fa-star-half-alt"></i>
-                           </div>
-   
-                           <p>864</p>
-                       </div>
-                       <p>Cafe, Fast food, Health... ₹₹ - ₹₹₹</p> 
-                   </div>
-               
-             
-                   <div id="divIside">
-                    
-                    <img src="https://media-cdn.tripadvisor.com/media/photo-i/16/a1/4f/bb/kung-pao-chicken.jpg" alt="image"><br>
-                      
-                    <a href="Shakey Wakey">EAST-EAST ASIAN SPICE TRAIL</a> 
-                     <div>
-                           <div id="ratingIon">
-                               <i class="fas fa-star"></i>
-                               <i class="fas fa-star"></i>
-                               <i class="fas fa-star"></i>
-                              <i class="fas fa-star"></i>
-                              <i class="fas fa-star-half-alt"></i>
-                           </div>
-   
-                           <p>864</p>
-                       </div>
-                       <p>Cafe, Fast food, Health... ₹₹ - ₹₹₹</p> 
-                   </div>
-
-                   <div id="divIside">
-                    
-                    <img src="https://media-cdn.tripadvisor.com/media/photo-i/16/a1/4f/bb/kung-pao-chicken.jpg" alt="image"><br>
-                      
-                    <a href="Shakey Wakey">EAST-EAST ASIAN SPICE TRAIL</a> 
-                     <div>
-                           <div id="ratingIon">
-                               <i class="fas fa-star"></i>
-                               <i class="fas fa-star"></i>
-                               <i class="fas fa-star"></i>
-                              <i class="fas fa-star"></i>
-                              <i class="fas fa-star-half-alt"></i>
-                           </div>
-   
-                           <p>864</p>
-                       </div>
-                       <p>Cafe, Fast food, Health... ₹₹ - ₹₹₹</p> 
-                   </div>
-
-
-            </div>
-
+         
+        <div>
+         <div id="TitileDiv">
+             <a href="">Delivery Available</a>
+             <a href="">See all</a>
          </div>
+
+          <div class="owl-carousel owl-theme" id="firstItem">
+           </div>
+
+
+           
+      </div>
+
+
+
+
+      <div>
+        <div id="TitileDiv">
+            <a href="">Outdoor Seating Available</a>
+            <a href="">See all</a>
+        </div>
+
+       <div class="owl-carousel owl-theme" id="secondtItem">
+       </div>
+
+         
+     </div>
+            
            
 
-
-
-          <!-- botom part -->
-         
-          <div id="botomTopDiv">
+       
+           <div id="lastDiv">
             <h2>Top Restaurants in Mumbai</h2>
-            <div>
-                <label for="">Sort By:</label>
-                <select name="" id="RatingFilter">
-                    <option value="TopRated">Highest Rated</option>
-                    <option value="LowRated">Lowest Rated</option>
-                </select>
+              <div>
+                  <label for="">Sort By:</label>
+                  <select name="" id="RatingFilter">
+                      <option value="TopRated">Highest Rated</option>
+                      <option value="LowRated">Lowest Rated</option>
+                  </select>
+              </div>
+
+           </div>
+
+            <!-- botom part -->
+           <div id="contentDiv">
+            <!-- <div id="botomTopDiv"> -->
+              <!-- <h2>Top Restaurants in Mumbai</h2>
+              <div>
+                  <label for="">Sort By:</label>
+                  <select name="" id="RatingFilter">
+                      <option value="TopRated">Highest Rated</option>
+                      <option value="LowRated">Lowest Rated</option>
+                  </select>
+              </div> -->
+              
+  
             </div>
-
-          </div>
-
-
-        <div id="botomIteamDiv">
-            <div id="imageDiv">
-                 <img src="https://media-cdn.tripadvisor.com/media/photo-s/14/5e/e0/d1/saptami-a-contemporary.jpg" alt="alternetive">
-            </div>
-            <div>
-                <a href="">4. The Earth Plate</a>
-                <div>
-                    <div id="ratingIon">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                       <i class="fas fa-star"></i>
-                       <i class="fas fa-star-half-alt"></i>
-                    </div>
-
-                    <p>864 reviews</p>
-                </div>
-                <p>Indian, Middle Eastern₹₹ - ₹₹₹ </p>
-                <hr>
-                <p>“Bhatti da Murg This was like tandoori chicken, it was so well marinated and t...”</p>
-                <p>“... vegetarians Sigri Murgh:- Tandoori chicken drums made with in-house spice...”</p>
-
-            </div>
-
-            
-
-        </div>
-
-        <div id="botomIteamDiv">
-            <div id="imageDiv">
-                 <img src="https://media-cdn.tripadvisor.com/media/photo-s/14/5e/e0/d1/saptami-a-contemporary.jpg" alt="alternetive">
-            </div>
-            <div>
-                <a href="">4. The Earth Plate</a>
-                <div>
-                    <div id="ratingIon">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                       <i class="fas fa-star"></i>
-                       <i class="fas fa-star-half-alt"></i>
-                    </div>
-
-                    <p>864 reviews</p>
-                </div>
-                <p>Indian, Middle Eastern₹₹ - ₹₹₹ </p>
-                <hr>
-                <p>“Bhatti da Murg This was like tandoori chicken, it was so well marinated and t...”</p>
-                <p>“... vegetarians Sigri Murgh:- Tandoori chicken drums made with in-house spice...”</p>
-
-            </div>
-
-            
-
-        </div>
-
-
-
-
-
-
-        <div id="botomIteamDiv">
-            <div id="imageDiv">
-                 <img src="https://media-cdn.tripadvisor.com/media/photo-s/14/5e/e0/d1/saptami-a-contemporary.jpg" alt="alternetive">
-            </div>
-            <div>
-                <a href="">4. The Earth Plate</a>
-                <div>
-                    <div id="ratingIon">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                       <i class="fas fa-star"></i>
-                       <i class="fas fa-star-half-alt"></i>
-                    </div>
-
-                    <p>864 reviews</p>
-                </div>
-                <p>Indian, Middle Eastern₹₹ - ₹₹₹ </p>
-                <hr>
-                <p>“Bhatti da Murg This was like tandoori chicken, it was so well marinated and t...”</p>
-                <p>“... vegetarians Sigri Murgh:- Tandoori chicken drums made with in-house spice...”</p>
-
-            </div>
-
-            
-
-        </div>
-
-
-
-        <div id="botomIteamDiv">
-            <div id="imageDiv">
-                 <img src="https://media-cdn.tripadvisor.com/media/photo-s/14/5e/e0/d1/saptami-a-contemporary.jpg" alt="alternetive">
-            </div>
-            <div>
-                <a href="">4. The Earth Plate</a>
-                <div>
-                    <div id="ratingIon">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                       <i class="fas fa-star"></i>
-                       <i class="fas fa-star-half-alt"></i>
-                    </div>
-
-                    <p>864 reviews</p>
-                </div>
-                <p>Indian, Middle Eastern₹₹ - ₹₹₹ </p>
-                <hr>
-                <p>“Bhatti da Murg This was like tandoori chicken, it was so well marinated and t...”</p>
-                <p>“... vegetarians Sigri Murgh:- Tandoori chicken drums made with in-house spice...”</p>
-
-            </div>
-
-            
-
-        </div>
-
-
+  
+  
+         
+  
+              
+  
           
-
-
-
         
-        </div>
 
-    </div>
+ 
 
+    <!-- for scroll -->
+    <script>
+        $(document).ready(function(){
+            $('.owl-carousel').owlCarousel({
+    margin:17,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:4
+        }
+    }
+})
+$( ".owl-prev").html('<i class="fa-solid fa-angle-left"></i>');
+ $( ".owl-next").html('<i class="fa-solid fa-angle-right"></i>');
 
-
+        })
+    </script>
 
 </body>
 </html>
 
 
 
+
+
 <script>
-     
+var Restaurant = [
+    
+    {
+    name : "Spice Art",
+     tyep: "Delivery",
+    image: [
+             "https://media-cdn.tripadvisor.com/media/photo-w/07/6f/1f/ff/spice-art.jpg",
+             "https://media-cdn.tripadvisor.com/media/photo-w/1c/c3/0c/6c/amritsari-chole-platter.jpg",
+             "https://media-cdn.tripadvisor.com/media/photo-w/1c/c3/0c/63/papad-ki-sabzi.jpg",
+             "https://media-cdn.tripadvisor.com/media/photo-w/1c/c3/0c/65/gulabi-salmon-tikka.jpg",
+             "https://media-cdn.tripadvisor.com/media/photo-w/1c/c3/0c/81/do-din-ki-dal.jpg",
+             "https://media-cdn.tripadvisor.com/media/photo-o/07/6f/1f/b8/spice-art.jpg"
+
+          ],
+
+    addrs: "1st Floor Crowne Plaza Rohini Twin District Centre, Sector 10, Rohini, New Delhi 110085 India",
+
+    webSite: "https://www.ihg.com/crowneplaza/hotels/gb/en/new-delhi/delba/hoteldetail?qDest=Delhi%20Gandhi%20Airport,%20India&qCiD=17&qCoD=18&qCiMy=62019&qCoMy=62019&qAdlt=1&qChld=0&qRms=1&qWch=0&qSmP=1&setPMCookies=true&qRtP=6CBARC&qAAR=6CBARC&qAkamaiCC=IN&srb_u=1&qRad=30&qRdU=mi&presentationViewType=null&qSrt=sDD&qBrs=re.ic.in.vn.cp.vx.hi.ex.rs.cv.sb.cw.ma.ul.ki.va",
+
+    reviews: {
+         rating: 5 ,
+         totalRevies: 261,
+         rank: 13,
+         outof: 6656 ,
+    },
+
+    details: `ABOUT
+Spice Art, an award winning contemporary Indian restaurant serves North Western Frontier cuisine featuring a wide range of kebabs and curries, Awadhi and Delhi delicacies with a private dining area for guests.
+PRICE RANGE
+₹800 - ₹1,600
+CUISINES
+Indian, Asian
+SPECIAL DIETS
+Vegetarian Friendly, Vegan Options, Halal, Gluten Free Options
+MEALS
+Dinner
+FEATURES
+Delivery, Wheelchair Accessible, Takeout, Reservations, Private Dining, Seating, Parking Available, Validated Parking, Valet Parking, Highchairs Available, Serves Alcohol, Full Bar, Accepts American Express, Accepts Mastercard, Accepts Visa, Accepts Credit Cards, Table Service`
+        
+  },
+
+    {
+    name : "Thyme",
+    tyep: "Delivery",
+    image: [
+            "https://media-cdn.tripadvisor.com/media/photo-w/14/49/e7/02/thyme-full-view.jpg",
+            "https://media-cdn.tripadvisor.com/media/photo-w/14/49/e7/44/live-salad-counter-at.jpg",
+            "https://media-cdn.tripadvisor.com/media/photo-w/14/49/e7/2c/chef-at-work-at-thyme.jpg",
+            "https://media-cdn.tripadvisor.com/media/photo-w/13/1f/16/b4/thyme-buffet.jpg",
+            "https://media-cdn.tripadvisor.com/media/photo-w/14/49/e7/58/live-food-counter-at.jpg",
+            "https://media-cdn.tripadvisor.com/media/photo-w/0f/af/7f/94/enjoy-lavish-buffet-showcasing.jpg"
+          ],
+
+    addrs: "National Highway 48, Rajokri Rd D Block, 6:Samalkha, New Delhi 110037 India",
+
+    webSite: "https://theumrao.com/thyme-multi-cuisine/",
+
+    reviews: {
+         rating: 4.0 ,
+         totalRevies: 1281,
+         rank: 13 ,
+         outof:  6656,
+    },
+
+    details: `PRICE RANGE
+₹1,650 - ₹1,750
+CUISINES
+Indian, Seafood, International, Asian
+SPECIAL DIETS
+Vegetarian Friendly, Vegan Options, Gluten Free Options
+MEALS
+Breakfast, Lunch, Dinner, Brunch, Drinks
+FEATURES
+Takeout, Reservations, Outdoor Seating, Private Dining, Seating, Parking Available, Validated Parking, Valet Parking, Television, Highchairs Available, Wheelchair Accessible, Serves Alcohol, Full Bar, Free Wifi, Accepts Credit Cards, Table Service, Wine and Beer, Accepts American Express, Accepts Mastercard, Accepts Visa, Digital Payments, Accepts Discover, Live Music, Waterfront, Jazz Bar, Family style, Non-smoking restaurants, Gift Cards Available `
+        
+  },
+    
+  {
+    name : "Quoin",
+    tyep: "Delivery",
+    image: [
+            "https://media-cdn.tripadvisor.com/media/photo-w/12/47/c3/12/quoin.jpg",
+            "https://media-cdn.tripadvisor.com/media/photo-p/0e/82/fa/de/siachen-frost.jpg",
+            "https://media-cdn.tripadvisor.com/media/photo-p/0e/82/fa/de/siachen-frost.jpg",
+            "https://media-cdn.tripadvisor.com/media/photo-w/0e/82/fa/30/tiranga.jpg",
+            "https://media-cdn.tripadvisor.com/media/photo-p/14/d0/73/2c/food.jpg",
+            "https://media-cdn.tripadvisor.com/media/photo-p/1b/0b/7b/3d/quoin.jpg",
+            "https://media-cdn.tripadvisor.com/media/photo-p/11/e2/1b/72/img-20180121-201528-largejpg.jpg"
+          ],
+
+    addrs: "Asset No 2 Aerocity Hospitality District,, New Delhi 110037 India",
+
+    webSite: "http://www.pullmandelhiaerocity.com/",
+
+    reviews: {
+         rating:  5.0,
+         totalRevies: 451,
+         rank: 31 ,
+         outof:  6656,
+    },
+
+    details: `ABOUT
+Quoin is a modern sports bar and an urban hangout where you can find distinctive flavours of your favourite brew, mood-setting music and fresh locally produced mouth-watering bonne bouche & savouries that come together to provide you an experience like no other. At Quoin, guests can enjoy their favourite drinks round the clock. With an ‘Always Game On’ philosophy, similar to a signal to play in a sports match, Quoin is always ready to entertain the sports lovers by screening their favourite matches. With games like Foosball, Pool, a virtual real-life golf simulator and many board games. Guests can undertake many drinking challenges and games at Quoin. Golf simulator welcomes all the golf lovers to experience the real golfing at Quoin. They can practise, play and train or choose to solo or group golfing while enjoying their favourite food or sipping a drink.
+PRICE RANGE
+₹275 - ₹3,000
+CUISINES
+Fast food, Bar
+SPECIAL DIETS
+Vegetarian Friendly, Vegan Options, Gluten Free Options
+MEALS
+Breakfast, Lunch, Dinner, After-hours, Drinks
+FEATURES
+Seating, Takeout, Reservations, Outdoor Seating, Parking Available, Valet Parking, Television, Highchairs Available, Wheelchair Accessible, Serves Alcohol, Full Bar, Wine and Beer, Accepts American Express, Accepts Mastercard, Accepts Visa, Digital Payments, Free Wifi, Table Service`
+        
+  },
+
+  {
+    name : "Sorrento",
+    tyep: "Delivery",
+    image: [
+        "https://media-cdn.tripadvisor.com/media/photo-w/0b/1a/3b/b0/sorrento-kitchen.jpg",
+        "https://media-cdn.tripadvisor.com/media/photo-w/17/08/ee/ba/the-perfect-spot-for.jpg",
+        "https://media-cdn.tripadvisor.com/media/photo-p/0f/58/6d/d6/lamb-chops-at-sorrento.jpg",
+        "https://media-cdn.tripadvisor.com/media/photo-w/17/08/ee/f4/fresh-organic-ingredients.jpg",
+        "https://media-cdn.tripadvisor.com/media/photo-w/0b/1a/3b/b2/sorrento.jpg",
+        "https://media-cdn.tripadvisor.com/media/photo-w/17/08/eb/8c/chef-massimiliano-sperli.jpg"
+            
+          ],
+
+    addrs: "19 Ashoka Road Connaught Place, New Delhi 110001 India",
+
+    webSite: "https://www.shangri-la.com/newdelhi/erosshangrila/dining/restaurants/sorrento/",
+
+    reviews: {
+         rating: 4.5 ,
+         totalRevies: 561,
+         rank: 23,
+         outof:  6656,
+    },
+
+    details: `ABOUT
+Certified with the Golden Q from Ospitalita' Italiana, this Italian restaurant is well known for its fresh and authentic dishes including artisanal pasta, Neapolitan delicacies, pizzas and slow – cooked family style specialties. Come and enjoy authentic food accompanied by selected fine wines from our experienced sommeliers.
+PRICE RANGE
+₹25 - ₹35
+CUISINES
+Italian, Pizza, Mediterranean, European, Neapolitan, Campania, Romana, Lazio, Sicilian, Lombard, Sardinian, Northern-Italian, Central-Italian, Southern-Italian
+SPECIAL DIETS
+Vegetarian Friendly, Vegan Options, Gluten Free Options
+MEALS
+Lunch, Dinner
+FEATURES
+Outdoor Seating, Serves Alcohol, Reservations, Seating, Parking Available, Validated Parking, Valet Parking, Highchairs Available, Wheelchair Accessible, Full Bar, Wine and Beer, Accepts American Express, Accepts Mastercard, Accepts Visa, Free Wifi, Accepts Credit Cards, Table Service, Gift Cards Available `
+        
+  },
+  
+  {
+    name : "Kiyan, The Roseate",
+    tyep: "Delivery",
+    image: [
+            "https://media-cdn.tripadvisor.com/media/photo-o/05/82/3e/19/kiyan-dusit-devarana.jpg",
+            "https://media-cdn.tripadvisor.com/media/photo-l/1a/9d/74/ad/dine-in-the-lap-of-luxury.jpg",
+            "https://media-cdn.tripadvisor.com/media/photo-w/10/c5/9e/aa/kiyan-alfresco-dining.jpg",
+            "https://media-cdn.tripadvisor.com/media/photo-o/1d/9b/64/46/kiyan-the-roseate.jpg",
+            "https://media-cdn.tripadvisor.com/media/photo-w/1d/9b/64/49/kiyan-the-roseate.jpg",
+            "https://media-cdn.tripadvisor.com/media/photo-p/1d/9b/64/47/kiyan-the-roseate.jpg"
+          ],
+
+    addrs: "National Highway 8 The Roseate, New Delhi 110017 India",
+
+    webSite: "https://www.roseatehotels.com/newdelhi/theroseate/dine/kiyan/",
+
+    reviews: {
+         rating:  4.0,
+         totalRevies: 527,
+         rank: 5 ,
+         outof: 6656 ,
+    },
+
+    details: `ABOUT
+Kiyan at The Roseate New Delhi is the resort’s all day world cuisine restaurant serving predominantly European, Indian and Thai. The restaurant is set amidst Isfahan columns surrounded by royal blue water bodies. Discover masterpieces on every platter that offers you the ideal ‘Farm to Table’ concept with fare from select organic, home grown vegetables from our 2 acre farm and free range meat. Each dish on the menu has been handcrafted by our expert chefs.
+CUISINES
+Thai, Indian, Asian, Fusion
+SPECIAL DIETS
+Vegetarian Friendly, Vegan Options, Gluten Free Options
+MEALS
+Breakfast, Lunch, Dinner, Brunch, Drinks
+FEATURES
+Private Dining, Wheelchair Accessible, Full Bar, Reservations, Outdoor Seating, Seating, Parking Available, Validated Parking, Valet Parking, Serves Alcohol, Wine and Beer, Free Wifi, Accepts Credit Cards, Table Service`
+        
+  },
+
+  {
+    name : "CIA Call it Asiian",
+    tyep: "Delivery",
+    image: [
+            "https://media-cdn.tripadvisor.com/media/photo-o/19/9a/8e/d4/img-20191011-140552-largejpg.jpg",
+            "https://media-cdn.tripadvisor.com/media/photo-w/19/4e/01/a0/cia-call-it-asiian.jpg",
+            "https://media-cdn.tripadvisor.com/media/photo-p/16/a3/dd/3a/photo1jpg.jpg",
+            "https://media-cdn.tripadvisor.com/media/photo-o/1a/7d/f9/ef/img-20200103-203143-largejpg.jpg",
+            "https://media-cdn.tripadvisor.com/media/photo-o/19/9a/8e/d2/img-20191011-143833-largejpg.jpg",
+            "https://media-cdn.tripadvisor.com/media/photo-p/19/4e/01/9f/cia-call-it-asiian.jpg"
+            
+          ],
+
+    addrs: "16 Alaknanda Rd. Opposite Don Bosco School, Narmada Shopping Complex,, New Delhi 110048 India",
+
+    webSite: "https://www.facebook.com/callitasiian/",
+
+    reviews: {
+         rating: 5.0 ,
+         totalRevies: 316,
+         rank: 37,
+         outof:  6656,
+    },
+
+    details: `CUISINES
+Chinese, Sushi, Asian, Thai, Singaporean
+SPECIAL DIETS
+Vegetarian Friendly, Vegan Options
+MEALS
+Lunch, Dinner
+FEATURES
+Delivery, Takeout, Reservations, Seating, Table Service, Accepts American Express, Accepts Mastercard, Accepts Visa, Accepts Credit Cards`
+        
+  },
 
 
 
-   var swiper = new Swiper(".mySwiper", {
-        slidesPerView: 3,
-        spaceBetween: 30,
-        slidesPerGroup: 3,
-        loop: true,
-        loopFillGroupWithBlank: true,
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
-        },
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-        },
-      });
+]
+var restSordta = Restaurant;
+
+var view1 = document.getElementById("secondtItem");
+var view = document.getElementById("firstItem");
+
+Restaurant.map(function(value,index){
+
+   Display(value,index,view);
+   Display(Restaurant[(Restaurant.length-1)-index],(Restaurant.length-1)-index,view1);
+   
+})
+
+
+
+
+function Display(value,index,tag){
+
+
+
+  var iteamDiv = document.createElement("div")
+   iteamDiv.setAttribute("id","iteamDiv");
+   var image = document.createElement("img");
+   image.setAttribute("src",value.image[0]);
+
+
+   var seondDiv = document.createElement("div");
+   var title = document.createElement('a');
+   title.innerText = value.name;
+   var rating = document.createElement("p");
+   if(value.reviews.rating>=5){
+    rating.innerText = "★★★★★ "
+   }else{
+    rating.innerText = "★★★★☆ ";
+   }
+   
+    
+   var ratingNum = document.createElement("span");
+   ratingNum.innerText = value.reviews.totalRevies;
+   rating.append(ratingNum);
+   var des = document.createElement("label");
+   des.innerText = value.details;
+
+   seondDiv.append(title,rating,des);
+
+   iteamDiv.append(image,seondDiv);
+   iteamDiv.style.cursor = "pointer"
+   iteamDiv.addEventListener("click",function(){
+    toPageClick(value);
+   })
+
+   tag.append(iteamDiv);
+
+  
+
+
+
+
+
+}
+
+
+
+// <select name="" id="RatingFilter">
+//                       <option value="TopRated">Highest Rated</option>
+//                       <option value="LowRated">Lowest Rated</option>
+//                   </select>
+// reviews: {
+//              rating: 5 ,
+//              totalRevies: 261,
+//              rank: 13,
+//              outof: 6656 ,
+//         },
+
+restSordta.sort(function(a, b){return b.reviews.rating - a.reviews.rating});
+restSordta.map(function(value,index){
+  DisplaySecon(value,index);
+})
+
+document.getElementById("RatingFilter").addEventListener("change" ,function(){
+
+         var dd = this.value;
+          
+
+         document.getElementById("contentDiv").innerText =""
+
+
+
+         if(dd == "TopRated" ){
+         
+          restSordta.sort(function(a, b){return b.reviews.rating - a.reviews.rating});
+          
+
+         }else{
+          restSordta.sort(function(a, b){return a.reviews.rating - b.reviews.rating});
+            
+         }
+
+         restSordta.map(function(value,index){
+                DisplaySecon(value,index);
+            })
+
+
+})
+
+
+
+
+function DisplaySecon(value,index){
+  var iteamDiv = document.createElement("div")
+   iteamDiv.setAttribute("id","botomIteamDiv");
+   var imgdiv = document.createElement("div");
+   var image = document.createElement("img");
+   image.setAttribute("src",value.image[0]);
+   imgdiv.append(image);
+
+
+   var seondDiv = document.createElement("div");
+   var title = document.createElement('a');
+   title.innerText = value.name;
+   var rating = document.createElement("p");
+
+   if(value.reviews.rating>=5){
+    rating.innerText = "★★★★★ "
+   }else{
+    rating.innerText = "★★★★☆ ";
+   }
+    
+   var ratingNum = document.createElement("span");
+   ratingNum.innerText = value.reviews.totalRevies +" reviews";
+   rating.append(ratingNum);
+   var des1 = document.createElement('p');
+   des1.innerText = "Indian, Middle Eastern₹₹ - ₹₹₹ ";
+   var ht = document.createElement("hr");
+   var des = document.createElement('p');
+   des.innerText = value.details;
+
+   seondDiv.append(title,rating,des1,ht,des);
+   iteamDiv.style.cursor = "pointer"
+   iteamDiv.append(imgdiv,seondDiv);
+   iteamDiv.addEventListener("click",function(){
+    toPageClick(value);
+   })
+
+
+   document.getElementById("contentDiv").append(iteamDiv);
+}
+
+
+
+function toPageClick(value){
+  
+  localStorage.setItem("contentDta",JSON.stringify(value));
+  location= "RestuarentContent.html";
+
+}
+
+
+
 
 
 </script>
+

@@ -1,0 +1,405 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+     <!-- Link Swiper's CSS -->
+     <link
+     rel="stylesheet"
+     href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+   />
+     <!-- font awesome cdn link  -->
+     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+     <link rel="stylesheet" href="landing.css"> -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+     <script src="https://kit.fontawesome.com/4a73ef5ad9.js" crossorigin="anonymous"></script>
+
+
+     <!-- CSS only boostrap -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" >
+<link rel="stylesheet" href="scroll/css/owl.carousel.css">
+<link rel="stylesheet" href="scroll/css/owl.carousel.css">
+<script src="scroll/jquery.min.js"></script>
+<script src="scroll/owl.carousel.min.js"></script>
+
+   
+    <style>
+       @font-face {
+    font-family: TripSans;
+    src: url(TripSans-Regular.ttf);
+       }
+    body{
+       font-family: TripSans;
+background-color: #f2f2f2;
+margin: 0;
+}
+       
+    #backDiv{
+        margin: auto;
+        width: 100%;
+        height: fit-content;
+        padding: 20px;
+        background-color: white;
+    }
+ 
+        #firstDiv{
+            margin: auto;
+            width: 90%;
+
+        }
+        #firstDiv h1{
+            margin-bottom: -12px;
+        }
+        #firtp{
+            align-items: center;
+            font-weight: 300;
+            font-size: medium;
+            justify-content: center;
+            
+        }
+       
+        #firtp span:nth-child(2){
+            font-weight: bold;
+            font-size: medium;
+
+        }
+        #firtp span:nth-child(3){
+            font-weight: bold;
+            font-size: medium;
+            
+        }
+
+        #firstDiv div:nth-child(3) label,a{
+            font-size: medium;
+            font-weight: 300;
+        
+            
+        }
+        #firstDiv div:nth-child(3){
+            margin-top: -8px;
+        }
+        #codid19 span{
+              font-weight: bold;
+        }
+        #codid19{
+            margin: auto;
+            width: 87%;
+
+            display: flex;
+        
+            justify-content: space-between;
+            background-color: #dbfcf0;
+            border-radius: 2px;
+            align-items: center;
+            padding-left:15px;
+            padding-right: 15px;
+            margin-top: 20px;
+            
+            
+        }
+        #codid19 p{
+            border-left: 5px solid green;
+            padding: 5px;
+            font-size: smaller;
+        }
+        #codid19 a{
+            font-size: small;
+            color: black;
+            font-weight: bold;
+        }
+       
+  
+ 
+    #galary img{
+        height: 350px;
+        width: 600px;
+        
+    }
+    #MainBotm{
+        margin: auto;
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        
+        margin-top: 20px;
+       
+       
+    }
+    #oneDiv{
+        margin: auto;
+       
+        width: 30%;
+        padding: 10px;
+        background-color: white;
+        height: 500px;
+       padding-left: 25px;
+    }
+    #twoDiv{
+        margin: auto;
+       
+        width: 45%;
+        background-color: white;
+        padding: 10px;
+        height: 500px;
+        padding-left: 25px;
+    }
+    #threeDiv{
+        margin: auto;
+      
+        width: 10%;
+        padding: 10px;
+        height: 500px;
+    
+       
+    }
+      #galParent{
+        margin: auto;
+        height: 355px;
+        width: 87%;
+        margin-top: 20px;
+       
+       
+       
+      }
+
+      #rading{
+        color: green;
+        font-size: xx-large;
+        font-weight: bold;
+      }
+
+      #rev{
+         align-items: center;
+        font-weight: bold;
+        font-size: medium;
+        
+      }
+      #oneDiv i{
+        gap: 10px;
+      }
+
+      #oneDiv label span{
+         justify-content: space-between;
+         color: green;
+         font-size: x-large;
+         
+      }
+      #about{
+        line-height:26pt;
+        text-overflow: ellipsis;
+  height: 450px;
+  overflow: hidden;
+  white-space: nowrap;
+      }
+
+    </style>
+
+
+
+
+</head>
+<body>
+    <div id="backDiv">
+   <div id="firstDiv">
+
+    
+       
+
+
+   </div>
+   <div id="codid19">
+    <p>
+    <span>COVID-19 update:</span> See the added health and safety measures this property is taking.</p>
+    <a href="">Read More</a>
+</div>
+
+</div>
+
+
+<!-- galary part -->
+<div id="galParent">
+<div class="owl-carousel owl-theme" id="galary">
+    
+</div>
+</div>
+
+
+
+
+
+
+  <!-- botompart -->
+
+  <div id="MainBotm">
+    <div id="onediv" >
+      <h3>Ratings and reviews</h3>
+      <p id="rev"><span id="rading" style="color: green;">5.0 ★★★★☆</span> 509 Rating</p>
+      <p id="rand">#1 of 8,614 Restaurants in Mumbai</p>
+      <br>
+      <br>
+      <br><br>
+      <hr>
+      <br>
+      <br>
+      <br><br>
+      <label for="">RATING</label><br>
+      <br>
+      <label for=""><i class="fa-solid fa-bowl-food">Food</i><br><span>★★★★☆</span></label><br>
+      <label for=""><i class="fa-solid fa-bell-concierge">Serves</i><br><span>★★★★☆</span></label><br>
+      <label for=""><i class="fa-solid fa-sack-dollar">Value</i><br><span>★★★★☆</span></label><br>
+
+    </div>
+
+    <div id="twoDiv">
+        <h2>Details</h2>
+        <p id="about">oijaieo po0p  pojiognoifli ohoigj oo8iojs ofgjoijfih 8igjroi y8ik</p>
+
+
+    </div >
+
+    <div id="threeDiv">
+        
+    </div>
+    
+
+  </div>
+
+
+    
+
+  <!-- for scroll -->
+  <script>
+    $(document).ready(function(){
+        $('.owl-carousel').owlCarousel({
+margin:10,
+
+autoWidth:true,
+
+})
+
+
+    })
+</script>
+
+
+
+
+</body>
+</html>
+
+<script>
+
+    var val =  JSON.parse(localStorage.getItem("contentDta"));
+      
+      
+    var cityName ="MumBai";
+
+    // reviews: {
+    //          rating: 5 ,
+    //          totalRevies: 261,
+    //          rank: 13,
+    //          outof: 6656 ,
+    //     },
+
+   
+
+     if(val.reviews.rating>=5){
+        document.getElementById("rading").innerText = val.reviews.rating +" ★★★★★ "
+     }else{
+        document.getElementById("rading").innerText = val.reviews.rating +" ★★★★☆ "
+     }
+     document.getElementById("rev").innerText +=  val.reviews.totalRevies+" reviews";
+    
+
+
+    
+     document.getElementById("rand").innerText = "#"+val.reviews.rank+" of "+val.reviews.outof+" Restaurants in "+cityName
+
+       document.getElementById("about").innerText=val.details;
+     
+    Display(val);
+   val.image.map(function(valur){
+    DispalyGal(valur);
+   })
+
+   function Display(value){
+    // <h1>Saptami</h1>
+    //      <p> <span>★★★★☆</span>  <span>865 revies</span> |<span>#2</span> of 8,614 Restaurants in Mumbai | ₹₹₹₹IndianInternationalAsian</p>
+       
+    //     <div> <i class="fa-solid fa-location-dot"></i> <label for="">
+    //         Vile Parle East, Hotel Sahara Star Opp. Domestic Airport, Mumbai 400099 India | </label>
+    //     <i class="fa-solid fa-laptop"></i> <a href="">Website</a></div>
+    // reviews: {
+    //          rating: 5 ,
+    //          totalRevies: 261,
+    //          rank: 13,
+    //          outof: 6656 ,
+    //     },
+
+    // #spam1{
+    //         color: green;
+    //         font-size: x-large;
+    //     }
+
+       var title = document.createElement("h1");
+       title.innerText = value.name;
+       var p = document.createElement("p");
+       p.setAttribute("id","firtp");
+       var spam1 = document.createElement("span");
+       spam1.setAttribute("id","spam1")
+       spam1.style.color = "green";
+       spam1.style.fontSize ="x-large"
+    //    star part
+      if(value.reviews.rating>=5){
+        spam1.innerText = "★★★★★";
+      }else{
+        spam1.innerText = "★★★★☆";
+      }
+      
+       
+       
+       var spam2 = document.createElement("span");
+       spam2.innerText = value.reviews.totalRevies+" reviews"
+       p.append(spam1,spam2);
+       p.innerText = p.innerText+" | ";
+       var spam3 = document.createElement("samp");
+       spam3.innerText = "#"+value.reviews.rank;
+       p.append(spam3);
+       p.innerText = p.innerText+" of 8,614 Restaurants in "+cityName+" | ₹₹₹₹ Indian International Asian "
+
+      
+
+
+    //   <div> <i class="fa-solid fa-location-dot"></i> <label for="">
+    //         Vile Parle East, Hotel Sahara Star Opp. Domestic Airport, Mumbai 400099 India | </label>
+    //     <i class="fa-solid fa-laptop"></i> <a href="">Website</a></div>
+
+       var div = document.createElement('div');
+       var i1  = document.createElement("i");
+       i1.setAttribute("class","fa-solid fa-location-dot");
+       var label1 = document.createElement("label");
+       label1.innerText = " "+value.addrs+" | ";
+       var i2 = document.createElement("i");
+       i2.setAttribute("class" , "fa-solid fa-laptop");
+       var a = document.createElement('a');
+       a.innerText =' Website'
+       div.append(i1,label1,i2,a);
+       a.style.cursor = "pointer"
+       a.setAttribute("href",value.webSite)
+
+
+        document.getElementById("firstDiv").append(title,p,div);
+       
+
+
+    }
+
+ function   DispalyGal(ima){
+       var image = document.createElement("img");
+       image.setAttribute("src",ima);
+       document.getElementById("galary").append(image);
+    }
+
+</script>
